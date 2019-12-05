@@ -113,8 +113,8 @@
         jQuery('.add_social_icons ').after('<div class="social_icon_block">\n' +
             '    <a href="#" target="_blank"><img src="http://infoffice13.pf.by/wp-content/themes/co-workshop/assets/images/icons8-gmail-50.svg" alt=""></a>\n' +
             '    <a href="#" target="_blank"><img src="http://infoffice13.pf.by/wp-content/themes/co-workshop/assets/images/icons8-undefined-50.svg" alt=""></a>\n' +
-            '    <a href="#" target="_blank"><img src="http://infoffice13.pf.by/wp-content/themes/co-workshop/assets/images/icons8-viber-50.svg" alt=""></a>\n' +
-            '    <a href="#" target="_blank"><img src="http://infoffice13.pf.by/wp-content/themes/co-workshop/assets/images/icons8-whatsapp-50.svg" alt=""></a>\n' +
+            '    <a href="viber://add?number=+375447776699"" target="_blank"><img src="http://infoffice13.pf.by/wp-content/themes/co-workshop/assets/images/icons8-viber-50.svg" alt=""></a>\n' +
+            '    <a href="https://wa.me/+375447776699" target="_blank"><img src="http://infoffice13.pf.by/wp-content/themes/co-workshop/assets/images/icons8-whatsapp-50.svg" alt=""></a>\n' +
             '</div>');
     });
 </script>
