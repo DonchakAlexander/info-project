@@ -67,12 +67,14 @@
 
 																				foreach($rows as $row) : ?>
 																																					
-																					<li><a class="elementor-item" href="<?= esc_url($row['link_menu']) ?>">  <?php echo $row['menu_text']; if ($row['sub_menu']) : ?>
+																					<li><a class="elementor-item" href="<?= esc_url($row['link_menu']) ?>">  <?= $row['menu_text']; if ($row['sub_menu']) : ?>
 																					<span class="sub-arrow"></span></a>
-																						<ul class="sub-menu elementor-nav-menu--dropdown sm-nowrap"></ul>
-																																												 
+																						<ul class="sub-menu elementor-nav-menu--dropdown sm-nowrap">
+																							
+
+																						</ul>																					 
 																						<?php	else : 
-																								echo '<span></span>'; endif; ?>
+																								echo '</a>'; endif; ?>
 																											
 																									
 																					</li>
