@@ -193,6 +193,10 @@ select {
   text-transform: none;
 }
 
+#header-phone {
+  color: #fff;
+}
+
 [type="reset"],
 [type="submit"],
 button,
@@ -1978,10 +1982,10 @@ a:hover {
 
 /* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
 /* We'll show the first level only */
-.no-csstransforms3d .mp-pusher,
+/* .no-csstransforms3d .mp-pusher,
 .no-js .mp-pusher {
   padding-left: 300px;
-}
+} */
 
 .no-csstransforms3d .mp-menu .mp-level,
 .no-js .mp-menu .mp-level {
