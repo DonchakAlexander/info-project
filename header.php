@@ -61,46 +61,43 @@
 
 																		$rows = get_field('main_menu', 'options');
 																		if($rows) : ?>
-
+																		
 																			<ul class="elementor-nav-menu">
-																				<?php
+																			<?php
 
 																				foreach($rows as $row) : ?>
-
-																					<li><a class="elementor-item" href="<?= esc_url($row['link_menu']) ?>">  <?php echo $row['menu_text']; if ($row['sub_menu'] != '0') : ?>
+																																					
+																					<li><a class="elementor-item" href="<?= esc_url($row['link_menu']) ?>">  <?php echo $row['menu_text']; if ($row['sub_menu']) : ?>
 																					<span class="sub-arrow"></span></a>
-																						<ul class="sub-menu elementor-nav-menu--dropdown sm-nowrap">
-																								<li><a class="elementor-sub-item" href="<?= esc_url($row['submenu_link']) ?>"> <?php echo $row['submenu_text'] . '</a></li>'; ?>
-																							<?php 
-																							echo '</ul>';
-																						else : 
-																							echo '<span></span></a>'; endif; ?>
-
-
-																						</li>
+																						<ul class="sub-menu elementor-nav-menu--dropdown sm-nowrap"></ul>
+																																												 
+																						<?php	else : 
+																								echo '<span></span>'; endif; ?>
+																											
+																									
+																					</li>
 
 																					<?php endforeach; // end foreach rows
-																					echo '</ul>'; 
-																				endif; ?>
+																						echo '</ul>'; 
+																					endif; // end if rows?> 
 
+																		<ul class="sub-menu elementor-nav-menu--dropdown sm-nowrap">
+																			<?php 
+																			foreach ($rows as $row) : ?>
+																				<li><a class="elementor-sub-item" href="<?= $row['submenu_link']?>"> <?php $row['submenu_text'] . '</a></li>';
+																			endforeach ?>
+																		</ul>
+				
+			</nav>
 
-<!-- 																		<ul class="sub-menu elementor-nav-menu--dropdown sm-nowrap">
-	<?php 
-	foreach ($rows as $row) : ?>
-		<li><a class="elementor-sub-item" href="<?= $row['submenu_link']?>"> <?php $row['submenu_text'] . '</a></li>';
-	endforeach ?>
-</ul> -->
+			    <div class="elementor-menu-toggle" data-target="#menu-d68646f">
+			    	<i class="eicon" aria-hidden="true"></i>
+			    	<span class="menu-toggle-title"></span>
+			    </div>
 
-</nav>
-
-<div class="elementor-menu-toggle" data-target="#menu-d68646f">
-	<i class="eicon" aria-hidden="true"></i>
-	<span class="menu-toggle-title"></span>
-</div>
-
-</div>
-</div>
-</div>
+			</div>
+		</div>
+	</div>
 </div>
 </div>
 <div class="elementor-element elementor-element-a75275f elementor-column elementor-col-33 elementor-top-column" data-id="a75275f" data-element_type="column">
