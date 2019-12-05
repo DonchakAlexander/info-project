@@ -61,71 +61,78 @@
 
 																		$rows = get_field('main_menu', 'options');
 																		if($rows) : ?>
-																		
+
 																			<ul class="elementor-nav-menu">
-																			<?php
+																				<?php
 
 																				foreach($rows as $row) : ?>
-																																					
+
 																					<li><a class="elementor-item" href="<?= esc_url($row['link_menu']) ?>">  <?= $row['menu_text']; if ($row['sub_menu']) : ?>
 																					<span class="sub-arrow"></span></a>
-																						<ul class="sub-menu elementor-nav-menu--dropdown sm-nowrap">
-																							
+																					<ul class="sub-menu elementor-nav-menu--dropdown sm-nowrap">
 
-																						</ul>																					 
-																						<?php	else : 
-																								echo '</a>'; endif; ?>
-																											
-																									
-																					</li>
+
+																					</ul>																					 
+																				<?php	else : 
+																					echo '</a>'; endif; ?>
+
+
+																				</li>
 
 																					<?php endforeach; // end foreach rows
-																						echo '</ul>'; 
-																					endif; // end if rows?> 
+																					echo '</ul>'; 
+																				endif; // end if rows?> 
 
-																		<ul class="sub-menu elementor-nav-menu--dropdown sm-nowrap">
-																			<?php 
-																			foreach ($rows as $row) : ?>
-																				<li><a class="elementor-sub-item" href="<?= $row['submenu_link']?>"> <?php $row['submenu_text'] . '</a></li>';
-																			endforeach ?>
-																		</ul>
-				
-			</nav>
+																				<ul class="sub-menu elementor-nav-menu--dropdown sm-nowrap">
+																					<?php 
+																					foreach ($rows as $row) : ?>
+																						<li><a class="elementor-sub-item" href="<?= $row['submenu_link']?>"> <?php $row['submenu_text'] . '</a></li>';
+																					endforeach ?>
+																				</ul>
 
-			    <div class="elementor-menu-toggle" data-target="#menu-d68646f">
-			    	<i class="eicon" aria-hidden="true"></i>
-			    	<span class="menu-toggle-title"></span>
-			    </div>
+																			</nav>
 
-			</div>
-		</div>
-	</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-a75275f elementor-column elementor-col-33 elementor-top-column" data-id="a75275f" data-element_type="column">
-	<div class="elementor-column-wrap  elementor-element-populated">
-		<div class="elementor-widget-wrap">
-			<div class="elementor-element elementor-element-4d701e3 elementor-align-right elementor-hidden-phone elementor-button-primary elementor-widget elementor-widget-button" data-id="4d701e3" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-						<a href="http://infoffice13.pf.by/booking/" class="elementor-button-link elementor-button elementor-size-lg" role="button">
-							<span class="elementor-button-content-wrapper">
-								<span class="elementor-button-text">Оставить заявку</span>
-							</span>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</header><!-- #masthead -->
+																			<div class="elementor-menu-toggle" data-target="#menu-d68646f">
+																				<i class="eicon" aria-hidden="true"></i>
+																				<span class="menu-toggle-title"></span>
+																			</div>
 
-<div id="content" class="site-content">
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<div id="header-phone">
+															<a href="tel:+375447776699">+375 44 777-66-99</a>
+															
+														</div>
+
+
+														<div class="elementor-element elementor-element-a75275f elementor-column elementor-col-33 elementor-top-column" data-id="a75275f" data-element_type="column">
+															<div class="elementor-column-wrap  elementor-element-populated">
+																<div class="elementor-widget-wrap">
+																	<div class="elementor-element elementor-element-4d701e3 elementor-align-right elementor-hidden-phone elementor-button-primary elementor-widget elementor-widget-button" data-id="4d701e3" data-element_type="widget" data-widget_type="button.default">
+																		<div class="elementor-widget-container">
+																			<div class="elementor-button-wrapper">
+																				<a href="http://infoffice13.pf.by/booking/" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+																					<span class="elementor-button-content-wrapper">
+																						<span class="elementor-button-text">Оставить заявку</span>
+																					</span>
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</header><!-- #masthead -->
+
+						<div id="content" class="site-content">
