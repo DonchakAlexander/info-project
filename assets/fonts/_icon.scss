@@ -1,0 +1,249 @@
+@font-face {
+    font-family: "opal-icon";
+    src: url('assets/fonts/opal-icon.eot');
+    src: url('assets/fonts/opal-icon.eot?#iefix') format('eot'),
+    url('assets/fonts/opal-icon.woff2') format('woff2'),
+    url('assets/fonts/opal-icon.woff') format('woff'),
+    url('assets/fonts/opal-icon.ttf') format('truetype'),
+    url('assets/fonts/opal-icon.svg#opal-icon') format('svg');
+}
+
+[class*="opal-icon-"]:before{
+    font-family: "opal-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.opal-icon {
+    font-family: "opal-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+@function opal-icon-char($filename) {
+    $char: "";
+
+    @if $filename == account {
+    $char: "\E001";
+}
+    @if $filename == arrow-left {
+    $char: "\E002";
+}
+    @if $filename == arrow-right {
+    $char: "\E003";
+}
+    @if $filename == bag {
+    $char: "\E004";
+}
+    @if $filename == cart-empty {
+    $char: "\E005";
+}
+    @if $filename == cart {
+    $char: "\E006";
+}
+    @if $filename == cart3 {
+    $char: "\E007";
+}
+    @if $filename == check {
+    $char: "\E008";
+}
+    @if $filename == checked {
+    $char: "\E009";
+}
+    @if $filename == close {
+    $char: "\E00A";
+}
+    @if $filename == cog {
+    $char: "\E00B";
+}
+    @if $filename == compare {
+    $char: "\E00C";
+}
+    @if $filename == filter {
+    $char: "\E00D";
+}
+    @if $filename == heart-fill {
+    $char: "\E00E";
+}
+    @if $filename == heart-remove {
+    $char: "\E00F";
+}
+    @if $filename == heart {
+    $char: "\E010";
+}
+    @if $filename == menu {
+    $char: "\E011";
+}
+    @if $filename == minus {
+    $char: "\E012";
+}
+    @if $filename == plan {
+    $char: "\E013";
+}
+    @if $filename == plus {
+    $char: "\E014";
+}
+    @if $filename == search {
+    $char: "\E015";
+}
+    @if $filename == search2 {
+    $char: "\E016";
+}
+    @if $filename == search3 {
+    $char: "\E017";
+}
+    @if $filename == sort {
+    $char: "\E018";
+}
+    @if $filename == start {
+    $char: "\E019";
+}
+    @if $filename == times {
+    $char: "\E01A";
+}
+    @if $filename == togle {
+    $char: "\E01B";
+}
+    @if $filename == uncheck {
+    $char: "\E01C";
+}
+    @if $filename == user {
+    $char: "\E01D";
+}
+    @if $filename == user3 {
+    $char: "\E01E";
+}
+    @if $filename == video {
+    $char: "\E01F";
+}
+    @if $filename == wishlist-fill {
+    $char: "\E020";
+}
+    @if $filename == wishlist {
+    $char: "\E021";
+}
+    @if $filename == zoom-in {
+    $char: "\E022";
+}
+
+@return $char;
+}
+
+@mixin opal-icon($filename, $insert: before) {
+&:#{$insert} {
+    content: opal-icon-char($filename);
+}
+}
+
+.opal-icon-account {
+    @include opal-icon(account);
+}
+.opal-icon-arrow-left {
+    @include opal-icon(arrow-left);
+}
+.opal-icon-arrow-right {
+    @include opal-icon(arrow-right);
+}
+.opal-icon-bag {
+    @include opal-icon(bag);
+}
+.opal-icon-cart-empty {
+    @include opal-icon(cart-empty);
+}
+.opal-icon-cart {
+    @include opal-icon(cart);
+}
+.opal-icon-cart3 {
+    @include opal-icon(cart3);
+}
+.opal-icon-check {
+    @include opal-icon(check);
+}
+.opal-icon-checked {
+    @include opal-icon(checked);
+}
+.opal-icon-close {
+    @include opal-icon(close);
+}
+.opal-icon-cog {
+    @include opal-icon(cog);
+}
+.opal-icon-compare {
+    @include opal-icon(compare);
+}
+.opal-icon-filter {
+    @include opal-icon(filter);
+}
+.opal-icon-heart-fill {
+    @include opal-icon(heart-fill);
+}
+.opal-icon-heart-remove {
+    @include opal-icon(heart-remove);
+}
+.opal-icon-heart {
+    @include opal-icon(heart);
+}
+.opal-icon-menu {
+    @include opal-icon(menu);
+}
+.opal-icon-minus {
+    @include opal-icon(minus);
+}
+.opal-icon-plan {
+    @include opal-icon(plan);
+}
+.opal-icon-plus {
+    @include opal-icon(plus);
+}
+.opal-icon-search {
+    @include opal-icon(search);
+}
+.opal-icon-search2 {
+    @include opal-icon(search2);
+}
+.opal-icon-search3 {
+    @include opal-icon(search3);
+}
+.opal-icon-sort {
+    @include opal-icon(sort);
+}
+.opal-icon-start {
+    @include opal-icon(start);
+}
+.opal-icon-times {
+    @include opal-icon(times);
+}
+.opal-icon-togle {
+    @include opal-icon(togle);
+}
+.opal-icon-uncheck {
+    @include opal-icon(uncheck);
+}
+.opal-icon-user {
+    @include opal-icon(user);
+}
+.opal-icon-user3 {
+    @include opal-icon(user3);
+}
+.opal-icon-video {
+    @include opal-icon(video);
+}
+.opal-icon-wishlist-fill {
+    @include opal-icon(wishlist-fill);
+}
+.opal-icon-wishlist {
+    @include opal-icon(wishlist);
+}
+.opal-icon-zoom-in {
+    @include opal-icon(zoom-in);
+}
