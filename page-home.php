@@ -46,7 +46,7 @@ get_header();
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-0594a65 elementor-widget elementor-widget-opal-revslider" data-id="0594a65" data-element_type="widget" data-widget_type="opal-revslider.default">
 				<div class="elementor-widget-container">
-			<link href="./home_files/bold.css" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+			<link href="/wp-content/themes/infoffice/assets/css/bold.css" rel="stylesheet" property="stylesheet" type="text/css" media="all">
 			</div>
 						</div>
 			</div>
