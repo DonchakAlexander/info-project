@@ -643,6 +643,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         new OpalThemeToogle();
     });
 
+    jQuery('element').hover(function () {
+        var _self = $(this);
+        _self.find('.submenu').addClass('visible');
+    }, function(){
+        $(this).removeClass('visible');
+    });
+
+
     
 })(jQuery);
 //# sourceMappingURL=theme.js.map
+
+

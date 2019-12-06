@@ -79,14 +79,14 @@
                                                     <ul class="elementor-nav-menu" id="menu">
                                                         <?php foreach ($rows as $row) : ?>
                                                             <?php  if ( !empty($row['sub_menu']) ) : $hasSubmenu = true; else : $hasSubmenu = false; endif; ?>
-                                                            <li class="menu-item<?php if ( $hasSubmenu ) : ?> has-submenu<?php endif; ?>">
-                                                                <a href="<?= esc_url($row['link_menu']['url']); ?>" class="elementor-item"><?= esc_html($row['menu_text']); ?>
+                                                            <li class="menu-item<?php if ( $hasSubmenu ) : ?> menu-item-has-children<?php endif; ?>">
+                                                                <a href="<?= esc_url($row['link_menu']['url']); ?>" class="elementor-item<?php if ( $hasSubmenu ) : ?> has-submenu<?php endif; ?>"><?= esc_html($row['menu_text']); ?>
                                                                 <?php if ( $hasSubmenu ) : ?>
                                                                     <span class="sub-arrow"></span>
                                                                 <?php endif ?>
                                                             </a>
                                                             <?php if ( $hasSubmenu ) : ?>
-                                                                <ul class="sub-menu elementor-nav-menu--dropdown">
+                                                                <ul class="sub-menu elementor-nav-menu--dropdown sm-nowrap">
                                                                     <?php foreach ($row['sub_menu'] as $sub) : ?>
                                                                         <li class="menu-item menu-item-type-post_type menu-item-object-page">
                                                                             <a href="<?= esc_url($sub['submenu_link']['url']) ?>"><?= esc_html($sub['submenu_text']) ?></a>
