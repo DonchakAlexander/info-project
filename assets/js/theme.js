@@ -359,6 +359,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             });
         }
     }
+
+    $('.menu-item-has-children').hover(function () {
+
+        var _self = $(this);
+        _self.find('.sub-menu').addClass('visible');
+        console.log("hover");
+        $('.has-submenu').addClass('highlighted');
+    }, function(){
+        $('.sub-menu').removeClass('visible');
+        $('.has-submenu').removeClass('highlighted');
+        
+    });
+
+
+
+
     jQuery(document).ready(function ($) {
         opalAddQuantityBoxes();
     });
@@ -639,16 +655,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         return OpalThemeToogle;
     }();
 
-    jQuery(document).ready(function ($) {
+    $(document).ready(function ($) {
+
         new OpalThemeToogle();
     });
 
-    jQuery('element').hover(function () {
-        var _self = $(this);
-        _self.find('.submenu').addClass('visible');
-    }, function(){
-        $(this).removeClass('visible');
-    });
+
 
 
     

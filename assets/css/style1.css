@@ -6037,7 +6037,7 @@ ul.elementor-nav-menu > li > a {
 }
 
 .visible {
-  display: block;
+  display: block !important;
 }
 
 @media (max-width: 767px) {
