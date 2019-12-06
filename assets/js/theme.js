@@ -360,16 +360,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
     }
 
-    $('.menu-item-has-children').hover(function () {
 
+
+    $('.menu-item-has-children').hover(function () {
+        $('.sub-menu').fadeOut('fast');
         var _self = $(this);
-        _self.find('.sub-menu').addClass('visible');
-        console.log("hover");
         $('.has-submenu').addClass('highlighted');
+        _self.find('.sub-menu').addClass('visible');
     }, function(){
-        $('.sub-menu').removeClass('visible');
-        $('.has-submenu').removeClass('highlighted');
-        
+            _self.find
+            $('.has-submenu').removeClass('highlighted');
+            setTimeout(function () {
+
+                $('.visible').fadeOut(100);
+
+            }, 500);
     });
 
 
@@ -388,9 +393,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
             _classCallCheck(this, OpalThemeSmoothMenu);
 
-            poemeJS.smoothCallback = function (selector) {
+/*            poemeJS.smoothCallback = function (selector) {
                 jQuery('.opal-smooth-menu a[href^="' + selector + '"]').trigger('click');
-            };
+            };*/
 
             jQuery('body').on('click', '.opal-smooth-menu a[href^="#"]', function (e) {
                 e.preventDefault();
