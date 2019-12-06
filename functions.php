@@ -122,7 +122,7 @@ add_action( 'widgets_init', 'infoffice_widgets_init' );
 function infoffice_scripts() {
 
 	wp_enqueue_style( 'infoffice-style', get_stylesheet_uri() );
-	wp_enqueue_style( 'infoffice-styles', get_template_directory_uri() . '/assets/css/styles.css');
+	
 	wp_enqueue_style( 'infoffice-style1', get_template_directory_uri() . '/assets/css/style1.css');
 	wp_enqueue_style( 'infoffice-style(1)', get_template_directory_uri() . '/assets/css/style(1).css');
 	wp_enqueue_style( 'infoffice-animations.min', get_template_directory_uri() . '/assets/css/animations.min.css');
@@ -144,7 +144,7 @@ function infoffice_scripts() {
 	wp_enqueue_style( 'infoffice-settings', get_template_directory_uri() . '/assets/css/settings.css');
 	wp_enqueue_style( 'infoffice-solid.min', get_template_directory_uri() . '/assets/css/solid.min.css');
 	wp_enqueue_style( 'infoffice-style.min', get_template_directory_uri() . '/assets/css/style.min.css');
-
+	wp_enqueue_style( 'infoffice-styles', get_template_directory_uri() . '/assets/css/styles.css');
 
 
 	wp_enqueue_script('jquery');

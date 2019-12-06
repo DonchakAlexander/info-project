@@ -72,7 +72,7 @@ get_header();
 				<div class="elementor-element elementor-element-94fb7f3 elementor-widget elementor-widget-image" data-id="94fb7f3" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="29" height="29" src="./home_files/rectangle1.png" class="attachment-large size-large" alt="">											</div>
+										<img width="29" height="29" src="/wp-content/themes/infoffice/assets/img/rectangle1.png" class="attachment-large size-large" alt="">											</div>
 				</div>
 				</div>
 						</div>
@@ -107,7 +107,7 @@ get_header();
 				<div class="elementor-element elementor-element-676599f elementor-widget elementor-widget-image" data-id="676599f" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="1280" height="853" src="./home_files/square-14.jpg" class="attachment-full size-full" alt="" srcset="http://infoffice13.pf.by/wp-content/uploads/2019/11/square-14.jpg 1280w, http://infoffice13.pf.by/wp-content/uploads/2019/11/square-14-300x200.jpg 300w, http://infoffice13.pf.by/wp-content/uploads/2019/11/square-14-768x512.jpg 768w, http://infoffice13.pf.by/wp-content/uploads/2019/11/square-14-1024x682.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px">											</div>
+										<img width="1280" height="853" src="/wp-content/themes/infoffice/assets/img/square-14.jpg" class="attachment-full size-full" alt="" srcset="/wp-content/themes/infoffice/assets/img/square-14.jpg 1280w, /wp-content/themes/infoffice/assets/img/square-14-300x200.jpg 300w, /wp-content/themes/infoffice/assets/img/square-14-768x512.jpg 768w, /wp-content/themes/infoffice/assets/img/square-14-1024x682.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px">											</div>
 				</div>
 				</div>
 						</div>
@@ -129,7 +129,7 @@ get_header();
 				<div class="elementor-element elementor-element-86bf537 elementor-widget elementor-widget-image" data-id="86bf537" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="29" height="29" src="./home_files/rectangle1.png" class="attachment-large size-large" alt="">											</div>
+										<img width="29" height="29" src="/wp-content/themes/infoffice/assets/img/rectangle1.png" class="attachment-large size-large" alt="">											</div>
 				</div>
 				</div>
 				<div class="elementor-element elementor-element-eab1a44 elementor-widget elementor-widget-text-editor" data-id="eab1a44" data-element_type="widget" data-widget_type="text-editor.default">
@@ -167,7 +167,7 @@ get_header();
 				<div class="elementor-element elementor-element-35dbbf4 elementor-widget elementor-widget-image" data-id="35dbbf4" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="29" height="29" src="./home_files/rectangle1.png" class="attachment-large size-large" alt="">											</div>
+										<img width="29" height="29" src="/wp-content/themes/infoffice/assets/img/rectangle1.png" class="attachment-large size-large" alt="">											</div>
 				</div>
 				</div>
 				<div class="elementor-element elementor-element-31d2ac9 elementor-widget elementor-widget-text-editor" data-id="31d2ac9" data-element_type="widget" data-widget_type="text-editor.default">
@@ -188,7 +188,7 @@ get_header();
         <div class="elementor-price-table">
 			                <div class="elementor-price-table__header">
 
-					<img width="300" height="200" src="./home_files/0003-IMG_7652-1-300x200.jpg" class="attachment-medium size-medium" alt="" srcset="http://infoffice13.pf.by/wp-content/uploads/2019/11/0003-IMG_7652-1-300x200.jpg 300w, http://infoffice13.pf.by/wp-content/uploads/2019/11/0003-IMG_7652-1-768x512.jpg 768w, http://infoffice13.pf.by/wp-content/uploads/2019/11/0003-IMG_7652-1-1024x682.jpg 1024w, http://infoffice13.pf.by/wp-content/uploads/2019/11/0003-IMG_7652-1.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px">					                        <h3 class="elementor-price-table__heading">Революционная 13</h3>
+					<img width="300" height="200" src="/wp-content/themes/infoffice/assets/img/0003-IMG_7652-1-300x200.jpg" class="attachment-medium size-medium" alt="" srcset="/wp-content/themes/infoffice/assets/img/0003-IMG_7652-1-300x200.jpg 300w, /wp-content/themes/infoffice/assets/img/0003-IMG_7652-1-768x512.jpg 768w, /wp-content/themes/infoffice/assets/img/0003-IMG_7652-1-1024x682.jpg 1024w, /wp-content/themes/infoffice/assets/img/0003-IMG_7652-1.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px">					                        <h3 class="elementor-price-table__heading">Революционная 13</h3>
 					
 					                </div>
 			
@@ -259,7 +259,7 @@ get_header();
         <div class="elementor-price-table">
 			                <div class="elementor-price-table__header">
 
-					<img width="300" height="200" src="./home_files/office-1-300x200.jpg" class="attachment-medium size-medium" alt="" srcset="http://infoffice13.pf.by/wp-content/uploads/2019/11/office-1-300x200.jpg 300w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-1-768x512.jpg 768w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-1-1024x682.jpg 1024w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-1.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px">					                        <h3 class="elementor-price-table__heading">Свободы 2</h3>
+					<img width="300" height="200" src="/wp-content/themes/infoffice/assets/img/office-1-300x200.jpg" class="attachment-medium size-medium" alt="" srcset="/wp-content/themes/infoffice/assets/img/office-1-300x200.jpg 300w, /wp-content/themes/infoffice/assets/img/office-1-768x512.jpg 768w, /wp-content/themes/infoffice/assets/img/office-1-1024x682.jpg 1024w, /wp-content/themes/infoffice/assets/img/office-1.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px">					                        <h3 class="elementor-price-table__heading">Свободы 2</h3>
 					
 					                </div>
 			
@@ -424,7 +424,7 @@ get_header();
 				<div class="elementor-element elementor-element-83bbbe0 elementor-widget elementor-widget-image" data-id="83bbbe0" data-element_type="widget"  data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="853" height="1280" src="./home_files/square-4.jpg" class="attachment-full size-full" alt="" srcset="http://infoffice13.pf.by/wp-content/uploads/2019/11/square-4.jpg 853w, http://infoffice13.pf.by/wp-content/uploads/2019/11/square-4-200x300.jpg 200w, http://infoffice13.pf.by/wp-content/uploads/2019/11/square-4-768x1152.jpg 768w, http://infoffice13.pf.by/wp-content/uploads/2019/11/square-4-682x1024.jpg 682w" sizes="(max-width: 853px) 100vw, 853px">											</div>
+										<img width="853" height="1280" src="/wp-content/themes/infoffice/assets/img/square-4.jpg" class="attachment-full size-full" alt="" srcset="/wp-content/themes/infoffice/assets/img/square-4.jpg 853w, /wp-content/themes/infoffice/assets/img/square-4-200x300.jpg 200w, /wp-content/themes/infoffice/assets/img/square-4-768x1152.jpg 768w, /wp-content/themes/infoffice/assets/img/square-4-682x1024.jpg 682w" sizes="(max-width: 853px) 100vw, 853px">											</div>
 				</div>
 				</div>
 						</div>
@@ -444,8 +444,8 @@ get_header();
 			        <div class="elementor-image-gallery">
             <div class="row grid" data-elementor-columns="3" data-elementor-columns-tablet="2" data-elementor-columns-mobile="1">
 				                    <div class="column-item grid__item">
-                        <a class="grid__link" data-elementor-lightbox-slideshow="d94db97" href="./assets/img/night-10.jpg">
-                            <img class="" src="./assets/img/night-10.jpg" alt="night (10)">
+                        <a class="grid__link" data-elementor-lightbox-slideshow="d94db97" href="/wp-content/themes/infoffice/assets/img/night-10.jpg">
+                            <img class="" src="/wp-content/themes/infoffice/assets/img/night-10.jpg" alt="night (10)">
                             <div class="gallery-item-overlay">
                                 <i class="fa fa-image"></i>
                                 <span>View Gallery</span>
@@ -453,8 +453,8 @@ get_header();
                         </a>
                     </div>
 				                    <div class="column-item grid__item">
-                        <a class="grid__link" data-elementor-lightbox-slideshow="d94db97" href="./assets/img/night-8.jpg">
-                            <img class="" src="./assets/img/night-8.jpg" alt="night (8)">
+                        <a class="grid__link" data-elementor-lightbox-slideshow="d94db97" href="/wp-content/themes/infoffice/assets/img/night-8.jpg">
+                            <img class="" src="/wp-content/themes/infoffice/assets/img/night-8.jpg" alt="night (8)">
                             <div class="gallery-item-overlay">
                                 <i class="fa fa-image"></i>
                                 <span>View Gallery</span>
@@ -462,8 +462,8 @@ get_header();
                         </a>
                     </div>
 				                    <div class="column-item grid__item">
-                        <a class="grid__link" data-elementor-lightbox-slideshow="d94db97" href="./assets/img/night-7.jpg">
-                            <img class="" src="./assets/img/night-7.jpg" alt="night (7)">
+                        <a class="grid__link" data-elementor-lightbox-slideshow="d94db97" href="/wp-content/themes/infoffice/assets/img/night-7.jpg">
+                            <img class="" src="/wp-content/themes/infoffice/assets/img/night-7.jpg" alt="night (7)">
                             <div class="gallery-item-overlay">
                                 <i class="fa fa-image"></i>
                                 <span>View Gallery</span>
@@ -471,8 +471,8 @@ get_header();
                         </a>
                     </div>
 				                    <div class="column-item grid__item">
-                        <a class="grid__link" data-elementor-lightbox-slideshow="d94db97" href="./assets/img/night-6.jpg">
-                            <img class="" src="./assets/img/night-6.jpg" alt="night (6)">
+                        <a class="grid__link" data-elementor-lightbox-slideshow="d94db97" href="/wp-content/themes/infoffice/assets/img/night-6.jpg">
+                            <img class="" src="/wp-content/themes/infoffice/assets/img/night-6.jpg" alt="night (6)">
                             <div class="gallery-item-overlay">
                                 <i class="fa fa-image"></i>
                                 <span>View Gallery</span>
@@ -480,8 +480,8 @@ get_header();
                         </a>
                     </div>
 				                    <div class="column-item grid__item">
-                        <a class="grid__link" data-elementor-lightbox-slideshow="d94db97" href="./assets/img/night-5.jpg">
-                            <img class="" src="./assets/img/night-5.jpg" alt="night (5)">
+                        <a class="grid__link" data-elementor-lightbox-slideshow="d94db97" href="/wp-content/themes/infoffice/assets/img/night-5.jpg">
+                            <img class="" src="/wp-content/themes/infoffice/assets/img/night-5.jpg" alt="night (5)">
                             <div class="gallery-item-overlay">
                                 <i class="fa fa-image"></i>
                                 <span>View Gallery</span>
@@ -489,8 +489,8 @@ get_header();
                         </a>
                     </div>
 				                    <div class="column-item grid__item">
-                        <a class="grid__link" data-elementor-lightbox-slideshow="d94db97" href="./assets/img/night-3.jpg">
-                            <img class="" src="./assets/img/night-3.jpg" alt="night (3)">
+                        <a class="grid__link" data-elementor-lightbox-slideshow="d94db97" href="/wp-content/themes/infoffice/assets/img/night-3.jpg">
+                            <img class="" src="/wp-content/themes/infoffice/assets/img/night-3.jpg" alt="night (3)">
                             <div class="gallery-item-overlay">
                                 <i class="fa fa-image"></i>
                                 <span>View Gallery</span>
