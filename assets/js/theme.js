@@ -372,6 +372,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     });
 
 
+    $(function() {
+        // Owl Carousel
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+            items: 1,
+            margin: 10,
+            loop: true,
+            nav: true
+        });
+    });
+
+
 
 
     jQuery(document).ready(function ($) {
@@ -661,9 +673,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
 
-    $(document).ready(function(){
-        $('ul.sub-menu').removeAttr('style');
-    });
     
 })(jQuery);
 //# sourceMappingURL=theme.js.map

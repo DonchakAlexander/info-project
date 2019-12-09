@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
+    <div id="primary" class="content-area" xmlns:http="http://www.w3.org/1999/xhtml">
 		<main id="main" class="site-main">
 
 		<?php
@@ -31,6 +31,11 @@ get_header();
 
 		endwhile; // End of the loop.
 		?>
+        <div class="owl-carousel">
+            <div><img width="29" height="29" src="/wp-content/themes/infoffice/assets/img/night-3.jpg" class="attachment-large size-large" alt=""></div>
+            <div><img width="29" height="29" src="/wp-content/themes/infoffice/assets/img/night-7.jpg" class="attachment-large size-large" alt=""></div>
+
+        </div>
 		<div id="page-title-bar" class="page-title-bar">
                     </div>
         <div class="site-content-contain">
