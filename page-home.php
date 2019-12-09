@@ -31,10 +31,102 @@ get_header();
 
 		endwhile; // End of the loop.
 		?>
-        <div class="owl-carousel">
-            <div><img width="29" height="29" src="/wp-content/themes/infoffice/assets/img/night-3.jpg" class="attachment-large size-large" alt=""></div>
+        <!--<div class="owl-carousel">
+            <div style="background-image: url('/wp-content/themes/infoffice/assets/img/night-3.jpg'); width: 100%;">
+                <div>
+                    Привет
+                </div>
+            </div>
             <div><img width="29" height="29" src="/wp-content/themes/infoffice/assets/img/night-7.jpg" class="attachment-large size-large" alt=""></div>
-        </div>
+        </div>-->
+            <div class="owl-carousel owl-theme">
+                <div class="owl-slide d-flex align-items-center cover"
+                     style="background-image: url('/wp-content/themes/infoffice/assets/img/night-3.jpg');">
+                    <div class="container">
+                        <div class="row justify-content-center justify-content-md-start">
+                            <div class="col-10 col-md-6 static">
+                                <div class="owl-slide-text">
+                                    <div class="owl-slide-animated owl-slide-subtitle mb-3">
+                                        Коворкинг в центре Минска
+                                    </div>
+                                    <h2 class="owl-slide-animated owl-slide-title">Офис 13</h2>
+
+                                    <div class="elementor-element elementor-element-a75275f elementor-column elementor-col-33 elementor-top-column"
+                                         data-id="a75275f" data-element_type="column">
+                                        <div class="elementor-column-wrap  elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-4d701e3 elementor-align-right elementor-hidden-phone elementor-button-primary elementor-widget elementor-widget-button"
+                                                     data-id="4d701e3" data-element_type="widget"
+                                                     data-widget_type="button.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-button-wrapper">
+                                                            <a href="http://infoffice13.pf.by/booking/"
+                                                               class="elementor-button-link elementor-button elementor-size-lg"
+                                                               role="button">
+                                <span class="elementor-button-content-wrapper">
+                                    <span class="elementor-button-text">Оставить заявку</span>
+                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/owl-slide-->
+                <div class="owl-slide d-flex align-items-center cover"
+                     style="background-image: url('/wp-content/themes/infoffice/assets/img/night-7.jpg');">
+                    <div class="container">
+                        <div class="row justify-content-center justify-content-md-start">
+                            <div class="col-10 col-md-6 static">
+                                <div class="owl-slide-text">
+                                    <div class="owl-slide-animated owl-slide-subtitle mb-3">
+                                        Коворкинг в центре Минска
+                                    </div>
+                                    <h2 class="owl-slide-animated owl-slide-title">Офис 13</h2>
+
+                                    <div class="elementor-element elementor-element-a75275f elementor-column elementor-col-33 elementor-top-column"
+                                         data-id="a75275f" data-element_type="column">
+                                        <div class="elementor-column-wrap  elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-4d701e3 elementor-align-right elementor-hidden-phone elementor-button-primary elementor-widget elementor-widget-button"
+                                                     data-id="4d701e3" data-element_type="widget"
+                                                     data-widget_type="button.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-button-wrapper">
+                                                            <a href="http://infoffice13.pf.by/booking/"
+                                                               class="elementor-button-link elementor-button elementor-size-lg"
+                                                               role="button">
+                                <span class="elementor-button-content-wrapper">
+                                    <span class="elementor-button-text">Оставить заявку</span>
+                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/owl-slide-->
+
+
+            </div>
+
+
+
+
+
+
+
+
 		<div id="page-title-bar" class="page-title-bar">
                     </div>
         <div class="site-content-contain">
