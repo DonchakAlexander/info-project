@@ -362,19 +362,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
 
+
     $('.menu-item-has-children').hover(function () {
-        $('.sub-menu').fadeOut('fast');
         var _self = $(this);
-        $('.has-submenu').addClass('highlighted');
-        _self.find('.sub-menu').addClass('visible');
+        _self.find('.sub-menu').fadeIn(300);
     }, function(){
-            _self.find
-            $('.has-submenu').removeClass('highlighted');
-            setTimeout(function () {
-
-                $('.visible').fadeOut(100);
-
-            }, 500);
+        var _self = $(this);
+        _self.find('.sub-menu').fadeOut(800);
     });
 
 
@@ -667,7 +661,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
 
-
+    $(document).ready(function(){
+        $('ul.sub-menu').removeAttr('style');
+    });
     
 })(jQuery);
 //# sourceMappingURL=theme.js.map

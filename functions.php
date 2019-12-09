@@ -124,6 +124,9 @@ function infoffice_scripts() {
 	wp_enqueue_style( 'infoffice-style', get_stylesheet_uri() );
 	
 	wp_enqueue_style( 'infoffice-style1', get_template_directory_uri() . '/assets/css/style1.css');
+	wp_enqueue_style( 'infoffice-owl.carousel.min', get_template_directory_uri() . '/assets/css/owl.carousel.min.css');
+	wp_enqueue_style( 'infoffice-owl.theme.default.min', get_template_directory_uri() . '/assets/css/owl.theme.default.min.css');
+	wp_enqueue_style( 'infoffice-owl.theme.green.min', get_template_directory_uri() . '/assets/css/owl.theme.green.min.css');
 	wp_enqueue_style( 'infoffice-style(1)', get_template_directory_uri() . '/assets/css/style(1).css');
 	wp_enqueue_style( 'infoffice-animations.min', get_template_directory_uri() . '/assets/css/animations.min.css');
 	wp_enqueue_style( 'infoffice-bold', get_template_directory_uri() . '/assets/css/bold.css');
@@ -183,12 +186,13 @@ function infoffice_scripts() {
 	wp_enqueue_script( 'infoffice-SmoothScroll.min', get_template_directory_uri() . '/assets/js/SmoothScroll.min.js', array(), '1.0', true );
 	wp_enqueue_script( 'infoffice-sticky-layout', get_template_directory_uri() . '/assets/js/sticky-layout.js', array(), '1.0', true );
 	wp_enqueue_script( 'infoffice-swiper.min', get_template_directory_uri() . '/assets/js/swiper.min.js', array(), '1.0', true );
-	wp_enqueue_script( 'infoffice-theme', get_template_directory_uri() . '/assets/js/theme.js', array(), '1.0', true );
+	wp_enqueue_script( 'infoffice-swiper.min', get_template_directory_uri() . '/assets/js/swiper.min.js', array(), '1.0', true );
 	wp_enqueue_script( 'infoffice-underscore.min', get_template_directory_uri() . '/assets/js/underscore.min.js', array(), '1.0', true );
 	wp_enqueue_script( 'infoffice-waypoints.min', get_template_directory_uri() . '/assets/js/waypoints.min.js', array(), '1.0', true );
 	wp_enqueue_script( 'infoffice-wp-embed.min', get_template_directory_uri() . '/assets/js/wp-embed.min.js', array(), '1.0', true );
 	wp_enqueue_script( 'infoffice-wp-emoji-release.min', get_template_directory_uri() . '/assets/js/wp-emoji-release.min.js', array(), '1.0', true );
 	wp_enqueue_script( 'infoffice-wp-util.min', get_template_directory_uri() . '/assets/js/wp-util.min.js', array(), '1.0', true );
+    wp_enqueue_script( 'infoffice-theme', get_template_directory_uri() . '/assets/js/theme.js', array(), '1.0', true );
 	
 
 
