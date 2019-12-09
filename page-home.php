@@ -34,7 +34,6 @@ get_header();
         <div class="owl-carousel">
             <div><img width="29" height="29" src="/wp-content/themes/infoffice/assets/img/night-3.jpg" class="attachment-large size-large" alt=""></div>
             <div><img width="29" height="29" src="/wp-content/themes/infoffice/assets/img/night-7.jpg" class="attachment-large size-large" alt=""></div>
-
         </div>
 		<div id="page-title-bar" class="page-title-bar">
                     </div>
