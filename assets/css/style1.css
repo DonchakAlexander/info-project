@@ -6143,6 +6143,8 @@ ul.elementor-nav-menu > li > a {
   width: 100%;
 }
 
+
+
 #content {
   padding-left: 0px;
   padding-right: 0px;
@@ -6270,4 +6272,22 @@ input#form-submit{
 
 label {
   margin-bottom: 1.5em;
+}
+
+
+@media (max-width: 375px) {
+  .owl-nav {
+    display: none;
+  }
+
+  #header-phone {
+    width: 60%;
+  }
+}
+
+@media (max-width: 777px) {
+  a.btn-on-slider {
+    padding: 0 40px;
+    font-size: 14px;
+  }
 }
