@@ -123,7 +123,7 @@ get_header();
 		<div id="page-title-bar" class="page-title-bar">
                     </div>
         <div class="site-content-contain">
-            <div id="content" class="site-content">
+            <div id="content" class="site-content" style="padding: 0;">
 		<div data-elementor-type="wp-post" data-elementor-id="10" class="elementor elementor-10" data-elementor-settings="[]">
 			<div class="elementor-inner">
 				<div class="elementor-section-wrap">

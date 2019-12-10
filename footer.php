@@ -14,7 +14,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-    <div class="wrap"><div class="container">		<div data-elementor-type="wp-post" data-elementor-id="112" class="elementor elementor-112" data-elementor-settings="[]">
+    <div class="wrap"><div data-elementor-type="wp-post" data-elementor-id="112" class="elementor elementor-112" data-elementor-settings="[]">
 			<div class="elementor-inner">
 				<div class="elementor-section-wrap">
 							<section class="elementor-element elementor-element-bd20959 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="bd20959" data-element_type="section">
@@ -24,7 +24,6 @@
 			<div class="elementor-column-wrap">
 					<div class="elementor-widget-wrap">
 						</div>
-			</div>
 		</div>
 						</div>
 			</div>
@@ -63,7 +62,7 @@
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-97cbb06 elementor-widget elementor-widget-html" data-id="97cbb06" data-element_type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
-			<!-- <iframe src="assets/saved_resource.html" width="610" height="300" frameborder="0"></iframe> -->		</div>
+                    <iframe src="https://yandex.by/map-widget/v1/-/CGS1YGnN" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>		</div>
 				</div>
 				<div class="elementor-element elementor-element-c0f207c elementor-shape-rounded elementor-widget elementor-widget-social-icons" data-id="c0f207c" data-element_type="widget" data-widget_type="social-icons.default">
 				<div class="elementor-widget-container">

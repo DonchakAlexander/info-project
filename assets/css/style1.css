@@ -6232,3 +6232,7 @@ div.home-slide-title {
   margin-left: 37px;
 }
 
+iframe {
+  width: 610px;
+  height: 300px;
+}
