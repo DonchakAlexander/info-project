@@ -6236,3 +6236,38 @@ iframe {
   width: 610px;
   height: 300px;
 }
+
+input.form-input, textarea.form-input{
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(136,143,150,0.6);
+  background-color: rgba(0,0,0,0);
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: rgba(188,188,188,0.2);
+  padding: 10px 0px 10px 0px;
+}
+
+input#form-submit{
+  background-color: #55bbaf;
+  line-height: 1;
+  border-radius: 50px;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-align: center;
+  text-transform: capitalize;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  display: inline-block;
+  margin: -20px 0px 0px 0px;
+  font-size: 14px;
+}
+
+#form-submit:hover{
+  background-color: #3f9d92;
+  font-size: 14px;
+}
+
+label {
+  margin-bottom: 1.5em;
+}

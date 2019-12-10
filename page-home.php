@@ -704,6 +704,37 @@ get_header();
 				<div class="elementor-widget-container">
 			<div role="form" class="wpcf7" id="wpcf7-f6-p10-o1" lang="ru-RU" dir="ltr">
 <div class="screen-reader-response"></div>
+                <?php
+                if( isset( $_GET['msg'] ) ) {
+                    if( $_GET['msg'] == 'success' )
+                        echo '<span>Сообщение успешно отправлено</span>';
+
+                    if( $_GET['msg'] == 'error' )
+                        echo '<span><strong>Ошибка:<strong> Проверьте правильность введённых вами данных.</span>';
+                    // EEEEEEEEEERRRRRRRRRRRRRRRRRROOOOOOOOOOOORRRRRRRRRRRRR
+
+                };
+
+                echo '<style>textarea[name="comment"],textarea[name="message1"]{display:none}</style>';
+                ?>
+
+                <form action="<?php echo site_url()?>/wp-content/themes/infoffice/send.php" method="POST">
+                    <label>Ваше имя (Обязательно)<br>
+                        <span class="wpcf7-form-control-wrap your-name"><input type="text" name="name" class="form-input"> </span></label>
+                    <label>Ваш телефон (Обязательно) <br>
+                        <span class="wpcf7-form-control-wrap your-phone"><input type="tel" name="phone" class="form-input"> </span></label>
+                    <label>Ваше сообщение<br>
+                        <span class="wpcf7-form-control-wrap your-message"><textarea name="message" cols="40" rows="3" class="form-input"></textarea> </span></label>
+                    <textarea name="message1"></textarea>
+                    <textarea name="comment"></textarea>
+                    <input id="form-submit" type="submit">
+                </form>
+
+
+
+
+
+
 </div>		</div>
 				</div>
 						</div>

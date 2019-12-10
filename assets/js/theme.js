@@ -361,6 +361,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
 
+    $(function () {
+        $('form').submit(function(e){
+            e.preventDefault();
+            var $form=$(this);
+            $.ajax({
+                type: $form.attr('method'),
+                url: $form.attr('action'),
+                data: $form.serialize()
+            }).done(function () {
+                console.log('success');
+            }).fail(function () {
+                console.log('fail');
+            });
+        });
+    });
+
+
+
+
 
 
     $('.menu-item-has-children').hover(function () {
@@ -713,5 +732,4 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     
 })(jQuery);
 //# sourceMappingURL=theme.js.map
-
 
