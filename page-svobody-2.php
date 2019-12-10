@@ -122,7 +122,7 @@ get_header();
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-cta">
                                                                     <div class="elementor-cta__bg-wrapper">
-                                                                        <div class="elementor-cta__bg elementor-bg" style="background-image: url(http://infoffice13.pf.by/wp-content/uploads/2019/11/office-11.jpg);"></div>
+                                                                        <div class="elementor-cta__bg elementor-bg" style="background-image: url('/wp-content/themes/infoffice/assets/img/office-1-300x200.jpg');"></div>
                                                                         <div class="elementor-cta__bg-overlay"></div>
                                                                     </div>
                                                                     <div class="elementor-cta__content">
@@ -147,7 +147,7 @@ get_header();
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-cta">
                                                                     <div class="elementor-cta__bg-wrapper">
-                                                                        <div class="elementor-cta__bg elementor-bg" style="background-image: url(http://infoffice13.pf.by/wp-content/uploads/2019/11/office-3.jpg);"></div>
+                                                                        <div class="elementor-cta__bg elementor-bg" style="background-image: url('/wp-content/themes/infoffice/assets/img/office-3.jpg');"></div>
                                                                         <div class="elementor-cta__bg-overlay"></div>
                                                                     </div>
                                                                     <div class="elementor-cta__content">
@@ -172,7 +172,7 @@ get_header();
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-cta">
                                                                     <div class="elementor-cta__bg-wrapper">
-                                                                        <div class="elementor-cta__bg elementor-bg" style="background-image: url(http://infoffice13.pf.by/wp-content/uploads/2019/11/office-2.jpg);"></div>
+                                                                        <div class="elementor-cta__bg elementor-bg" style="background-image: url('/wp-content/themes/infoffice/assets/img/office-2.jpg');"></div>
                                                                         <div class="elementor-cta__bg-overlay"></div>
                                                                     </div>
                                                                     <div class="elementor-cta__content">
@@ -326,7 +326,7 @@ get_header();
                                                                                         <div class="elementor-price-table">
                                                                                             <div class="elementor-price-table__header">
 
-                                                                                                <img width="300" height="200" src="./Свободы 2 — infoffice_files/office-11-300x200.jpg" class="attachment-medium size-medium" alt="" srcset="http://infoffice13.pf.by/wp-content/uploads/2019/11/office-11-300x200.jpg 300w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-11-768x512.jpg 768w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-11-1024x682.jpg 1024w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-11.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px">					                        <h3 class="elementor-price-table__heading">Кабинет площадью 58 м<sup>2</sup></h3>
+                                                                                                <img width="300" height="200" src="'/wp-content/themes/infoffice/assets/img/office-11-300x200.jpg'" class="attachment-medium size-medium" alt="" srcset="/wp-content/themes/infoffice/assets/img/office-11-300x200.jpg 300w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-11-768x512.jpg 768w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-11-1024x682.jpg 1024w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-11.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px">					                        <h3 class="elementor-price-table__heading">Кабинет площадью 58 м<sup>2</sup></h3>
 
                                                                                             </div>
 
@@ -375,7 +375,7 @@ get_header();
                                                                                         <div class="elementor-price-table">
                                                                                             <div class="elementor-price-table__header">
 
-                                                                                                <img width="300" height="200" src="./Свободы 2 — infoffice_files/office-1-300x200.jpg" class="attachment-medium size-medium" alt="" srcset="http://infoffice13.pf.by/wp-content/uploads/2019/11/office-1-300x200.jpg 300w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-1-768x512.jpg 768w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-1-1024x682.jpg 1024w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-1.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px">					                        <h3 class="elementor-price-table__heading"><span style="letter-spacing: -1.2px;">Кабинет площадью 37 м</span><span style="letter-spacing: -1.2px; font-size: 18px; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">2</span><span style="letter-spacing: -1.2px;"></span></h3>
+                                                                                                <img width="300" height="200" src='/wp-content/themes/infoffice/assets/img/office-1-300x200.jpg' class="attachment-medium size-medium" alt="" srcset="http://infoffice13.pf.by/wp-content/uploads/2019/11/office-1-300x200.jpg 300w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-1-768x512.jpg 768w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-1-1024x682.jpg 1024w, http://infoffice13.pf.by/wp-content/uploads/2019/11/office-1.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px">					                        <h3 class="elementor-price-table__heading"><span style="letter-spacing: -1.2px;">Кабинет площадью 37 м</span><span style="letter-spacing: -1.2px; font-size: 18px; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">2</span><span style="letter-spacing: -1.2px;"></span></h3>
 
                                                                                             </div>
 
