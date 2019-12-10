@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-<div id="primary" class="content-area" xmlns:http="http://www.w3.org/1999/xhtml">
+    <div id="primary" class="content-area" xmlns:http="http://www.w3.org/1999/xhtml">
     <main id="main" class="site-main">
     <div class="owl-carousel owl-theme">
         <div class="owl-slide d-flex align-items-center cover"

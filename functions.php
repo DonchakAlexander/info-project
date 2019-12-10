@@ -142,6 +142,7 @@ function infoffice_scripts() {
 	wp_enqueue_style( 'infoffice-opal-icons', get_template_directory_uri() . '/assets/css/opal-icons.css');
 	wp_enqueue_style( 'infoffice-post-10', get_template_directory_uri() . '/assets/css/post-10.css');
 	wp_enqueue_style( 'infoffice-post-15', get_template_directory_uri() . '/assets/css/post-15.css');
+	wp_enqueue_style( 'infoffice-post-2795', get_template_directory_uri() . '/assets/css/post-2795.css');
 	wp_enqueue_style( 'infoffice-post-112', get_template_directory_uri() . '/assets/css/post-112.css');
 	wp_enqueue_style( 'infoffice-post-322', get_template_directory_uri() . '/assets/css/post-322.css');
 	wp_enqueue_style( 'infoffice-regular', get_template_directory_uri() . '/assets/css/regular.css');
