@@ -17,28 +17,28 @@
   margin-left: auto;
 }
 @media (min-width: 576px) {
-  #content,
+  /*#content,*/
   .container,
   .elementor-event-wrapper {
     max-width: 540px;
   }
 }
 @media (min-width: 768px) {
-  #content,
+  /*#content,*/
   .container,
   .elementor-event-wrapper {
     max-width: 720px;
   }
 }
 @media (min-width: 992px) {
-  #content,
+  /*#content,*/
   .container,
   .elementor-event-wrapper {
     max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
-  #content,
+  /*#content,*/
   .container,
   .elementor-event-wrapper {
     max-width: 1140px;

@@ -382,7 +382,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     const $owlCarousel = $(".owl-carousel").owlCarousel({
         items: 1,
         loop: true,
-        nav: true
+        nav: true,
+        dots: false
     });
 
     $owlCarousel.on("changed.owl.carousel", e => {

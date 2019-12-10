@@ -2226,10 +2226,12 @@ a:hover {
 
 .opal-pagination-1 .prev.page-numbers {
   float: left;
+  left: 0;
 }
 
 .opal-pagination-1 .next.page-numbers {
   float: right;
+  right: 0;
 }
 
 .opal-pagination-1 .pagination {
@@ -2975,9 +2977,9 @@ h1.entry-title {
   margin-right: 20px;
 }
 
-.entry-header {
+/*.entry-header {
   padding-bottom: 1em;
-}
+}*/
 .entry-header .entry-title {
   margin-bottom: 0.45em;
 }
@@ -6134,9 +6136,16 @@ ul.elementor-nav-menu > li > a {
 
 .owl-carousel .owl-nav {
   left: 50%;
-  top: 10%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
   margin: 0;
+  width: 100%;
+}
+
+#content {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
 }
 
 

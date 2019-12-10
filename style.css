@@ -18,5 +18,327 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
-body, input, button, button[type="submit"], select, textarea{font-family:"Mukta", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;font-weight:400;color:#888f96}html { font-size:18px;}.c-heading{color:#1e3954;}.c-primary{color:#55bbaf;}.bg-primary{background-color:#55bbaf;}.b-primary{border-color:#55bbaf;}.button-primary:hover{background-color:#3f9d92;border-color:#3f9d92;}.c-secondary {color:#1e3954;}.bg-secondary {background-color:#1e3954;}.b-secondary{border-color:#1e3954;}.button-secondary:hover{background-color:#101f2d;}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="number"],input[type="tel"],input[type="range"],input[type="date"],input[type="month"],input[type="week"],input[type="time"],input[type="datetime"],input[type="datetime-local"],input[type="color"],textarea,a,.mainmenu-container ul ul .menu-item > a,.mainmenu-container li a span,.breadcrumb a,.breadcrumb span,.comment-metadata,.comment-metadata a,.c-body,.site-header-account .account-links-menu li a,.site-header-account .account-dashboard li a,.comment-form label,.comment-form a,.widget .tagcloud a,.widget.widget_tag_cloud a,.column-item.post-style-2 .comments-link a,.elementor-widget-featured-box .elementor-image-box-content .elementor-image-box-description {color:#888f96; }h1,h2,h3,h4,h5,h6,body.single-post .entry-title,.comment-content strong,.comment-author,.comment-author a,.comment-metadata a.comment-edit-link,.comment-reply-link,h2.widget-title,h2.widgettitle,.widget_recent_entries li.item-recent-post a,.c-heading,.form-group .form-row label,fieldset legend,.related-heading,.author-wrapper .author-name,.page .entry-header .entry-title,.site-header-account .login-form-title,.comments-title,.column-item .entry-title a,.osf-event-article .entry-title {color:#1e3954; }.btn-link,.button-link,.mainmenu-container li.current-menu-parent > a,.mainmenu-container .menu-item > a:hover,.site-header .header-group .search-submit:hover,.site-header .header-group .search-submit:focus,.entry-meta .entry-meta-inner > span:before,.entry-meta .entry-category a,.pbr-social-share a:hover,.error404 .error-text a:hover,.breadcrumb a:hover,.comment-author a:hover,.comment-metadata a:hover,.widget_recent_entries li.item-recent-post a:hover,.widget_recent_entries li.item-recent-post a:active,.widget_search button[type="submit"]:hover,.widget_search button[type="submit"]:focus,.widget_archive a:before,.widget_categories a:before,.widget .tagcloud a:hover,.widget .tagcloud a:focus,.widget.widget_tag_cloud a:hover,.widget.widget_tag_cloud a:focus,.button-outline-primary,.c-primary,.navigation-button .menu-toggle:hover,.navigation-button .menu-toggle:focus,.entry-title a:hover,.entry-content blockquote cite a:hover,.breadcrumb i,.site-header-account .account-dropdown a.register-link,.site-header-account .account-dropdown a.lostpass-link,.site-header-account .account-links-menu li a:hover,.site-header-account .account-dashboard li a:hover,.comment-form a:hover,.wp_widget_tag_cloud a:hover,.wp_widget_tag_cloud a:focus,#secondary .elementor-widget-container h5:first-of-type,.elementor-nav-menu-popup .mfp-close,.osf-event-article .entry-title:hover,.single-osf_event .navigation > div:hover a,.single-osf_event .navigation > div:hover i,#secondary .elementor-widget-wp-widget-recent-posts a,.column-item.post-style-2 .entry-meta .author a,.column-item.post-style-2 .comments-link a:hover,.elementor-price-table__feature-inner:before,.elementor-team-meta-inner:focus .elementor-team-job,.elementor-team-meta-inner:hover .elementor-team-job,.elementor-team-meta-inner .socials a:hover,.elementor-team-meta-inner .socials a:focus {color:#55bbaf; }input[type="button"]:hover,input[type="button"]:focus,input[type="submit"]:hover,input[type="submit"]:focus,button[type="submit"]:hover,button[type="submit"]:focus,.wpcf7-form-control-wrap:after,.mainmenu-container li li a:before,.comments-link span,.page-links a:hover .page-number,.page-links a:focus .page-number,.page-links > .page-number,.scrollup,.wp_widget_tag_cloud a:hover:before,.wp_widget_tag_cloud a:focus:before,.button-primary,input[type="reset"],input.secondary[type="button"],input.secondary[type="reset"],input.secondary[type="submit"],input[type="button"],input[type="submit"],button[type="submit"],.more-link,.page .edit-link a.post-edit-link,.error404 .submit-button,.osf-event-article .link-more a,.opal-video-popup-wrapper .elementor-video-popup,.elementor-element .elementor-button-primary .elementor-button,.button-outline-primary:hover,.button-outline-primary:active,.button-outline-primary.active,.show > .button-outline-primary.dropdown-toggle,.bg-primary,.osf-event-article .cat-links a,.owl-theme.owl-carousel .owl-dots .owl-dot:hover,.owl-theme.owl-carousel .owl-dots .owl-dot.active,.owl-theme .products .owl-dots .owl-dot:hover,.owl-theme .products .owl-dots .owl-dot.active,.elementor-widget-divider .elementor-divider-separator:before,.elementor-price-table__ribbon,.elementor-price-table__ribbon:before,.elementor-price-table__ribbon:after,.elementor-widget-opal-testimonials.testimonial-nav-style_2 .owl-theme.owl-carousel .owl-nav {background-color:#55bbaf; }.button-primary,input[type="reset"],input.secondary[type="button"],input.secondary[type="reset"],input.secondary[type="submit"],input[type="button"],input[type="submit"],button[type="submit"],.more-link,.page .edit-link a.post-edit-link,.error404 .submit-button,.osf-event-article .link-more a,.opal-video-popup-wrapper .elementor-video-popup,.button-secondary,.secondary-button .search-submit,.form-control:focus,input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="number"]:focus,input[type="tel"]:focus,input[type="range"]:focus,input[type="date"]:focus,input[type="month"]:focus,input[type="week"]:focus,input[type="time"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="color"]:focus,textarea:focus,input[type="button"]:hover,input[type="button"]:focus,input[type="submit"]:hover,input[type="submit"]:focus,button[type="submit"]:hover,button[type="submit"]:focus,.error404 .error-text a:hover,.widget .tagcloud a:hover,.widget .tagcloud a:focus,.widget.widget_tag_cloud a:hover,.widget.widget_tag_cloud a:focus,.wp_widget_tag_cloud a:hover:after,.wp_widget_tag_cloud a:focus:after,.wp_widget_tag_cloud a:hover,.wp_widget_tag_cloud a:focus,.elementor-element .elementor-button-primary .elementor-button,.button-outline-primary,.button-outline-primary:hover,.button-outline-primary:active,.button-outline-primary.active,.show > .button-outline-primary.dropdown-toggle,.b-primary {border-color:#55bbaf; }.btn-link:focus,.btn-link:hover,.button-link:focus,.button-link:hover,a:hover,a:active {color:#3f9d92; }.scrollup:hover,.scrollup:focus,.button-primary:hover,input:hover[type="reset"],input:hover[type="button"],input:hover[type="submit"],button:hover[type="submit"],.more-link:hover,.page .edit-link a.post-edit-link:hover,.error404 .submit-button:hover,.osf-event-article .link-more a:hover,.opal-video-popup-wrapper .elementor-video-popup:hover,.button-primary:active,input:active[type="reset"],input:active[type="button"],input:active[type="submit"],button:active[type="submit"],.more-link:active,.page .edit-link a.post-edit-link:active,.error404 .submit-button:active,.osf-event-article .link-more a:active,.opal-video-popup-wrapper .elementor-video-popup:active,.button-primary.active,input.active[type="reset"],input.active[type="button"],input.active[type="submit"],button.active[type="submit"],.active.more-link,.page .edit-link a.active.post-edit-link,.error404 .active.submit-button,.osf-event-article .link-more a.active,.opal-video-popup-wrapper .active.elementor-video-popup,.show > .button-primary.dropdown-toggle,.show > input.dropdown-toggle[type="reset"],.show > input.dropdown-toggle[type="button"],.show > input.dropdown-toggle[type="submit"],.show > button.dropdown-toggle[type="submit"],.show > .dropdown-toggle.more-link,.page .edit-link .show > a.dropdown-toggle.post-edit-link,.error404 .show > .dropdown-toggle.submit-button,.osf-event-article .link-more .show > a.dropdown-toggle,.opal-video-popup-wrapper .show > .dropdown-toggle.elementor-video-popup,.elementor-element .elementor-button-primary .elementor-button:hover,.elementor-element .elementor-button-primary .elementor-button:active,.elementor-element .elementor-button-primary .elementor-button:focus {background-color:#3f9d92; }.button-primary:active,input:active[type="reset"],input:active[type="button"],input:active[type="submit"],button:active[type="submit"],.more-link:active,.page .edit-link a.post-edit-link:active,.error404 .submit-button:active,.osf-event-article .link-more a:active,.opal-video-popup-wrapper .elementor-video-popup:active,.button-primary.active,input.active[type="reset"],input.active[type="button"],input.active[type="submit"],button.active[type="submit"],.active.more-link,.page .edit-link a.active.post-edit-link,.error404 .active.submit-button,.osf-event-article .link-more a.active,.opal-video-popup-wrapper .active.elementor-video-popup,.show > .button-primary.dropdown-toggle,.show > input.dropdown-toggle[type="reset"],.show > input.dropdown-toggle[type="button"],.show > input.dropdown-toggle[type="submit"],.show > button.dropdown-toggle[type="submit"],.show > .dropdown-toggle.more-link,.page .edit-link .show > a.dropdown-toggle.post-edit-link,.error404 .show > .dropdown-toggle.submit-button,.osf-event-article .link-more .show > a.dropdown-toggle,.opal-video-popup-wrapper .show > .dropdown-toggle.elementor-video-popup,.button-secondary:active,.secondary-button .search-submit:active,.button-secondary.active,.secondary-button .active.search-submit,.show > .button-secondary.dropdown-toggle,.secondary-button .show > .dropdown-toggle.search-submit,.button-primary:hover,input:hover[type="reset"],input:hover[type="button"],input:hover[type="submit"],button:hover[type="submit"],.more-link:hover,.page .edit-link a.post-edit-link:hover,.error404 .submit-button:hover,.osf-event-article .link-more a:hover,.opal-video-popup-wrapper .elementor-video-popup:hover,.elementor-element .elementor-button-primary .elementor-button:hover,.elementor-element .elementor-button-primary .elementor-button:active,.elementor-element .elementor-button-primary .elementor-button:focus {border-color:#3f9d92; }.cat-tags-links .tags-links a,body.single-post .navigation .nav-link a,.button-outline-secondary,.c-secondary,.author-wrapper .author-name h6 {color:#1e3954; }#opal-header-content.sticky-show,.button-secondary,.secondary-button .search-submit,.elementor-button-secondary button[type="submit"],.elementor-button-secondary input[type="button"],.elementor-button-secondary input[type="submit"],.elementor-element .elementor-button-secondary .elementor-button,.button-outline-secondary:hover,.button-outline-secondary:active,.button-outline-secondary.active,.show > .button-outline-secondary.dropdown-toggle,.bg-secondary,#secondary .elementor-widget-wp-widget-categories a:before,#secondary .elementor-nav-menu a:before,.e--pointer-dot a:before {background-color:#1e3954; }.cat-tags-links .tags-links a:hover,.button-secondary,.secondary-button .search-submit,.elementor-button-secondary button[type="submit"],.elementor-button-secondary input[type="button"],.elementor-button-secondary input[type="submit"],.elementor-element .elementor-button-secondary .elementor-button,.button-outline-secondary,.button-outline-secondary:hover,.button-outline-secondary:active,.button-outline-secondary.active,.show > .button-outline-secondary.dropdown-toggle,.b-secondary {border-color:#1e3954; }.button-secondary:hover,.secondary-button .search-submit:hover,.button-secondary:active,.secondary-button .search-submit:active,.button-secondary.active,.secondary-button .active.search-submit,.show > .button-secondary.dropdown-toggle,.secondary-button .show > .dropdown-toggle.search-submit,.elementor-button-secondary button[type="submit"]:hover,.elementor-button-secondary button[type="submit"]:active,.elementor-button-secondary button[type="submit"]:focus,.elementor-button-secondary input[type="button"]:hover,.elementor-button-secondary input[type="button"]:active,.elementor-button-secondary input[type="button"]:focus,.elementor-button-secondary input[type="submit"]:hover,.elementor-button-secondary input[type="submit"]:active,.elementor-button-secondary input[type="submit"]:focus,.elementor-element .elementor-button-secondary .elementor-button:hover,.elementor-element .elementor-button-secondary .elementor-button:active,.elementor-element .elementor-button-secondary .elementor-button:focus {background-color:#101f2d; }.button-secondary:hover,.secondary-button .search-submit:hover,.button-secondary:active,.secondary-button .search-submit:active,.button-secondary.active,.secondary-button .active.search-submit,.show > .button-secondary.dropdown-toggle,.secondary-button .show > .dropdown-toggle.search-submit,.elementor-button-secondary button[type="submit"]:hover,.elementor-button-secondary button[type="submit"]:active,.elementor-button-secondary button[type="submit"]:focus,.elementor-button-secondary input[type="button"]:hover,.elementor-button-secondary input[type="button"]:active,.elementor-button-secondary input[type="button"]:focus,.elementor-button-secondary input[type="submit"]:hover,.elementor-button-secondary input[type="submit"]:active,.elementor-button-secondary input[type="submit"]:focus,.elementor-element .elementor-button-secondary .elementor-button:hover,.elementor-element .elementor-button-secondary .elementor-button:active,.elementor-element .elementor-button-secondary .elementor-button:focus {border-color:#101f2d; }.row,body.opal-content-layout-2cl #content .wrap,body.opal-content-layout-2cr #content .wrap,[data-opal-columns],.opal-archive-style-4.blog .site-main,.opal-archive-style-4.archive .site-main,.opal-default-content-layout-2cr .site-content .wrap,.site-footer .widget-area,.opal-comment-form-2 .comment-form,.opal-comment-form-3 .comment-form,.opal-comment-form-4 .comment-form,.opal-comment-form-6 .comment-form,.widget .gallery,.elementor-element .gallery,.entry-gallery .gallery,.single .gallery,[data-elementor-columns] {margin-right:-15px;margin-left:-15px;}.col-1,.col-2,[data-elementor-columns-mobile="6"] .column-item,.col-3,[data-elementor-columns-mobile="4"] .column-item,.col-4,.opal-comment-form-2 .comment-form .comment-form-author,.opal-comment-form-3 .comment-form .comment-form-author,.opal-comment-form-2 .comment-form .comment-form-email,.opal-comment-form-3 .comment-form .comment-form-email,.opal-comment-form-2 .comment-form .comment-form-url,.opal-comment-form-3 .comment-form .comment-form-url,[data-elementor-columns-mobile="3"] .column-item,.col-5,.col-6,.opal-comment-form-4 .comment-form .comment-form-author,.opal-comment-form-4 .comment-form .comment-form-email,.opal-comment-form-4 .comment-form .comment-form-url,.opal-comment-form-6 .comment-form .comment-form-author,.opal-comment-form-6 .comment-form .comment-form-email,[data-elementor-columns-mobile="2"] .column-item,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,.opal-archive-style-2.opal-content-layout-2cr .post-style-2,.related-posts .column-item,.site-footer .widget-area .widget-column,.opal-comment-form-2 .comment-form .logged-in-as,.opal-comment-form-3 .comment-form .logged-in-as,.opal-comment-form-2 .comment-form .comment-notes,.opal-comment-form-3 .comment-form .comment-notes,.opal-comment-form-2 .comment-form .comment-form-comment,.opal-comment-form-3 .comment-form .comment-form-comment,.opal-comment-form-2 .comment-form .form-submit,.opal-comment-form-3 .comment-form .form-submit,.opal-comment-form-4 .comment-form .logged-in-as,.opal-comment-form-4 .comment-form .comment-notes,.opal-comment-form-4 .comment-form .comment-form-comment,.opal-comment-form-4 .comment-form .form-submit,.opal-comment-form-6 .comment-form .logged-in-as,.opal-comment-form-6 .comment-form .comment-notes,.opal-comment-form-6 .comment-form .comment-form-comment,.opal-comment-form-6 .comment-form .comment-form-url,.opal-comment-form-6 .comment-form .form-submit,.widget .gallery-columns-1 .gallery-item,.elementor-element .gallery-columns-1 .gallery-item,.entry-gallery .gallery-columns-1 .gallery-item,.single .gallery-columns-1 .gallery-item,[data-elementor-columns-mobile="1"] .column-item,.col,body #secondary,.col-auto,.col-sm-1,[data-opal-columns="12"] .column-item,.col-sm-2,[data-opal-columns="6"] .column-item,.col-sm-3,[data-opal-columns="4"] .column-item,.col-sm-4,[data-opal-columns="3"] .column-item,.widget .gallery-columns-6 .gallery-item,.elementor-element .gallery-columns-6 .gallery-item,.entry-gallery .gallery-columns-6 .gallery-item,.single .gallery-columns-6 .gallery-item,.col-sm-5,.col-sm-6,[data-opal-columns="2"] .column-item,.opal-archive-style-3:not(.opal-content-layout-2cr) .post-style-3,.widget .gallery-columns-2 .gallery-item,.elementor-element .gallery-columns-2 .gallery-item,.entry-gallery .gallery-columns-2 .gallery-item,.single .gallery-columns-2 .gallery-item,.widget .gallery-columns-3 .gallery-item,.elementor-element .gallery-columns-3 .gallery-item,.entry-gallery .gallery-columns-3 .gallery-item,.single .gallery-columns-3 .gallery-item,.widget .gallery-columns-4 .gallery-item,.elementor-element .gallery-columns-4 .gallery-item,.entry-gallery .gallery-columns-4 .gallery-item,.single .gallery-columns-4 .gallery-item,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,[data-opal-columns="1"] .column-item,.opal-archive-style-2:not(.opal-content-layout-2cr) .post-style-2,.opal-archive-style-3.opal-content-layout-2cr .post-style-3,.col-sm,.col-sm-auto,.col-md-1,.col-md-2,[data-elementor-columns-tablet="6"] .column-item,.col-md-3,[data-elementor-columns-tablet="4"] .column-item,.col-md-4,[data-elementor-columns-tablet="3"] .column-item,.col-md-5,.opal-default-content-layout-2cr #secondary,.col-md-6,[data-elementor-columns-tablet="2"] .column-item,.col-md-7,.opal-default-content-layout-2cr #primary,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,[data-elementor-columns-tablet="1"] .column-item,.col-md,.col-md-auto,.col-lg-1,.col-lg-2,[data-elementor-columns="6"] .column-item,.col-lg-3,[data-elementor-columns="4"] .column-item,.col-lg-4,.opal-default-content-layout-2cr .related-posts .column-item,.opal-content-layout-2cr .related-posts .column-item,.opal-content-layout-2cl .related-posts .column-item,[data-elementor-columns="3"] .column-item,.col-lg-5,.col-lg-6,[data-elementor-columns="2"] .column-item,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12,[data-elementor-columns="1"] .column-item,.col-lg,.col-lg-auto,.col-xl-1,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,.col-xl-7,.col-xl-8,.col-xl-9,.col-xl-10,.col-xl-11,.col-xl-12,.col-xl,.col-xl-auto {padding-right:15px;padding-left:15px;}.container,#content,.elementor-event-wrapper {padding-right:15px;padding-left:15px;}@media (min-width:576px) {.container, #content, .elementor-event-wrapper {max-width:540px; } }@media (min-width:768px) {.container, #content, .elementor-event-wrapper {max-width:720px; } }@media (min-width:992px) {.container, #content, .elementor-event-wrapper {max-width:960px; } }@media (min-width:1200px) {.container, #content, .elementor-event-wrapper {max-width:1140px; } } .elementor-widget-heading .elementor-heading-title{font-family:"Mukta", -apple-system, BlinkMacSystemFont, Sans-serif;}.elementor-widget-heading .elementor-heading-title,.elementor-text-editor b{font-weight:500;}.elementor-widget-heading .elementor-heading-title{font-family:"Mukta", -apple-system, BlinkMacSystemFont, Sans-serif;}.elementor-widget-heading .elementor-heading-title,.elementor-text-editor b{font-weight:500;}.typo-heading,.author-wrapper .author-name,h2.widget-title,h2.widgettitle,#secondary .elementor-widget-container h5:first-of-type {font-family:"Mukta",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;font-weight:500;}@media screen and (min-width:1200px){.container, #content ,.single-product .related.products, .single-product .up-sells.products{max-width:1200px;}}@media screen and (min-width:48em) {.page-title-bar .wrap {min-height:150px;}}@media screen and (min-width:48em) {.page-title-bar .wrap {padding-top:250px;}}@media screen and (min-width:48em) {.page-title-bar .wrap {padding-bottom:100px;}}.page-title-bar {border-color:#eeeeee;border-style:solid;background-color:#ffffff;background-image:url(http://localhost/wordpress/co-workshop/wp-content/uploads/2018/11/breadcrumbcw-1.jpg);background-repeat:no-repeat;background-position:center center;;}.page-title{color:#ffffff; }@media screen and (min-width:48em) {.page-title {font-size:60px;line-height:60px;;}}@media screen and (min-width:48em) {.breadcrumb, .breadcrumb span, .breadcrumb * {color:#e1e3e5;font-size:18px;line-height:25px;;}}.breadcrumb a:hover{color:#aab0b5;}.button-primary,input[type="reset"],input.secondary[type="button"],input.secondary[type="reset"],input.secondary[type="submit"],input[type="button"],input[type="submit"],button[type="submit"],.more-link,.page .edit-link a.post-edit-link,.error404 .submit-button,.osf-event-article .link-more a,.opal-video-popup-wrapper .elementor-video-popup,.elementor-element .elementor-button-primary .elementor-button {background-color:#55bbaf;border-color:#55bbaf;color:#fff;border-radius:100px;font-size:16px;}.button-primary:hover,input:hover[type="reset"],input:hover[type="button"],input:hover[type="submit"],button:hover[type="submit"],.more-link:hover,.page .edit-link a.post-edit-link:hover,.error404 .submit-button:hover,.osf-event-article .link-more a:hover,.opal-video-popup-wrapper .elementor-video-popup:hover,.button-primary:active,input:active[type="reset"],input:active[type="button"],input:active[type="submit"],button:active[type="submit"],.more-link:active,.page .edit-link a.post-edit-link:active,.error404 .submit-button:active,.osf-event-article .link-more a:active,.opal-video-popup-wrapper .elementor-video-popup:active,.button-primary.active,input.active[type="reset"],input.active[type="button"],input.active[type="submit"],button.active[type="submit"],.active.more-link,.page .edit-link a.active.post-edit-link,.error404 .active.submit-button,.osf-event-article .link-more a.active,.opal-video-popup-wrapper .active.elementor-video-popup,.show > .button-primary.dropdown-toggle,.show > input.dropdown-toggle[type="reset"],.show > input.dropdown-toggle[type="button"],.show > input.dropdown-toggle[type="submit"],.show > button.dropdown-toggle[type="submit"],.show > .dropdown-toggle.more-link,.page .edit-link .show > a.dropdown-toggle.post-edit-link,.error404 .show > .dropdown-toggle.submit-button,.osf-event-article .link-more .show > a.dropdown-toggle,.opal-video-popup-wrapper .show > .dropdown-toggle.elementor-video-popup,.elementor-element .elementor-button-primary .elementor-button:hover,.elementor-element .elementor-button-primary .elementor-button:active,.elementor-element .elementor-button-primary .elementor-button:focus {background-color:#3f9d92;border-color:#3f9d92;color:#fff;font-size:16px;}.button-outline-primary {color:#55bbaf;border-color:#55bbaf;border-radius:100px;font-size:16px;}.button-outline-primary:hover,.button-outline-primary:active,.button-outline-primary.active,.show > .button-outline-primary.dropdown-toggle {color:#fff;background-color:#3f9d92;border-color:#3f9d92;font-size:16px;}.button-primary,input[type="reset"],input.secondary[type="button"],input.secondary[type="reset"],input.secondary[type="submit"],input[type="button"],input[type="submit"],button[type="submit"],.more-link,.page .edit-link a.post-edit-link,.error404 .submit-button,.osf-event-article .link-more a,.opal-video-popup-wrapper .elementor-video-popup,.elementor-element .elementor-button-primary .elementor-button {background-color:#55bbaf;border-color:#55bbaf;color:#fff;border-radius:100px;font-size:16px;}.button-primary:hover,input:hover[type="reset"],input:hover[type="button"],input:hover[type="submit"],button:hover[type="submit"],.more-link:hover,.page .edit-link a.post-edit-link:hover,.error404 .submit-button:hover,.osf-event-article .link-more a:hover,.opal-video-popup-wrapper .elementor-video-popup:hover,.button-primary:active,input:active[type="reset"],input:active[type="button"],input:active[type="submit"],button:active[type="submit"],.more-link:active,.page .edit-link a.post-edit-link:active,.error404 .submit-button:active,.osf-event-article .link-more a:active,.opal-video-popup-wrapper .elementor-video-popup:active,.button-primary.active,input.active[type="reset"],input.active[type="button"],input.active[type="submit"],button.active[type="submit"],.active.more-link,.page .edit-link a.active.post-edit-link,.error404 .active.submit-button,.osf-event-article .link-more a.active,.opal-video-popup-wrapper .active.elementor-video-popup,.show > .button-primary.dropdown-toggle,.show > input.dropdown-toggle[type="reset"],.show > input.dropdown-toggle[type="button"],.show > input.dropdown-toggle[type="submit"],.show > button.dropdown-toggle[type="submit"],.show > .dropdown-toggle.more-link,.page .edit-link .show > a.dropdown-toggle.post-edit-link,.error404 .show > .dropdown-toggle.submit-button,.osf-event-article .link-more .show > a.dropdown-toggle,.opal-video-popup-wrapper .show > .dropdown-toggle.elementor-video-popup,.elementor-element .elementor-button-primary .elementor-button:hover,.elementor-element .elementor-button-primary .elementor-button:active,.elementor-element .elementor-button-primary .elementor-button:focus {background-color:#3f9d92;border-color:#3f9d92;color:#fff;font-size:16px;}.button-outline-primary {color:#55bbaf;border-color:#55bbaf;border-radius:100px;font-size:16px;}.button-outline-primary:hover,.button-outline-primary:active,.button-outline-primary.active,.show > .button-outline-primary.dropdown-toggle {color:#fff;background-color:#3f9d92;border-color:#3f9d92;font-size:16px;}.button-secondary,.secondary-button .search-submit,.elementor-button-secondary button[type="submit"],.elementor-button-secondary input[type="button"],.elementor-button-secondary input[type="submit"],.elementor-element .elementor-button-secondary .elementor-button {background-color:#1e3954;border-color:#1e3954;color:#fff;border-radius:100px;font-size:16px;}.button-secondary:hover,.secondary-button .search-submit:hover,.button-secondary:active,.secondary-button .search-submit:active,.button-secondary.active,.secondary-button .active.search-submit,.show > .button-secondary.dropdown-toggle,.secondary-button .show > .dropdown-toggle.search-submit,.elementor-button-secondary button[type="submit"]:hover,.elementor-button-secondary button[type="submit"]:active,.elementor-button-secondary button[type="submit"]:focus,.elementor-button-secondary input[type="button"]:hover,.elementor-button-secondary input[type="button"]:active,.elementor-button-secondary input[type="button"]:focus,.elementor-button-secondary input[type="submit"]:hover,.elementor-button-secondary input[type="submit"]:active,.elementor-button-secondary input[type="submit"]:focus,.elementor-element .elementor-button-secondary .elementor-button:hover,.elementor-element .elementor-button-secondary .elementor-button:active,.elementor-element .elementor-button-secondary .elementor-button:focus {background-color:#101f2d;border-color:#101f2d;color:#fff;font-size:16px;}.button-outline-secondary {color:#1e3954;border-color:#1e3954;border-radius:100px;font-size:16px;}.button-outline-secondary:hover,.button-outline-secondary:active,.button-outline-secondary.active,.show > .button-outline-secondary.dropdown-toggle {color:#fff;background-color:#101f2d;border-color:#101f2d;border-radius:100px;font-size:16px;}button ,input[type="submit"], input[type="reset"], input[type="button"], .button, .btn {font-size:16px;}.elementor-button[class*='elementor-size-'] {border-radius:100px;}
-@media(max-width: 991px){.opal-header-absolute .site-header{background:#1e3954;}}.panel-content .wrap{padding-top:0px!important;}.panel-content .wrap{padding-bottom:0px!important;}
+body, input, button, button[type="submit"], select, textarea {
+    font-family: "Mukta", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    color: #888f96
+}
+
+html {
+    font-size: 18px;
+}
+
+.c-heading {
+    color: #1e3954;
+}
+
+.c-primary {
+    color: #55bbaf;
+}
+
+.bg-primary {
+    background-color: #55bbaf;
+}
+
+.b-primary {
+    border-color: #55bbaf;
+}
+
+.button-primary:hover {
+    background-color: #3f9d92;
+    border-color: #3f9d92;
+}
+
+.c-secondary {
+    color: #1e3954;
+}
+
+.bg-secondary {
+    background-color: #1e3954;
+}
+
+.b-secondary {
+    border-color: #1e3954;
+}
+
+.button-secondary:hover {
+    background-color: #101f2d;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea, a, .mainmenu-container ul ul .menu-item > a, .mainmenu-container li a span, .breadcrumb a, .breadcrumb span, .comment-metadata, .comment-metadata a, .c-body, .site-header-account .account-links-menu li a, .site-header-account .account-dashboard li a, .comment-form label, .comment-form a, .widget .tagcloud a, .widget.widget_tag_cloud a, .column-item.post-style-2 .comments-link a, .elementor-widget-featured-box .elementor-image-box-content .elementor-image-box-description {
+    color: #888f96;
+}
+
+h1, h2, h3, h4, h5, h6, body.single-post .entry-title, .comment-content strong, .comment-author, .comment-author a, .comment-metadata a.comment-edit-link, .comment-reply-link, h2.widget-title, h2.widgettitle, .widget_recent_entries li.item-recent-post a, .c-heading, .form-group .form-row label, fieldset legend, .related-heading, .author-wrapper .author-name, .page .entry-header .entry-title, .site-header-account .login-form-title, .comments-title, .column-item .entry-title a, .osf-event-article .entry-title {
+    color: #1e3954;
+}
+
+.btn-link, .button-link, .mainmenu-container li.current-menu-parent > a, .mainmenu-container .menu-item > a:hover, .site-header .header-group .search-submit:hover, .site-header .header-group .search-submit:focus, .entry-meta .entry-meta-inner > span:before, .entry-meta .entry-category a, .pbr-social-share a:hover, .error404 .error-text a:hover, .breadcrumb a:hover, .comment-author a:hover, .comment-metadata a:hover, .widget_recent_entries li.item-recent-post a:hover, .widget_recent_entries li.item-recent-post a:active, .widget_search button[type="submit"]:hover, .widget_search button[type="submit"]:focus, .widget_archive a:before, .widget_categories a:before, .widget .tagcloud a:hover, .widget .tagcloud a:focus, .widget.widget_tag_cloud a:hover, .widget.widget_tag_cloud a:focus, .button-outline-primary, .c-primary, .navigation-button .menu-toggle:hover, .navigation-button .menu-toggle:focus, .entry-title a:hover, .entry-content blockquote cite a:hover, .breadcrumb i, .site-header-account .account-dropdown a.register-link, .site-header-account .account-dropdown a.lostpass-link, .site-header-account .account-links-menu li a:hover, .site-header-account .account-dashboard li a:hover, .comment-form a:hover, .wp_widget_tag_cloud a:hover, .wp_widget_tag_cloud a:focus, #secondary .elementor-widget-container h5:first-of-type, .elementor-nav-menu-popup .mfp-close, .osf-event-article .entry-title:hover, .single-osf_event .navigation > div:hover a, .single-osf_event .navigation > div:hover i, #secondary .elementor-widget-wp-widget-recent-posts a, .column-item.post-style-2 .entry-meta .author a, .column-item.post-style-2 .comments-link a:hover, .elementor-price-table__feature-inner:before, .elementor-team-meta-inner:focus .elementor-team-job, .elementor-team-meta-inner:hover .elementor-team-job, .elementor-team-meta-inner .socials a:hover, .elementor-team-meta-inner .socials a:focus {
+    color: #55bbaf;
+}
+
+input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, button[type="submit"]:hover, button[type="submit"]:focus, .wpcf7-form-control-wrap:after, .mainmenu-container li li a:before, .comments-link span, .page-links a:hover .page-number, .page-links a:focus .page-number, .page-links > .page-number, .scrollup, .wp_widget_tag_cloud a:hover:before, .wp_widget_tag_cloud a:focus:before, .button-primary, input[type="reset"], input.secondary[type="button"], input.secondary[type="reset"], input.secondary[type="submit"], input[type="button"], input[type="submit"], button[type="submit"], .more-link, .page .edit-link a.post-edit-link, .error404 .submit-button, .osf-event-article .link-more a, .opal-video-popup-wrapper .elementor-video-popup, .elementor-element .elementor-button-primary .elementor-button, .button-outline-primary:hover, .button-outline-primary:active, .button-outline-primary.active, .show > .button-outline-primary.dropdown-toggle, .bg-primary, .osf-event-article .cat-links a, .owl-theme.owl-carousel .owl-dots .owl-dot:hover, .owl-theme.owl-carousel .owl-dots .owl-dot.active, .owl-theme .products .owl-dots .owl-dot:hover, .owl-theme .products .owl-dots .owl-dot.active, .elementor-widget-divider .elementor-divider-separator:before, .elementor-price-table__ribbon, .elementor-price-table__ribbon:before, .elementor-price-table__ribbon:after, .elementor-widget-opal-testimonials.testimonial-nav-style_2 .owl-theme.owl-carousel .owl-nav {
+    background-color: #55bbaf;
+}
+
+.button-primary, input[type="reset"], input.secondary[type="button"], input.secondary[type="reset"], input.secondary[type="submit"], input[type="button"], input[type="submit"], button[type="submit"], .more-link, .page .edit-link a.post-edit-link, .error404 .submit-button, .osf-event-article .link-more a, .opal-video-popup-wrapper .elementor-video-popup, .button-secondary, .secondary-button .search-submit, .form-control:focus, input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, textarea:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, button[type="submit"]:hover, button[type="submit"]:focus, .error404 .error-text a:hover, .widget .tagcloud a:hover, .widget .tagcloud a:focus, .widget.widget_tag_cloud a:hover, .widget.widget_tag_cloud a:focus, .wp_widget_tag_cloud a:hover:after, .wp_widget_tag_cloud a:focus:after, .wp_widget_tag_cloud a:hover, .wp_widget_tag_cloud a:focus, .elementor-element .elementor-button-primary .elementor-button, .button-outline-primary, .button-outline-primary:hover, .button-outline-primary:active, .button-outline-primary.active, .show > .button-outline-primary.dropdown-toggle, .b-primary {
+    border-color: #55bbaf;
+}
+
+.btn-link:focus, .btn-link:hover, .button-link:focus, .button-link:hover, a:hover, a:active {
+    color: #3f9d92;
+}
+
+.scrollup:hover, .scrollup:focus, .button-primary:hover, input:hover[type="reset"], input:hover[type="button"], input:hover[type="submit"], button:hover[type="submit"], .more-link:hover, .page .edit-link a.post-edit-link:hover, .error404 .submit-button:hover, .osf-event-article .link-more a:hover, .opal-video-popup-wrapper .elementor-video-popup:hover, .button-primary:active, input:active[type="reset"], input:active[type="button"], input:active[type="submit"], button:active[type="submit"], .more-link:active, .page .edit-link a.post-edit-link:active, .error404 .submit-button:active, .osf-event-article .link-more a:active, .opal-video-popup-wrapper .elementor-video-popup:active, .button-primary.active, input.active[type="reset"], input.active[type="button"], input.active[type="submit"], button.active[type="submit"], .active.more-link, .page .edit-link a.active.post-edit-link, .error404 .active.submit-button, .osf-event-article .link-more a.active, .opal-video-popup-wrapper .active.elementor-video-popup, .show > .button-primary.dropdown-toggle, .show > input.dropdown-toggle[type="reset"], .show > input.dropdown-toggle[type="button"], .show > input.dropdown-toggle[type="submit"], .show > button.dropdown-toggle[type="submit"], .show > .dropdown-toggle.more-link, .page .edit-link .show > a.dropdown-toggle.post-edit-link, .error404 .show > .dropdown-toggle.submit-button, .osf-event-article .link-more .show > a.dropdown-toggle, .opal-video-popup-wrapper .show > .dropdown-toggle.elementor-video-popup, .elementor-element .elementor-button-primary .elementor-button:hover, .elementor-element .elementor-button-primary .elementor-button:active, .elementor-element .elementor-button-primary .elementor-button:focus {
+    background-color: #3f9d92;
+}
+
+.button-primary:active, input:active[type="reset"], input:active[type="button"], input:active[type="submit"], button:active[type="submit"], .more-link:active, .page .edit-link a.post-edit-link:active, .error404 .submit-button:active, .osf-event-article .link-more a:active, .opal-video-popup-wrapper .elementor-video-popup:active, .button-primary.active, input.active[type="reset"], input.active[type="button"], input.active[type="submit"], button.active[type="submit"], .active.more-link, .page .edit-link a.active.post-edit-link, .error404 .active.submit-button, .osf-event-article .link-more a.active, .opal-video-popup-wrapper .active.elementor-video-popup, .show > .button-primary.dropdown-toggle, .show > input.dropdown-toggle[type="reset"], .show > input.dropdown-toggle[type="button"], .show > input.dropdown-toggle[type="submit"], .show > button.dropdown-toggle[type="submit"], .show > .dropdown-toggle.more-link, .page .edit-link .show > a.dropdown-toggle.post-edit-link, .error404 .show > .dropdown-toggle.submit-button, .osf-event-article .link-more .show > a.dropdown-toggle, .opal-video-popup-wrapper .show > .dropdown-toggle.elementor-video-popup, .button-secondary:active, .secondary-button .search-submit:active, .button-secondary.active, .secondary-button .active.search-submit, .show > .button-secondary.dropdown-toggle, .secondary-button .show > .dropdown-toggle.search-submit, .button-primary:hover, input:hover[type="reset"], input:hover[type="button"], input:hover[type="submit"], button:hover[type="submit"], .more-link:hover, .page .edit-link a.post-edit-link:hover, .error404 .submit-button:hover, .osf-event-article .link-more a:hover, .opal-video-popup-wrapper .elementor-video-popup:hover, .elementor-element .elementor-button-primary .elementor-button:hover, .elementor-element .elementor-button-primary .elementor-button:active, .elementor-element .elementor-button-primary .elementor-button:focus {
+    border-color: #3f9d92;
+}
+
+.cat-tags-links .tags-links a, body.single-post .navigation .nav-link a, .button-outline-secondary, .c-secondary, .author-wrapper .author-name h6 {
+    color: #1e3954;
+}
+
+#opal-header-content.sticky-show, .button-secondary, .secondary-button .search-submit, .elementor-button-secondary button[type="submit"], .elementor-button-secondary input[type="button"], .elementor-button-secondary input[type="submit"], .elementor-element .elementor-button-secondary .elementor-button, .button-outline-secondary:hover, .button-outline-secondary:active, .button-outline-secondary.active, .show > .button-outline-secondary.dropdown-toggle, .bg-secondary, #secondary .elementor-widget-wp-widget-categories a:before, #secondary .elementor-nav-menu a:before, .e--pointer-dot a:before {
+    background-color: #1e3954;
+}
+
+.cat-tags-links .tags-links a:hover, .button-secondary, .secondary-button .search-submit, .elementor-button-secondary button[type="submit"], .elementor-button-secondary input[type="button"], .elementor-button-secondary input[type="submit"], .elementor-element .elementor-button-secondary .elementor-button, .button-outline-secondary, .button-outline-secondary:hover, .button-outline-secondary:active, .button-outline-secondary.active, .show > .button-outline-secondary.dropdown-toggle, .b-secondary {
+    border-color: #1e3954;
+}
+
+.button-secondary:hover, .secondary-button .search-submit:hover, .button-secondary:active, .secondary-button .search-submit:active, .button-secondary.active, .secondary-button .active.search-submit, .show > .button-secondary.dropdown-toggle, .secondary-button .show > .dropdown-toggle.search-submit, .elementor-button-secondary button[type="submit"]:hover, .elementor-button-secondary button[type="submit"]:active, .elementor-button-secondary button[type="submit"]:focus, .elementor-button-secondary input[type="button"]:hover, .elementor-button-secondary input[type="button"]:active, .elementor-button-secondary input[type="button"]:focus, .elementor-button-secondary input[type="submit"]:hover, .elementor-button-secondary input[type="submit"]:active, .elementor-button-secondary input[type="submit"]:focus, .elementor-element .elementor-button-secondary .elementor-button:hover, .elementor-element .elementor-button-secondary .elementor-button:active, .elementor-element .elementor-button-secondary .elementor-button:focus {
+    background-color: #101f2d;
+}
+
+.button-secondary:hover, .secondary-button .search-submit:hover, .button-secondary:active, .secondary-button .search-submit:active, .button-secondary.active, .secondary-button .active.search-submit, .show > .button-secondary.dropdown-toggle, .secondary-button .show > .dropdown-toggle.search-submit, .elementor-button-secondary button[type="submit"]:hover, .elementor-button-secondary button[type="submit"]:active, .elementor-button-secondary button[type="submit"]:focus, .elementor-button-secondary input[type="button"]:hover, .elementor-button-secondary input[type="button"]:active, .elementor-button-secondary input[type="button"]:focus, .elementor-button-secondary input[type="submit"]:hover, .elementor-button-secondary input[type="submit"]:active, .elementor-button-secondary input[type="submit"]:focus, .elementor-element .elementor-button-secondary .elementor-button:hover, .elementor-element .elementor-button-secondary .elementor-button:active, .elementor-element .elementor-button-secondary .elementor-button:focus {
+    border-color: #101f2d;
+}
+
+.row, body.opal-content-layout-2cl #content .wrap, body.opal-content-layout-2cr #content .wrap, [data-opal-columns], .opal-archive-style-4.blog .site-main, .opal-archive-style-4.archive .site-main, .opal-default-content-layout-2cr .site-content .wrap, .site-footer .widget-area, .opal-comment-form-2 .comment-form, .opal-comment-form-3 .comment-form, .opal-comment-form-4 .comment-form, .opal-comment-form-6 .comment-form, .widget .gallery, .elementor-element .gallery, .entry-gallery .gallery, .single .gallery, [data-elementor-columns] {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-1, .col-2, [data-elementor-columns-mobile="6"] .column-item, .col-3, [data-elementor-columns-mobile="4"] .column-item, .col-4, .opal-comment-form-2 .comment-form .comment-form-author, .opal-comment-form-3 .comment-form .comment-form-author, .opal-comment-form-2 .comment-form .comment-form-email, .opal-comment-form-3 .comment-form .comment-form-email, .opal-comment-form-2 .comment-form .comment-form-url, .opal-comment-form-3 .comment-form .comment-form-url, [data-elementor-columns-mobile="3"] .column-item, .col-5, .col-6, .opal-comment-form-4 .comment-form .comment-form-author, .opal-comment-form-4 .comment-form .comment-form-email, .opal-comment-form-4 .comment-form .comment-form-url, .opal-comment-form-6 .comment-form .comment-form-author, .opal-comment-form-6 .comment-form .comment-form-email, [data-elementor-columns-mobile="2"] .column-item, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .opal-archive-style-2.opal-content-layout-2cr .post-style-2, .related-posts .column-item, .site-footer .widget-area .widget-column, .opal-comment-form-2 .comment-form .logged-in-as, .opal-comment-form-3 .comment-form .logged-in-as, .opal-comment-form-2 .comment-form .comment-notes, .opal-comment-form-3 .comment-form .comment-notes, .opal-comment-form-2 .comment-form .comment-form-comment, .opal-comment-form-3 .comment-form .comment-form-comment, .opal-comment-form-2 .comment-form .form-submit, .opal-comment-form-3 .comment-form .form-submit, .opal-comment-form-4 .comment-form .logged-in-as, .opal-comment-form-4 .comment-form .comment-notes, .opal-comment-form-4 .comment-form .comment-form-comment, .opal-comment-form-4 .comment-form .form-submit, .opal-comment-form-6 .comment-form .logged-in-as, .opal-comment-form-6 .comment-form .comment-notes, .opal-comment-form-6 .comment-form .comment-form-comment, .opal-comment-form-6 .comment-form .comment-form-url, .opal-comment-form-6 .comment-form .form-submit, .widget .gallery-columns-1 .gallery-item, .elementor-element .gallery-columns-1 .gallery-item, .entry-gallery .gallery-columns-1 .gallery-item, .single .gallery-columns-1 .gallery-item, [data-elementor-columns-mobile="1"] .column-item, .col, body #secondary, .col-auto, .col-sm-1, [data-opal-columns="12"] .column-item, .col-sm-2, [data-opal-columns="6"] .column-item, .col-sm-3, [data-opal-columns="4"] .column-item, .col-sm-4, [data-opal-columns="3"] .column-item, .widget .gallery-columns-6 .gallery-item, .elementor-element .gallery-columns-6 .gallery-item, .entry-gallery .gallery-columns-6 .gallery-item, .single .gallery-columns-6 .gallery-item, .col-sm-5, .col-sm-6, [data-opal-columns="2"] .column-item, .opal-archive-style-3:not(.opal-content-layout-2cr) .post-style-3, .widget .gallery-columns-2 .gallery-item, .elementor-element .gallery-columns-2 .gallery-item, .entry-gallery .gallery-columns-2 .gallery-item, .single .gallery-columns-2 .gallery-item, .widget .gallery-columns-3 .gallery-item, .elementor-element .gallery-columns-3 .gallery-item, .entry-gallery .gallery-columns-3 .gallery-item, .single .gallery-columns-3 .gallery-item, .widget .gallery-columns-4 .gallery-item, .elementor-element .gallery-columns-4 .gallery-item, .entry-gallery .gallery-columns-4 .gallery-item, .single .gallery-columns-4 .gallery-item, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, [data-opal-columns="1"] .column-item, .opal-archive-style-2:not(.opal-content-layout-2cr) .post-style-2, .opal-archive-style-3.opal-content-layout-2cr .post-style-3, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, [data-elementor-columns-tablet="6"] .column-item, .col-md-3, [data-elementor-columns-tablet="4"] .column-item, .col-md-4, [data-elementor-columns-tablet="3"] .column-item, .col-md-5, .opal-default-content-layout-2cr #secondary, .col-md-6, [data-elementor-columns-tablet="2"] .column-item, .col-md-7, .opal-default-content-layout-2cr #primary, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, [data-elementor-columns-tablet="1"] .column-item, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, [data-elementor-columns="6"] .column-item, .col-lg-3, [data-elementor-columns="4"] .column-item, .col-lg-4, .opal-default-content-layout-2cr .related-posts .column-item, .opal-content-layout-2cr .related-posts .column-item, .opal-content-layout-2cl .related-posts .column-item, [data-elementor-columns="3"] .column-item, .col-lg-5, .col-lg-6, [data-elementor-columns="2"] .column-item, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, [data-elementor-columns="1"] .column-item, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container, #content, .elementor-event-wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+    .container, /*#content,*/ .elementor-event-wrapper {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container, /*#content,*/ .elementor-event-wrapper {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container, /*#content,*/ .elementor-event-wrapper {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container, /*#content,*/ .elementor-event-wrapper {
+        max-width: 1140px;
+    }
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    font-family: "Mukta", -apple-system, BlinkMacSystemFont, Sans-serif;
+}
+
+.elementor-widget-heading .elementor-heading-title, .elementor-text-editor b {
+    font-weight: 500;
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    font-family: "Mukta", -apple-system, BlinkMacSystemFont, Sans-serif;
+}
+
+.elementor-widget-heading .elementor-heading-title, .elementor-text-editor b {
+    font-weight: 500;
+}
+
+.typo-heading, .author-wrapper .author-name, h2.widget-title, h2.widgettitle, #secondary .elementor-widget-container h5:first-of-type {
+    font-family: "Mukta", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 1200px) {
+    .container, /*#content,*/ .single-product .related.products, .single-product .up-sells.products {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (min-width: 48em) {
+    .page-title-bar .wrap {
+        min-height: 150px;
+    }
+}
+
+@media screen and (min-width: 48em) {
+    .page-title-bar .wrap {
+        padding-top: 250px;
+    }
+}
+
+@media screen and (min-width: 48em) {
+    .page-title-bar .wrap {
+        padding-bottom: 100px;
+    }
+}
+
+.page-title-bar {
+    border-color: #eeeeee;
+    border-style: solid;
+    background-color: #ffffff;
+    background-image: url(http://localhost/wordpress/co-workshop/wp-content/uploads/2018/11/breadcrumbcw-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;;
+}
+
+.page-title {
+    color: #ffffff;
+}
+
+@media screen and (min-width: 48em) {
+    .page-title {
+        font-size: 60px;
+        line-height: 60px;;
+    }
+}
+
+@media screen and (min-width: 48em) {
+    .breadcrumb, .breadcrumb span, .breadcrumb * {
+        color: #e1e3e5;
+        font-size: 18px;
+        line-height: 25px;;
+    }
+}
+
+.breadcrumb a:hover {
+    color: #aab0b5;
+}
+
+.button-primary, input[type="reset"], input.secondary[type="button"], input.secondary[type="reset"], input.secondary[type="submit"], input[type="button"], input[type="submit"], button[type="submit"], .more-link, .page .edit-link a.post-edit-link, .error404 .submit-button, .osf-event-article .link-more a, .opal-video-popup-wrapper .elementor-video-popup, .elementor-element .elementor-button-primary .elementor-button {
+    background-color: #55bbaf;
+    border-color: #55bbaf;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+.button-primary:hover, input:hover[type="reset"], input:hover[type="button"], input:hover[type="submit"], button:hover[type="submit"], .more-link:hover, .page .edit-link a.post-edit-link:hover, .error404 .submit-button:hover, .osf-event-article .link-more a:hover, .opal-video-popup-wrapper .elementor-video-popup:hover, .button-primary:active, input:active[type="reset"], input:active[type="button"], input:active[type="submit"], button:active[type="submit"], .more-link:active, .page .edit-link a.post-edit-link:active, .error404 .submit-button:active, .osf-event-article .link-more a:active, .opal-video-popup-wrapper .elementor-video-popup:active, .button-primary.active, input.active[type="reset"], input.active[type="button"], input.active[type="submit"], button.active[type="submit"], .active.more-link, .page .edit-link a.active.post-edit-link, .error404 .active.submit-button, .osf-event-article .link-more a.active, .opal-video-popup-wrapper .active.elementor-video-popup, .show > .button-primary.dropdown-toggle, .show > input.dropdown-toggle[type="reset"], .show > input.dropdown-toggle[type="button"], .show > input.dropdown-toggle[type="submit"], .show > button.dropdown-toggle[type="submit"], .show > .dropdown-toggle.more-link, .page .edit-link .show > a.dropdown-toggle.post-edit-link, .error404 .show > .dropdown-toggle.submit-button, .osf-event-article .link-more .show > a.dropdown-toggle, .opal-video-popup-wrapper .show > .dropdown-toggle.elementor-video-popup, .elementor-element .elementor-button-primary .elementor-button:hover, .elementor-element .elementor-button-primary .elementor-button:active, .elementor-element .elementor-button-primary .elementor-button:focus {
+    background-color: #3f9d92;
+    border-color: #3f9d92;
+    color: #fff;
+    font-size: 16px;
+}
+
+.button-outline-primary {
+    color: #55bbaf;
+    border-color: #55bbaf;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+.button-outline-primary:hover, .button-outline-primary:active, .button-outline-primary.active, .show > .button-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #3f9d92;
+    border-color: #3f9d92;
+    font-size: 16px;
+}
+
+.button-primary, input[type="reset"], input.secondary[type="button"], input.secondary[type="reset"], input.secondary[type="submit"], input[type="button"], input[type="submit"], button[type="submit"], .more-link, .page .edit-link a.post-edit-link, .error404 .submit-button, .osf-event-article .link-more a, .opal-video-popup-wrapper .elementor-video-popup, .elementor-element .elementor-button-primary .elementor-button {
+    background-color: #55bbaf;
+    border-color: #55bbaf;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+.button-primary:hover, input:hover[type="reset"], input:hover[type="button"], input:hover[type="submit"], button:hover[type="submit"], .more-link:hover, .page .edit-link a.post-edit-link:hover, .error404 .submit-button:hover, .osf-event-article .link-more a:hover, .opal-video-popup-wrapper .elementor-video-popup:hover, .button-primary:active, input:active[type="reset"], input:active[type="button"], input:active[type="submit"], button:active[type="submit"], .more-link:active, .page .edit-link a.post-edit-link:active, .error404 .submit-button:active, .osf-event-article .link-more a:active, .opal-video-popup-wrapper .elementor-video-popup:active, .button-primary.active, input.active[type="reset"], input.active[type="button"], input.active[type="submit"], button.active[type="submit"], .active.more-link, .page .edit-link a.active.post-edit-link, .error404 .active.submit-button, .osf-event-article .link-more a.active, .opal-video-popup-wrapper .active.elementor-video-popup, .show > .button-primary.dropdown-toggle, .show > input.dropdown-toggle[type="reset"], .show > input.dropdown-toggle[type="button"], .show > input.dropdown-toggle[type="submit"], .show > button.dropdown-toggle[type="submit"], .show > .dropdown-toggle.more-link, .page .edit-link .show > a.dropdown-toggle.post-edit-link, .error404 .show > .dropdown-toggle.submit-button, .osf-event-article .link-more .show > a.dropdown-toggle, .opal-video-popup-wrapper .show > .dropdown-toggle.elementor-video-popup, .elementor-element .elementor-button-primary .elementor-button:hover, .elementor-element .elementor-button-primary .elementor-button:active, .elementor-element .elementor-button-primary .elementor-button:focus {
+    background-color: #3f9d92;
+    border-color: #3f9d92;
+    color: #fff;
+    font-size: 16px;
+}
+
+.button-outline-primary {
+    color: #55bbaf;
+    border-color: #55bbaf;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+.button-outline-primary:hover, .button-outline-primary:active, .button-outline-primary.active, .show > .button-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #3f9d92;
+    border-color: #3f9d92;
+    font-size: 16px;
+}
+
+.button-secondary, .secondary-button .search-submit, .elementor-button-secondary button[type="submit"], .elementor-button-secondary input[type="button"], .elementor-button-secondary input[type="submit"], .elementor-element .elementor-button-secondary .elementor-button {
+    background-color: #1e3954;
+    border-color: #1e3954;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+.button-secondary:hover, .secondary-button .search-submit:hover, .button-secondary:active, .secondary-button .search-submit:active, .button-secondary.active, .secondary-button .active.search-submit, .show > .button-secondary.dropdown-toggle, .secondary-button .show > .dropdown-toggle.search-submit, .elementor-button-secondary button[type="submit"]:hover, .elementor-button-secondary button[type="submit"]:active, .elementor-button-secondary button[type="submit"]:focus, .elementor-button-secondary input[type="button"]:hover, .elementor-button-secondary input[type="button"]:active, .elementor-button-secondary input[type="button"]:focus, .elementor-button-secondary input[type="submit"]:hover, .elementor-button-secondary input[type="submit"]:active, .elementor-button-secondary input[type="submit"]:focus, .elementor-element .elementor-button-secondary .elementor-button:hover, .elementor-element .elementor-button-secondary .elementor-button:active, .elementor-element .elementor-button-secondary .elementor-button:focus {
+    background-color: #101f2d;
+    border-color: #101f2d;
+    color: #fff;
+    font-size: 16px;
+}
+
+.button-outline-secondary {
+    color: #1e3954;
+    border-color: #1e3954;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+.button-outline-secondary:hover, .button-outline-secondary:active, .button-outline-secondary.active, .show > .button-outline-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #101f2d;
+    border-color: #101f2d;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+button, input[type="submit"], input[type="reset"], input[type="button"], .button, .btn {
+    font-size: 16px;
+}
+
+.elementor-button[class*='elementor-size-'] {
+    border-radius: 100px;
+}
+
+@media (max-width: 991px) {
+    .opal-header-absolute .site-header {
+        background: #1e3954;
+    }
+}
+
+.panel-content .wrap {
+    padding-top: 0px !important;
+}
+
+.panel-content .wrap {
+    padding-bottom: 0px !important;
+}
