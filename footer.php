@@ -118,7 +118,31 @@
     });
 </script>
 
-</div><!-- #page -->
+</div>
+
+<nav id="menu-d68646f" class="elementor-nav-menu--canvas mp-menu mp-cover"><div class="mp-level" data-level="1"><ul id="menu-2-d68646f" class="nav-menu--canvas"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-has-children menu-item-2999"><a href="http://infoffice13.pf.by/" aria-current="page">Места<i class="fa fa-chevron-right trigger"></i></a>
+                <div class="mp-level" data-level="2" style=""><a class="mp-back text-center" href="#"><i class="fa fa-arrow-left"></i></a><ul class="sub-menu">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3006"><a href="http://infoffice13.pf.by/home-1/office-revolucionnaya-13/">Революционная 13</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3007"><a href="http://infoffice13.pf.by/home-1/office-svobody-2/">Свободы 2</a></li>
+                    </ul></div>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3184"><a>Услуги<i class="fa fa-chevron-right trigger"></i></a>
+                <div class="mp-level" data-level="2" style="transform: translate3d(-100%, 0px, 0px) translate3d(-40px, 0px, 0px);"><a class="mp-back text-center" href="#"><i class="fa fa-arrow-left"></i></a><ul class="sub-menu">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2818"><a href="http://infoffice13.pf.by/french-club/">Французский разговорный клуб</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3183"><a href="http://infoffice13.pf.by/lets-talk/">Английский разговорный клуб</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3117"><a href="http://infoffice13.pf.by/arenda-ofisa-na-chas/">Аренда офиса на час</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3131"><a href="http://infoffice13.pf.by/arenda-konferenc-zala/">Аренда конференц-зала</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3142"><a href="http://infoffice13.pf.by/arenda-peregovornoy-komnaty/">Аренда переговорной комнаты</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3205"><a href="http://infoffice13.pf.by/arenda-zala-dlya-treninga/">Аренда зала для тренинга</a></li>
+                    </ul></div>
+            </li>
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2451"><a>Блог</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1507"><a href="http://infoffice13.pf.by/gallery/">Галерея</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3077"><a href="http://infoffice13.pf.by/partnery/">Партнеры</a></li>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1100"><a href="http://infoffice13.pf.by/contact-us/">Контакты</a></li>
+        </ul></div></nav>
+
+<!-- #page -->
 
 <?php wp_footer(); ?>
 

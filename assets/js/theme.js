@@ -379,6 +379,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
 
+    $('.elementor-menu-toggle').click()
+
+
 
 
 

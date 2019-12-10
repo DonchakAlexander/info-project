@@ -31,14 +31,6 @@ get_header();
 
 		endwhile; // End of the loop.
 		?>
-        <!--<div class="owl-carousel">
-            <div style="background-image: url('/wp-content/themes/infoffice/assets/img/night-3.jpg'); width: 100%;">
-                <div>
-                    Привет
-                </div>
-            </div>
-            <div><img width="29" height="29" src="/wp-content/themes/infoffice/assets/img/night-7.jpg" class="attachment-large size-large" alt=""></div>
-        </div>-->
             <div class="owl-carousel owl-theme">
                 <div class="owl-slide d-flex align-items-center cover"
                      style="background-image: url('/wp-content/themes/infoffice/assets/img/night-3.jpg');">
