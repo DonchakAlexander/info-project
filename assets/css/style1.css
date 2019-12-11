@@ -6144,7 +6144,9 @@ ul.elementor-nav-menu > li > a {
   width: 100%;
 }
 
-
+.owl-stage > div.owl-item {
+  padding: 0;
+}
 
 #content {
   padding-left: 0px;
