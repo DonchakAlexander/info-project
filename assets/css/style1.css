@@ -6312,3 +6312,8 @@ label {
   position: relative;
   line-height: 1;
 }
+
+footer ul.elementor-nav-menu > li > a {
+  font-size: 24px;
+}
+

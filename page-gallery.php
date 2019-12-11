@@ -28,7 +28,7 @@ get_header();
                 </div>
             </div>
             <div class="site-content-contain">
-                <div id="content" class="site-content">
+                <div id="content" class="site-content" style="padding: 0;">
 
                                         <div class="wrap">
                         <div id="primary" class="content-area">

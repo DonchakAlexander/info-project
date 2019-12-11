@@ -379,7 +379,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
 
-    $('.elementor-menu-toggle').click();
+    $('.elementor-menu-toggle').click()
 
 
 
@@ -392,7 +392,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         var _self = $(this);
         _self.find('.sub-menu').fadeOut(800);
     });
-
 
     $('div.elementor-tabs-wrapper').on('click', 'div:not(.elementor-active)', function() {
         $(this)
@@ -431,8 +430,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }, 50);
     });
 
+    setOwlDotsPosition();
 
+    function setOwlDotsPosition() {
+        const $target = $(".owl-item.active .owl-slide-text");
+        doDotsCalculations($target);
+    }
 
+    function doDotsCalculations(el) {
+        const height = el.height();
+        const {top, left} = el.position();
+        const res = height + top + 20;
+
+        $(".owl-carousel .owl-dots").css({
+            top: `${res}px`,
+            left: `${left}px`
+        });
+    }
 
 
 

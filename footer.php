@@ -45,12 +45,12 @@
 				</div>
 				<div class="elementor-element elementor-element-fa92118 elementor-nav-menu__align-center elementor-nav-menu-tablet__align-justify elementor-nav-menu--indicator-classic elementor-widget elementor-widget-opal-nav-menu" data-id="fa92118" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;}" data-widget_type="opal-nav-menu.default">
 				<div class="elementor-widget-container">
-			        <nav data-submenusminwidth="50" data-submenusmaxwidth="100" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none"><ul id="menu-1-fa92118" class="elementor-nav-menu sm-vertical" data-smartmenus-id="15752826756537388"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-2998"><a href="http://infoffice13.pf.by/" aria-current="page" class="elementor-item  elementor-item-active">Места</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2896"><a href="http://infoffice13.pf.by/contact-us/" class="elementor-item">Контакты</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2898"><a href="http://infoffice13.pf.by/#" class="elementor-item">Услуги</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2899"><a href="http://infoffice13.pf.by/blog/" class="elementor-item">Блог</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3078"><a href="http://infoffice13.pf.by/partnery/" class="elementor-item">Партнеры</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2901"><a href="http://infoffice13.pf.by/gallery/" class="elementor-item">Галерея</a></li>
+			        <nav data-submenusminwidth="50" data-submenusmaxwidth="100" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none"><ul id="menu-1-fa92118" class="elementor-nav-menu sm-vertical" data-smartmenus-id="15752826756537388"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-2998"><a href="http://infoffice13.pf.by/" aria-current="page" class="elementor-item  elementor-item-active">Коворкинг в центре Минск "Оффис 13"</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2896"><a href="http://infoffice13.pf.by/contact-us/" class="elementor-item elementor-nav-footer">Контакты</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2898"><a href="http://infoffice13.pf.by/#" class="elementor-item elementor-nav-footer">Услуги</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2899"><a href="http://infoffice13.pf.by/blog/" class="elementor-item elementor-nav-footer">Блог</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3078"><a href="http://infoffice13.pf.by/partnery/" class="elementor-item elementor-nav-footer">Партнеры</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2901"><a href="http://infoffice13.pf.by/gallery/" class="elementor-item elementor-nav-footer">Галерея</a></li>
 </ul></nav>
         		</div>
 				</div>
