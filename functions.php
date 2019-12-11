@@ -200,7 +200,8 @@ function infoffice_scripts() {
 	wp_enqueue_script( 'infoffice-wp-emoji-release.min', get_template_directory_uri() . '/assets/js/wp-emoji-release.min.js', array(), '1.0', true );
 	wp_enqueue_script( 'infoffice-wp-util.min', get_template_directory_uri() . '/assets/js/wp-util.min.js', array(), '1.0', true );
     wp_enqueue_script( 'infoffice-theme', get_template_directory_uri() . '/assets/js/theme.js', array(), '1.0', true );
-	
+    wp_enqueue_script( 'infoffice-theme-mail', get_template_directory_uri() . '/assets/js/send_mail.js', array(), '1.0', true );
+
 
 
 
@@ -237,6 +238,7 @@ require get_template_directory() . '/inc/customizer.php';
 * Custom css file
 */
 require get_template_directory() . '/inc/info-custom.php';
+require get_template_directory() . '/inc/send_mail.php';
 
 /**
  * Load Jetpack compatibility file.
