@@ -367,7 +367,7 @@ body.opal-layout-boxed .site-header .elementor-section.elementor-section-stretch
   .elementor-button.elementor-size-lg {
     padding: 1.25rem 3.5rem; }
   .elementor-button.elementor-size-lg,.elementor-button.elementor-size-xl {
-    letter-spacing: -.05rem;
+    /*letter-spacing: -.05rem;*/
     font-size: 16px;
     line-height: 1;
     border-radius: 5px; }

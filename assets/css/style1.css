@@ -6319,3 +6319,60 @@ footer ul.elementor-nav-menu > li > a {
   font-size: 24px;
 }
 
+
+ul.sub-menu-contact {
+  position: absolute;
+  width: auto;
+  display: none;
+  top: auto;
+  margin-left: 0px;
+  margin-top: 18px;
+  min-width: 100px;
+  max-width: 916px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 15px;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  list-style: none;
+  font-family: "Mukta", Sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  background-color: #fff;
+  left: -30px;
+}
+
+.elementor-element-a75275f  .elementor-button-link {
+  float: left;
+  left: 14px;
+  letter-spacing: normal;
+}
+
+.contact-menu-item {
+  padding: 0;
+  position: relative;
+  display: block;
+}
+
+
+.contact-menu-item > a {
+  padding: 12px 19px;
+  white-space: nowrap;
+  display: block;
+}
+
+.contact-menu-item:first-child > a {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+.contact-menu-item:last-child > a {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.elementor-button-link {
+  cursor: pointer;
+}
+

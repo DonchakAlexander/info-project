@@ -1,5 +1,5 @@
 <?php
-if( isset( $_POST['comment'] ) || isset( $_POST['message1'] ) )
+if( isset( $_POST['message1'] ) && $_POST['message1'] === '')
     exit;
 
 require( dirname(__FILE__) . '/wp-load.php');

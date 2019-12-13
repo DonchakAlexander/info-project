@@ -362,15 +362,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     $(function () {
+        'use strict';
         $('form').submit(function(e){
             e.preventDefault();
             var $form=$(this);
             $.ajax({
                 type: $form.attr('method'),
                 url: $form.attr('action'),
-                data: $form.serialize()
-            }).done(function () {
-                console.log('success');
+                data: $('form').serialize()
+            }).done(function (response) {
+                console.log(response.success);
             }).fail(function () {
                 console.log('fail');
             });
@@ -379,7 +380,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
 
-    $('.elementor-menu-toggle').click()
+
+
+
 
 
 
@@ -388,9 +391,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     $('.menu-item-has-children').hover(function () {
         var _self = $(this);
         _self.find('.sub-menu').fadeIn(300);
+
     }, function(){
         var _self = $(this);
         _self.find('.sub-menu').fadeOut(800);
+    });
+
+
+
+    $('.elementor-element-a75275f').hover(function () {
+        var _self = $(this);
+        _self.find('.sub-menu-contact').fadeIn(300);
+    }, function(){
+        var _self = $(this);
+        _self.find('.sub-menu-contact').fadeOut(800);
     });
 
 
@@ -408,6 +422,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         loop: true,
         nav: true,
         dots: false
+
     });
 
     $owlCarousel.on("changed.owl.carousel", e => {
@@ -423,6 +438,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             .addClass('elementor-active').siblings().removeClass('elementor-active')
             .closest('div.elementor-tabs').find('div.elementor-tab-content').css('display', 'none').removeClass('elementor-active').eq($(this).index()).css('display', 'block').addClass('elementor-active');
     });
+
+    $('div.owl-nav').hide();
+
+
+
+
+    $('.owl-carousel').hover(function(){
+        var _self = $(this);
+
+        $('div.owl-nav').fadeIn(300);
+
+        console.log('success');
+
+    }, function () {
+
+        $('div.owl-nav').fadeOut(300);
+
+    });
+
+
+
 
 
     jQuery(document).ready(function ($) {

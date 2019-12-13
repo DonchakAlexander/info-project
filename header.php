@@ -111,11 +111,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div id="header-phone">
-                    <a href="tel:+375447776699">+375 44 777-66-99</a>
-
-                </div>
                 <div class="elementor-element elementor-element-a75275f elementor-column elementor-col-33 elementor-top-column"
                 data-id="a75275f" data-element_type="column">
                 <div class="elementor-column-wrap  elementor-element-populated">
@@ -125,13 +120,17 @@
                         data-widget_type="button.default">
                         <div class="elementor-widget-container">
                             <div class="elementor-button-wrapper">
-                                <a href="http://infoffice13.pf.by/booking/"
-                                class="elementor-button-link elementor-button elementor-size-lg"
-                                role="button">
+                                <div class="elementor-button-link elementor-button elementor-size-lg">
                                 <span class="elementor-button-content-wrapper">
-                                    <span class="elementor-button-text">Оставить заявку</span>
+                                    <span class="elementor-button-text">+375 44 777-66-99</span>
                                 </span>
-                            </a>
+                                    <ul class="sub-menu-contact">
+                                        <li class="contact-menu-item"><a href="tel:+375291535355" class="elementor-sub-item">Позвонить +375291535355</a></li>
+                                        <li class="contact-menu-item"><a href="tel:+375291535355" class="elementor-sub-item">Whatsapp: +3752255449622</a></li>
+                                        <li class="contact-menu-item"><a href="mailto:info@infoffice13.by" class="elementor-sub-item">Email: info@infoffice13.by</a></li>
+                                    </ul>
+                            </div>
+
                         </div>
                     </div>
                 </div>

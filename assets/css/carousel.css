@@ -214,10 +214,10 @@
   width: auto;
   line-height: normal;
   height: auto;
-  color: #ccc;
+  color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
-  background: transparent;
+  background: rgba(0,0,0,0.5);
   display: inline-block;
   cursor: pointer;
   border-radius: 50%;
@@ -230,16 +230,16 @@
 }
 .owl-theme.owl-carousel .owl-nav [class*="owl-"]:before,
 .owl-theme .products .owl-nav [class*="owl-"]:before {
-  font-size: 35px;
+  font-size: 20px;
   font-family: FontAwesome;
   display: block;
   color: #ccc;
   background: transparent;
-  border: 1px solid;
+  border: none;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   box-sizing: initial;
 }
 .owl-theme.owl-carousel .owl-nav [class*="owl-"].owl-next,
@@ -269,7 +269,7 @@
 }
 .owl-theme.owl-carousel .owl-nav [class*="owl-"]:hover:before,
 .owl-theme .products .owl-nav [class*="owl-"]:hover:before {
-  color: #55bbaf;
+  background-color: rgba(0, 0, 0, 1);
 }
 .owl-theme.owl-carousel .owl-nav .disabled,
 .owl-theme .products .owl-nav .disabled {
