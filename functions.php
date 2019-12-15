@@ -150,6 +150,12 @@ function infoffice_scripts() {
 	wp_enqueue_style( 'infoffice-post-1037', get_template_directory_uri() . '/assets/css/post-1037.css');
 	wp_enqueue_style( 'infoffice-post-112', get_template_directory_uri() . '/assets/css/post-112.css');
 	wp_enqueue_style( 'infoffice-post-322', get_template_directory_uri() . '/assets/css/post-322.css');
+	wp_enqueue_style( 'infoffice-post-3145', get_template_directory_uri() . '/assets/css/post-3145.css');
+	wp_enqueue_style( 'infoffice-post-3100', get_template_directory_uri() . '/assets/css/post-3100.css');
+	wp_enqueue_style( 'infoffice-post-3127', get_template_directory_uri() . '/assets/css/post-3127.css');
+	wp_enqueue_style( 'infoffice-post-3138', get_template_directory_uri() . '/assets/css/post-3138.css');
+	wp_enqueue_style( 'infoffice-post-3163', get_template_directory_uri() . '/assets/css/post-3163.css');
+	wp_enqueue_style( 'infoffice-post-3161', get_template_directory_uri() . '/assets/css/post-3161.css');
 	wp_enqueue_style( 'infoffice-regular', get_template_directory_uri() . '/assets/css/regular.css');
 	wp_enqueue_style( 'infoffice-settings', get_template_directory_uri() . '/assets/css/settings.css');
 	wp_enqueue_style( 'infoffice-solid.min', get_template_directory_uri() . '/assets/css/solid.min.css');

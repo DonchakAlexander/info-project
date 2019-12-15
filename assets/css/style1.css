@@ -818,12 +818,12 @@ input[type="radio"] + label {
   font-weight: 400;
 }
 
-button[type="submit"],
+/*button[type="submit"],
 input[type="button"],
 input[type="submit"] {
   background-color: #222;
   border-color: #222;
-}
+}*/
 
 .wpcf7-form-control-wrap {
   display: block;
