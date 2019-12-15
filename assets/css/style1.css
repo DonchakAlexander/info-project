@@ -193,15 +193,10 @@ select {
   text-transform: none;
 }
 
-#header-phone > a {
-  color: #fff;
-  font-size: 14px;
+a#header-phone {
+  color: #0c0c0c;
+  font-size: 18px;
   font-weight: 400;
-}
-
-#header-phone {
-  width: 15%;
-  text-align: center;
 }
 
 [type="reset"],
@@ -2627,7 +2622,7 @@ body.opal-layout-boxed #page {
 }
 .custom-logo-link img {
   display: block;
-  max-height: 80px;
+  /*max-height: 80px;*/
 }
 
 .custom-logo-link a:focus,
@@ -6375,4 +6370,6 @@ ul.sub-menu-contact {
 .elementor-button-link {
   cursor: pointer;
 }
+
+
 

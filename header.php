@@ -121,13 +121,31 @@
                         <div class="elementor-widget-container">
                             <div class="elementor-button-wrapper">
                                 <div class="elementor-button-link elementor-button elementor-size-lg">
-                                <span class="elementor-button-content-wrapper">
-                                    <span class="elementor-button-text">+375 44 777-66-99</span>
-                                </span>
+                                <a class="elementor-button-content-wrapper">
+
+                                    <?php
+                                    $rows = get_field('contact_menu', 'options');
+                                    $phone_header = get_field('phone_number_header', 'options');
+                                    $phone_header_link = 'tel:' . str_replace(array('-', '—', ' '), '', $phone_header);
+                                    if($rows) :     ?>
+
+
+
+
+                                    <a href="<?= $phone_header_link ?>" class="elementor-button-text" id="header-phone"><?php echo get_field('phone_number_header', 'options'); ?></a>
+                                </a>
                                     <ul class="sub-menu-contact">
-                                        <li class="contact-menu-item"><a href="tel:+375291535355" class="elementor-sub-item">Позвонить +375291535355</a></li>
-                                        <li class="contact-menu-item"><a href="tel:+375291535355" class="elementor-sub-item">Whatsapp: +3752255449622</a></li>
-                                        <li class="contact-menu-item"><a href="mailto:info@infoffice13.by" class="elementor-sub-item">Email: info@infoffice13.by</a></li>
+                                        <?php
+
+                                        foreach ($rows as $row) :
+
+                                        ?>
+
+                                        <li class="contact-menu-item"><a href="<?= esc_url($row['contact_link']['url']); ?>" class="elementor-sub-item"><?= esc_html($row['contact_text']); ?></a></li>
+
+                                        <?php endforeach;
+                                            endif;
+                                            ?>
                                     </ul>
                             </div>
 
