@@ -6209,8 +6209,6 @@ h2.home-slide-title {
 div.home-slide-title {
   z-index: 7;
   white-space: nowrap;
-  font-size: 13px;
-  line-height: 20px;
   font-weight: 400;
   color: rgb(255, 255, 255);
   letter-spacing: 1px;
@@ -6229,7 +6227,7 @@ div.home-slide-title {
   opacity: 1;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   transform-origin: 50% 50% 0px;
-  margin-left: 37px;
+  margin-left: 27px;
 }
 
 iframe {
@@ -6371,5 +6369,12 @@ ul.sub-menu-contact {
   cursor: pointer;
 }
 
+h2.home-slide-title {
+  font-size: 90px;
+}
 
+div.home-slide-title {
+  font-size: 19px;
+  margin-bottom: 30px;
+}
 

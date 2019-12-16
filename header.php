@@ -22,7 +22,6 @@
 
 <body <?php body_class(); ?>>
 
-
     <div id="wptime-plugin-preloader"></div>
     <div class="opal-wrapper">
         <div class="mp-pusher" id="mp-pusher">
@@ -162,6 +161,7 @@
 </div>
 </div>
 </div>
+
 </header><!-- #masthead -->
 
 <div id="content" class="site-content" style="padding: 0;">
