@@ -6377,4 +6377,22 @@ div.home-slide-title {
   font-size: 19px;
   margin-bottom: 30px;
 }
+div.not-active {
+  font-weight: 400;
+  opacity: 0.65;
+}
 
+div.not-active::before {
+  content: "";
+  color: #ff4302;
+}
+
+.elementor-element-1db0d71 div.elementor-text-editor {
+  text-align: center;
+  padding: 0 200px;
+
+}
+
+.elementor-element-1db0d71 {
+  top: 13%;
+}

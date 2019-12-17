@@ -361,21 +361,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
 
-    $(function () {
-        'use strict';
-        $('form').submit(function(e){
-            e.preventDefault();
-            var $form=$(this);
-            $.ajax({
-                type: $form.attr('method'),
-                url: $form.attr('action'),
-                data: $('form').serialize()
-            }).done(function (response) {
-                console.log(response.success);
-            }).fail(function () {
-                console.log('fail');
-            });
+    var $form = $('.js-form-send');
+
+    $(document).on('submit', '.js-form-send', function (e) {
+
+        e.preventDefault();
+
+        var form = $(e.target);
+
+        var url = form.attr('action');
+
+        $.ajax({
+
+            type: 'POST',
+
+            url: url,
+
+            data: form.serialize(),
+
+            success: function success(data) {
+
+                console.log(response);
+            }
+
         });
+
     });
 
 
@@ -449,7 +459,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         $('div.owl-nav').fadeIn(300);
 
-        console.log('success');
 
     }, function () {
 
@@ -459,10 +468,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
 
+    $('.for-equal-heights').equalHeights();
+
 
 
     jQuery(document).ready(function ($) {
         opalAddQuantityBoxes();
+
+
+
     });
     jQuery(document).ajaxComplete(function ($) {
         opalAddQuantityBoxes();

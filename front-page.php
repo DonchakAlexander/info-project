@@ -35,49 +35,58 @@ get_header();
 
             <?php
 
+
+            $slider = get_field('slider_content');
             $about = get_field('about');
             $image_about = $about['image_about'];
             $services = get_field('services');
             $offices = get_field('offices');
             $revolution = $offices['revolution'];
-
-
-
-
+            $svobody = $offices['svobody'];
+            $pros = get_field('pros');
+            $adres = get_field('position');
 
 
             ?>
 
 
 
+            <?php
 
+            if ($slider) :
+
+            ?>
 
 
             <div class="owl-carousel owl-theme">
-                <div class="owl-slide d-flex align-items-center cover"
-                     style="background-image: url('/wp-content/themes/infoffice/assets/img/night-3.jpg');">
-                    <div class="container">
-                        <div class="row justify-content-center justify-content-md-start">
-                            <div class="col-10 col-md-6 static">
-                                <div class="owl-slide-text">
-                                    <div class="home-slide-title owl-slide-animated owl-slide-subtitle mb-3">
-                                        Коворкинг в центре Минска
-                                    </div>
-                                    <h2 class="home-slide-title owl-slide-animated owl-slide-title">Офис 13</h2>
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-4d701e3 elementor-align-right elementor-hidden-phone elementor-button-primary elementor-widget elementor-widget-button"
-                                                 data-id="4d701e3" data-element_type="widget"
-                                                 data-widget_type="button.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-button-wrapper">
-                                                        <a href="http://infoffice13.pf.by/booking/"
-                                                           class="btn-on-slider"
-                                                           role="button">
+
+                <? foreach ($slider as $slide) : ?>
+
+                    <div class="owl-slide d-flex align-items-center cover"
+                         style="background-image: url('<?= esc_url($slide['slider_image']['url']); ?>');">
+                        <div class="container">
+                            <div class="row justify-content-center justify-content-md-start">
+                                <div class="col-10 col-md-6 static">
+                                    <div class="owl-slide-text">
+                                        <div class="home-slide-title owl-slide-animated owl-slide-subtitle mb-3">
+                                            <?= $slide['slider_subtitle'] ?>
+                                        </div>
+                                        <h2 class="home-slide-title owl-slide-animated owl-slide-title"><?= $slide['slider_title'] ?></h2>
+                                        <div class="elementor-column-wrap  elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-4d701e3 elementor-align-right elementor-hidden-phone elementor-button-primary elementor-widget elementor-widget-button"
+                                                     data-id="4d701e3" data-element_type="widget"
+                                                     data-widget_type="button.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-button-wrapper">
+                                                            <a href="http://infoffice13.pf.by/booking/"
+                                                               class="btn-on-slider"
+                                                               role="button">
                                 <span class="elementor-button-content-wrapper">
-                                    <span class="elementor-button-text">Оставить заявку</span>
+                                    <span class="elementor-button-text"> Оставить заявку </span>
                                 </span>
-                                                        </a>
+                                                            </a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -87,43 +96,9 @@ get_header();
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="owl-slide d-flex align-items-center cover"
-                     style="background-image: url('/wp-content/themes/infoffice/assets/img/night-7.jpg');">
-                    <div class="container">
-                        <div class="row justify-content-center justify-content-md-start">
-                            <div class="col-10 col-md-6 static">
-                                <div class="owl-slide-text">
-                                    <div class="home-slide-title owl-slide-animated owl-slide-subtitle mb-3">
-                                        Коворкинг в центре Минска
-                                    </div>
-                                    <h2 class="home-slide-title owl-slide-animated owl-slide-title">Офис 13</h2>
-                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div class="elementor-element elementor-element-4d701e3 elementor-align-right elementor-hidden-phone elementor-button-primary elementor-widget elementor-widget-button"
-                                                 data-id="4d701e3" data-element_type="widget"
-                                                 data-widget_type="button.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="elementor-button-wrapper">
-                                                        <a href="http://infoffice13.pf.by/booking/"
-                                                           class="btn-on-slider"
-                                                           role="button">
-                                <span class="elementor-button-content-wrapper">
-                                    <span class="elementor-button-text">Оставить заявку</span>
-                                </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/owl-slide-->
+                <? endforeach; ?>
 
-
+                <? endif; ?>
             </div>
 
 
@@ -242,16 +217,16 @@ get_header();
                                                                         <?php
 
 
+                                                                        if (!empty($image_about)): ?>
 
-                                                                        if( !empty( $image_about ) ): ?>
+                                                                            <img width="1280" height="853"
+                                                                                 src="<?php echo esc_url($image_about['url']); ?>"
+                                                                                 class="attachment-full size-full"
+                                                                                 alt="<?php echo esc_attr($image_about['alt']); ?>"
+                                                                                 srcset="<?php echo esc_url($image_about['url']); ?> 1280w, <?php echo esc_url($image_about['url']); ?> 300w, <?php echo esc_url($image_about['url']); ?> 768w, <?php echo esc_url($image_about['url']); ?> 1024w"
+                                                                                 sizes="(max-width: 1280px) 100vw, 1280px">
 
-                                                                        <img width="1280" height="853"
-                                                                             src="<?php echo esc_url($image_about['url']); ?>"
-                                                                             class="attachment-full size-full" alt="<?php echo esc_attr($image_about['alt']); ?>"
-                                                                             srcset="<?php echo esc_url($image_about['url']); ?> 1280w, <?php echo esc_url($image_about['url']); ?> 300w, <?php echo esc_url($image_about['url']); ?> 768w, <?php echo esc_url($image_about['url']); ?> 1024w"
-                                                                             sizes="(max-width: 1280px) 100vw, 1280px">
-
-                                                                         <? endif; ?>
+                                                                        <? endif; ?>
 
                                                                     </div>
                                                                 </div>
@@ -382,14 +357,14 @@ get_header();
                                                                                                          srcset="/wp-content/themes/infoffice/assets/img/0003-IMG_7652-1-300x200.jpg 300w, /wp-content/themes/infoffice/assets/img/0003-IMG_7652-1-768x512.jpg 768w, /wp-content/themes/infoffice/assets/img/0003-IMG_7652-1-1024x682.jpg 1024w, /wp-content/themes/infoffice/assets/img/0003-IMG_7652-1.jpg 1280w"
                                                                                                          sizes="(max-width: 300px) 100vw, 300px">
                                                                                                     <h3 class="elementor-price-table__heading">
-                                                                                                        <?= $revolution['rev_title'];  ?></h3>
+                                                                                                        <?= $revolution['rev_title']; ?></h3>
 
                                                                                                 </div>
 
                                                                                                 <div class="elementor-price-table__price">
 
                                                                                                     <div class="elementor-price-table__allprice">
-                                                                                                        <span class="elementor-price-table__integer-part"><?= $revolution['reva_price'];  ?></span>
+                                                                                                        <span class="elementor-price-table__integer-part"><?= $revolution['reva_price']; ?></span>
 
                                                                                                         <span class="elementor-price-table__fractional-part"></span>
                                                                                                         <div class="elementor-price-table__period elementor-typo-excluded">
@@ -399,52 +374,35 @@ get_header();
 
 
                                                                                                     <div class="elementor-price-table__description">
-                                                                                                        <?= $revolution['reva_text'];  ?>
+                                                                                                        <?= $revolution['reva_text']; ?>
                                                                                                     </div>
 
                                                                                                 </div>
-    <?php $list = $revolution['list'];
-          $list_item = $list['list_item'];
-    ?>
-                                                                                                <ul class="elementor-price-table__features-list">
-                                                                                                    <?
-
-                                                                                                    foreach ($list as $row) :
-
+                                                                                                <?php $list = $revolution['list'];
+                                                                                                if ($list) :
                                                                                                     ?>
-                                                                                                    <li class="elementor-repeater-item-c4fd334">
-                                                                                                        <div class="elementor-price-table__feature-inner">
-								                                    <span>
-										<?= $row['list_items'];  ?>									</span>
-                                                                                                        </div>
-                                                                                                    </li>
-                                                                                                    <!--<li class="elementor-repeater-item-5b4809b">
-                                                                                                        <div class="elementor-price-table__feature-inner">
-								                                    <span>
-										Доступность 24/7									</span>
-                                                                                                        </div>
-                                                                                                    </li>
-                                                                                                    <li class="elementor-repeater-item-0d3916d">
-                                                                                                        <div class="elementor-price-table__feature-inner">
-								                                    <span>
-										Собственная парковка									</span>
-                                                                                                        </div>
-                                                                                                    </li>
-                                                                                                    <li class="elementor-repeater-item-553b0be">
-                                                                                                        <div class="elementor-price-table__feature-inner">
-								                                    <span>
-										Бесплатный трансфер из аэропорта									</span>
-                                                                                                        </div>
-                                                                                                    </li>
-                                                                                                    <li class="elementor-repeater-item-db3670a">
-                                                                                                        <div class="elementor-price-table__feature-inner">
-								                                    <span>
-										Бонусы при долгосрочной аренде									</span>
-                                                                                                        </div>
-                                                                                                    </li>-->
-                                                                                                    <? endforeach; ?>
-                                                                                                </ul>
+                                                                                                    <ul class="elementor-price-table__features-list for-equal-heights">
+                                                                                                        <?
 
+                                                                                                        foreach ($list as $row) :
+                                                                                                            if ($row['enable_reva']) :
+                                                                                                                ?>
+                                                                                                                <li class="elementor-repeater-item-c4fd334">
+                                                                                                                <div class="elementor-price-table__feature-inner">
+								                                    <span>
+										<?= $row['list_item']; ?>									</span>
+                                                                                                                </div>
+                                                                                                                </li><? else : ?>
+                                                                                                                <li class="elementor-repeater-item-553b0be">
+                                                                                                                    <div class="elementor-price-table__feature-inner not-active">
+								                                    <span>
+										<?= $row['list_item']; ?>									</span>
+                                                                                                                    </div>
+                                                                                                                </li>
+                                                                                                            <? endif;
+                                                                                                        endforeach; ?>
+                                                                                                    </ul>
+                                                                                                <? endif; ?>
                                                                                                 <div class="elementor-price-table__footer">
                                                                                                     <a class="elementor-price-table__button elementor-button elementor-size-md"
                                                                                                        href="http://infoffice13.pf.by/home-1/revolucionnaya-13/">Перейти</a>
@@ -479,14 +437,14 @@ get_header();
                                                                                                          srcset="/wp-content/themes/infoffice/assets/img/office-1-300x200.jpg 300w, /wp-content/themes/infoffice/assets/img/office-1-768x512.jpg 768w, /wp-content/themes/infoffice/assets/img/office-1-1024x682.jpg 1024w, /wp-content/themes/infoffice/assets/img/office-1.jpg 1280w"
                                                                                                          sizes="(max-width: 300px) 100vw, 300px">
                                                                                                     <h3 class="elementor-price-table__heading">
-                                                                                                        Свободы 2</h3>
+                                                                                                        <?= $svobody['svobody_title'] ?></h3>
 
                                                                                                 </div>
 
                                                                                                 <div class="elementor-price-table__price">
 
                                                                                                     <div class="elementor-price-table__allprice">
-                                                                                                        <span class="elementor-price-table__integer-part">от 8 BYN</span>
+                                                                                                        <span class="elementor-price-table__integer-part"><?= $svobody['svobody_price'] ?></span>
 
                                                                                                         <span class="elementor-price-table__fractional-part"></span>
                                                                                                         <div class="elementor-price-table__period elementor-typo-excluded">
@@ -496,50 +454,36 @@ get_header();
 
 
                                                                                                     <div class="elementor-price-table__description">
-                                                                                                        Приятная,
-                                                                                                        продуктивная и
-                                                                                                        творческая
-                                                                                                        атмосфера среди
-                                                                                                        круга активных,
-                                                                                                        вдохновляющих
-                                                                                                        единомышленников
-                                                                                                        и друзей.
+                                                                                                        <?= $svobody['svobody_text'] ?>
                                                                                                     </div>
 
                                                                                                 </div>
 
-                                                                                                <ul class="elementor-price-table__features-list">
-                                                                                                    <li class="elementor-repeater-item-c4fd334">
-                                                                                                        <div class="elementor-price-table__feature-inner">
+                                                                                                <?php $list = $svobody['list'];
+                                                                                                if ($list) :
+                                                                                                    ?>
+                                                                                                    <ul class="elementor-price-table__features-list for-equal-heights">
+                                                                                                        <?
+
+                                                                                                        foreach ($list as $row) :
+                                                                                                            if ($row['enable_svobody']) :
+                                                                                                                ?>
+                                                                                                                <li class="elementor-repeater-item-c4fd334">
+                                                                                                                <div class="elementor-price-table__feature-inner">
 								                                    <span>
-										Маркерная доска и оборудование									</span>
-                                                                                                        </div>
-                                                                                                    </li>
-                                                                                                    <li class="elementor-repeater-item-5b4809b">
-                                                                                                        <div class="elementor-price-table__feature-inner">
+										<?= $row['list_item']; ?>									</span>
+                                                                                                                </div>
+                                                                                                                </li><? else : ?>
+                                                                                                                <li class="elementor-repeater-item-553b0be">
+                                                                                                                    <div class="elementor-price-table__feature-inner not-active">
 								                                    <span>
-										Горячие напитки и безлимитный WiFi									</span>
-                                                                                                        </div>
-                                                                                                    </li>
-                                                                                                    <li class="elementor-repeater-item-0d3916d">
-                                                                                                        <div class="elementor-price-table__feature-inner">
-								                                    <span>
-										Индивидуальная расстановка мебели									</span>
-                                                                                                        </div>
-                                                                                                    </li>
-                                                                                                    <li class="elementor-repeater-item-553b0be">
-                                                                                                        <div class="elementor-price-table__feature-inner">
-								                                    <span>
-										Платная парковка									</span>
-                                                                                                        </div>
-                                                                                                    </li>
-                                                                                                    <li class="elementor-repeater-item-db3670a">
-                                                                                                        <div class="elementor-price-table__feature-inner">
-								                                    <span>
-										Время работы с 8:00 до 22:00									</span>
-                                                                                                        </div>
-                                                                                                    </li>
-                                                                                                </ul>
+										<?= $row['list_item']; ?>									</span>
+                                                                                                                    </div>
+                                                                                                                </li>
+                                                                                                            <? endif;
+                                                                                                        endforeach; ?>
+                                                                                                    </ul>
+                                                                                                <? endif; ?>
 
                                                                                                 <div class="elementor-price-table__footer">
                                                                                                     <a class="elementor-price-table__button elementor-button elementor-size-md"
@@ -553,6 +497,23 @@ get_header();
                                                                                                     BEST
                                                                                                 </div>
                                                                                             </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-1db0d71 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="1db0d71" data-element_type="section">
+                                                                <div class="elementor-container elementor-column-gap-no">
+                                                                    <div class="elementor-row">
+                                                                        <div class="elementor-element elementor-element-03344bf elementor-column elementor-col-100 elementor-top-column" data-id="03344bf" data-element_type="column">
+                                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                                <div class="elementor-widget-wrap">
+                                                                                    <div class="elementor-element elementor-element-02eab99 elementor-widget elementor-widget-text-editor" data-id="02eab99" data-element_type="widget" data-widget_type="text-editor.default">
+                                                                                        <div class="elementor-widget-container">
+                                                                                            <div class="elementor-text-editor elementor-clearfix"><p><?= $offices['text2_offices']; ?></p></div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -582,14 +543,14 @@ get_header();
                                                                  data-widget_type="text-editor.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-text-editor elementor-clearfix">
-                                                                        <p>Наши достоинства</p></div>
+                                                                        <p><?= $pros['title_pros'] ?></p></div>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-321b3f0 elementor-widget elementor-widget-heading"
                                                                  data-id="321b3f0" data-element_type="widget"
                                                                  data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
-                                                                    <span class="elementor-heading-title elementor-size-default">Интересные места рядом с нами</span>
+                                                                    <span class="elementor-heading-title elementor-size-default"><?= $pros['subtitle_pros'] ?></span>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-afa0dcb elementor-widget elementor-widget-text-editor"
@@ -597,63 +558,32 @@ get_header();
                                                                  data-widget_type="text-editor.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-text-editor elementor-clearfix">
-                                                                        <p>Мы находимся в историческом центре города
-                                                                            Минска, поэтому рядом с нами множество
-                                                                            интересных мест для посещения, среди
-                                                                            которых:</p></div>
+                                                                        <p><?= $pros['text_pros'] ?></p></div>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-16f071b elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list"
                                                                  data-id="16f071b" data-element_type="widget"
                                                                  data-widget_type="icon-list.default">
+
+
                                                                 <div class="elementor-widget-container">
-                                                                    <ul class="elementor-icon-list-items">
-                                                                        <li class="elementor-icon-list-item">
+                                                                    <?php
+
+                                                                    $list = $pros['pros_list'];
+
+                                                                    if ($list) :
+
+                                                                        ?>
+                                                                        <ul class="elementor-icon-list-items">
+                                                                            <? foreach ($list as $row) : ?>
+                                                                                <li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-                                                                            <span class="elementor-icon-list-text">Верхний город</span>
-                                                                        </li>
-                                                                        <li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-                                                                            <span class="elementor-icon-list-text">Минская ратуша - главное украшение площади Свободы</span>
-                                                                        </li>
-                                                                        <li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-                                                                            <span class="elementor-icon-list-text">Грузинское и Французское посольство</span>
-                                                                        </li>
-                                                                        <li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-                                                                            <span class="elementor-icon-list-text">Троицкое предместье</span>
-                                                                        </li>
-                                                                        <li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-                                                                            <span class="elementor-icon-list-text">Дворец Республики</span>
-                                                                        </li>
-                                                                        <li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-                                                                            <span class="elementor-icon-list-text">Большой театр оперы и балета</span>
-                                                                        </li>
-                                                                        <li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-                                                                            <span class="elementor-icon-list-text">Театр имени Янки Купалы</span>
-                                                                        </li>
-                                                                        <li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-                                                                            <span class="elementor-icon-list-text">Собор Пресвятой Девы Марии</span>
-                                                                        </li>
-                                                                        <li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-                                                                            <span class="elementor-icon-list-text">Кафедральный собор Сошествия Святого Духа</span>
-                                                                        </li>
-                                                                    </ul>
+                                                                                    <span class="elementor-icon-list-text"><?= $row['list_item_pros'] ?></span>
+                                                                                </li>
+                                                                            <? endforeach; ?>
+                                                                        </ul>
+                                                                    <? endif; ?>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-ea7fad1 elementor-align-left elementor-button-primary elementor-widget elementor-widget-button"
@@ -702,96 +632,108 @@ get_header();
                                          data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
                                         <div class="elementor-container elementor-column-gap-no">
                                             <div class="elementor-row">
-                                                <div class="elementor-element elementor-element-10fdc0e elementor-column elementor-col-100 elementor-top-column"
-                                                     data-id="10fdc0e" data-element_type="column">
-                                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                                        <div class="elementor-widget-wrap">
-                                                            <div class="elementor-element elementor-element-d94db97 elementor-widget elementor-widget-opal-image-gallery"
-                                                                 data-id="d94db97" data-element_type="widget"
-                                                                 data-settings="{&quot;gallery_animation&quot;:&quot;Shu&quot;}"
-                                                                 data-widget_type="opal-image-gallery.default">
-                                                                <div class="elementor-widget-container">
-                                                                    <div class="elementor-image-gallery">
-                                                                        <div class="row grid" data-elementor-columns="3"
-                                                                             data-elementor-columns-tablet="2"
-                                                                             data-elementor-columns-mobile="1">
-                                                                            <div class="column-item grid__item">
-                                                                                <a class="grid__link"
-                                                                                   data-elementor-lightbox-slideshow="d94db97"
-                                                                                   href="/wp-content/themes/infoffice/assets/img/night-10.jpg">
-                                                                                    <img class=""
-                                                                                         src="/wp-content/themes/infoffice/assets/img/night-10.jpg"
-                                                                                         alt="night (10)">
-                                                                                    <div class="gallery-item-overlay">
-                                                                                        <i class="fa fa-image"></i>
-                                                                                        <span>View Gallery</span>
+
+                                                <?php $images = get_field('home_gallery');
+                                                if ($images) :
+
+                                                    ?>
+
+
+                                                    <div class="elementor-element elementor-element-10fdc0e elementor-column elementor-col-100 elementor-top-column"
+                                                         data-id="10fdc0e" data-element_type="column">
+                                                        <div class="elementor-column-wrap  elementor-element-populated">
+                                                            <div class="elementor-widget-wrap">
+                                                                <div class="elementor-element elementor-element-d94db97 elementor-widget elementor-widget-opal-image-gallery"
+                                                                     data-id="d94db97" data-element_type="widget"
+                                                                     data-settings="{&quot;gallery_animation&quot;:&quot;Shu&quot;}"
+                                                                     data-widget_type="opal-image-gallery.default">
+                                                                    <div class="elementor-widget-container">
+                                                                        <div class="elementor-image-gallery">
+                                                                            <div class="row grid"
+                                                                                 data-elementor-columns="3"
+                                                                                 data-elementor-columns-tablet="2"
+                                                                                 data-elementor-columns-mobile="1">
+                                                                                <?php foreach ($images as $image) : ?>
+                                                                                    <div class="column-item grid__item">
+                                                                                        <a class="grid__link"
+                                                                                           data-elementor-lightbox-slideshow="d94db97"
+                                                                                           href="<?= esc_url($image['url']); ?>">
+                                                                                            <img class=""
+                                                                                                 src="<?= esc_url($image['url']); ?>"
+                                                                                                 alt="<?php echo esc_attr($image['alt']); ?>">
+                                                                                            <div class="gallery-item-overlay">
+                                                                                                <i class="fa fa-image"></i>
+                                                                                                <span>Просмотреть галлерею</span>
+                                                                                            </div>
+                                                                                        </a>
                                                                                     </div>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="column-item grid__item">
-                                                                                <a class="grid__link"
-                                                                                   data-elementor-lightbox-slideshow="d94db97"
-                                                                                   href="/wp-content/themes/infoffice/assets/img/night-8.jpg">
-                                                                                    <img class=""
-                                                                                         src="/wp-content/themes/infoffice/assets/img/night-8.jpg"
-                                                                                         alt="night (8)">
-                                                                                    <div class="gallery-item-overlay">
-                                                                                        <i class="fa fa-image"></i>
-                                                                                        <span>View Gallery</span>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="column-item grid__item">
-                                                                                <a class="grid__link"
-                                                                                   data-elementor-lightbox-slideshow="d94db97"
-                                                                                   href="/wp-content/themes/infoffice/assets/img/night-7.jpg">
-                                                                                    <img class=""
-                                                                                         src="/wp-content/themes/infoffice/assets/img/night-7.jpg"
-                                                                                         alt="night (7)">
-                                                                                    <div class="gallery-item-overlay">
-                                                                                        <i class="fa fa-image"></i>
-                                                                                        <span>View Gallery</span>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="column-item grid__item">
-                                                                                <a class="grid__link"
-                                                                                   data-elementor-lightbox-slideshow="d94db97"
-                                                                                   href="/wp-content/themes/infoffice/assets/img/night-6.jpg">
-                                                                                    <img class=""
-                                                                                         src="/wp-content/themes/infoffice/assets/img/night-6.jpg"
-                                                                                         alt="night (6)">
-                                                                                    <div class="gallery-item-overlay">
-                                                                                        <i class="fa fa-image"></i>
-                                                                                        <span>View Gallery</span>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="column-item grid__item">
-                                                                                <a class="grid__link"
-                                                                                   data-elementor-lightbox-slideshow="d94db97"
-                                                                                   href="/wp-content/themes/infoffice/assets/img/night-5.jpg">
-                                                                                    <img class=""
-                                                                                         src="/wp-content/themes/infoffice/assets/img/night-5.jpg"
-                                                                                         alt="night (5)">
-                                                                                    <div class="gallery-item-overlay">
-                                                                                        <i class="fa fa-image"></i>
-                                                                                        <span>View Gallery</span>
-                                                                                    </div>
-                                                                                </a>
-                                                                            </div>
-                                                                            <div class="column-item grid__item">
-                                                                                <a class="grid__link"
-                                                                                   data-elementor-lightbox-slideshow="d94db97"
-                                                                                   href="/wp-content/themes/infoffice/assets/img/night-3.jpg">
-                                                                                    <img class=""
-                                                                                         src="/wp-content/themes/infoffice/assets/img/night-3.jpg"
-                                                                                         alt="night (3)">
-                                                                                    <div class="gallery-item-overlay">
-                                                                                        <i class="fa fa-image"></i>
-                                                                                        <span>View Gallery</span>
-                                                                                    </div>
-                                                                                </a>
+
+                                                                                <? endforeach; ?>
+                                                                                <!--<div class="column-item grid__item">
+                                                                                    <a class="grid__link"
+                                                                                       data-elementor-lightbox-slideshow="d94db97"
+                                                                                       href="/wp-content/themes/infoffice/assets/img/night-8.jpg">
+                                                                                        <img class=""
+                                                                                             src="/wp-content/themes/infoffice/assets/img/night-8.jpg"
+                                                                                             alt="night (8)">
+                                                                                        <div class="gallery-item-overlay">
+                                                                                            <i class="fa fa-image"></i>
+                                                                                            <span>View Gallery</span>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="column-item grid__item">
+                                                                                    <a class="grid__link"
+                                                                                       data-elementor-lightbox-slideshow="d94db97"
+                                                                                       href="/wp-content/themes/infoffice/assets/img/night-7.jpg">
+                                                                                        <img class=""
+                                                                                             src="/wp-content/themes/infoffice/assets/img/night-7.jpg"
+                                                                                             alt="night (7)">
+                                                                                        <div class="gallery-item-overlay">
+                                                                                            <i class="fa fa-image"></i>
+                                                                                            <span>View Gallery</span>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="column-item grid__item">
+                                                                                    <a class="grid__link"
+                                                                                       data-elementor-lightbox-slideshow="d94db97"
+                                                                                       href="/wp-content/themes/infoffice/assets/img/night-6.jpg">
+                                                                                        <img class=""
+                                                                                             src="/wp-content/themes/infoffice/assets/img/night-6.jpg"
+                                                                                             alt="night (6)">
+                                                                                        <div class="gallery-item-overlay">
+                                                                                            <i class="fa fa-image"></i>
+                                                                                            <span>View Gallery</span>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="column-item grid__item">
+                                                                                    <a class="grid__link"
+                                                                                       data-elementor-lightbox-slideshow="d94db97"
+                                                                                       href="/wp-content/themes/infoffice/assets/img/night-5.jpg">
+                                                                                        <img class=""
+                                                                                             src="/wp-content/themes/infoffice/assets/img/night-5.jpg"
+                                                                                             alt="night (5)">
+                                                                                        <div class="gallery-item-overlay">
+                                                                                            <i class="fa fa-image"></i>
+                                                                                            <span>View Gallery</span>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="column-item grid__item">
+                                                                                    <a class="grid__link"
+                                                                                       data-elementor-lightbox-slideshow="d94db97"
+                                                                                       href="/wp-content/themes/infoffice/assets/img/night-3.jpg">
+                                                                                        <img class=""
+                                                                                             src="/wp-content/themes/infoffice/assets/img/night-3.jpg"
+                                                                                             alt="night (3)">
+                                                                                        <div class="gallery-item-overlay">
+                                                                                            <i class="fa fa-image"></i>
+                                                                                            <span>View Gallery</span>
+                                                                                        </div>
+                                                                                    </a>
+                                                                                </div>-->
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -799,7 +741,9 @@ get_header();
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+
+
+                                                <? endif; ?>
                                             </div>
                                         </div>
                                     </div>
@@ -808,52 +752,63 @@ get_header();
                                          data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
                                         <div class="elementor-container elementor-column-gap-no">
                                             <div class="elementor-row">
-                                                <div class="elementor-element elementor-element-8066d59 elementor-column elementor-col-50 elementor-top-column"
-                                                     data-id="8066d59" data-element_type="column">
-                                                    <div class="elementor-column-wrap  elementor-element-populated">
-                                                        <div class="elementor-widget-wrap">
-                                                            <div class="elementor-element elementor-element-630336b elementor-widget elementor-widget-spacer"
-                                                                 data-id="630336b" data-element_type="widget"
-                                                                 data-widget_type="spacer.default">
-                                                                <div class="elementor-widget-container">
-                                                                    <div class="elementor-spacer">
-                                                                        <div class="elementor-spacer-inner"></div>
+
+                                                <?php
+
+                                                if ($adres) :
+                                                    foreach ($adres as $row) :
+                                                        ?>
+
+
+                                                        <div class="elementor-element elementor-element-8066d59 elementor-column elementor-col-50 elementor-top-column"
+                                                             data-id="8066d59" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-630336b elementor-widget elementor-widget-spacer"
+                                                                         data-id="630336b" data-element_type="widget"
+                                                                         data-widget_type="spacer.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-spacer">
+                                                                                <div class="elementor-spacer-inner"></div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="elementor-element elementor-element-94e6b0e elementor-widget elementor-widget-spacer"
-                                                                 data-id="94e6b0e" data-element_type="widget"
-                                                                 data-widget_type="spacer.default">
-                                                                <div class="elementor-widget-container">
-                                                                    <div class="elementor-spacer">
-                                                                        <div class="elementor-spacer-inner"></div>
+                                                                    <div class="elementor-element elementor-element-94e6b0e elementor-widget elementor-widget-spacer"
+                                                                         data-id="94e6b0e" data-element_type="widget"
+                                                                         data-widget_type="spacer.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-spacer">
+                                                                                <div class="elementor-spacer-inner"></div>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="elementor-element elementor-element-076027e elementor-view-stacked elementor-position-left elementor-shape-circle elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                                                 data-id="076027e" data-element_type="widget"
-                                                                 data-widget_type="icon-box.default">
-                                                                <div class="elementor-widget-container">
-                                                                    <div class="elementor-icon-box-wrapper">
-                                                                        <div class="elementor-icon-box-icon">
+                                                                    <div class="elementor-element elementor-element-076027e elementor-view-stacked elementor-position-left elementor-shape-circle elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                                                                         data-id="076027e" data-element_type="widget"
+                                                                         data-widget_type="icon-box.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-icon-box-wrapper">
+                                                                                <div class="elementor-icon-box-icon">
             <span class="elementor-icon elementor-animation-">
             <i class="fa fa-map" aria-hidden="true"></i>
             </span>
-                                                                        </div>
-                                                                        <div class="elementor-icon-box-content">
-                                                                            <h3 class="elementor-icon-box-title">
-                                                                                <span>Адрес</span>
-                                                                            </h3>
-                                                                            <p class="elementor-icon-box-description">
-                                                                                г.Минск, ул. Революционная 13</p>
+                                                                                </div>
+                                                                                <div class="elementor-icon-box-content">
+                                                                                    <h3 class="elementor-icon-box-title">
+                                                                                        <span><?= $row['title_pos'] ?></span>
+                                                                                    </h3>
+                                                                                    <p class="elementor-icon-box-description">
+                                                                                        <?= $row['adres'] ?></p>
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-18d4d11 elementor-column elementor-col-50 elementor-top-column"
+
+                                                    <? endforeach;
+                                                endif; ?>
+                                                <!--<div class="elementor-element elementor-element-18d4d11 elementor-column elementor-col-50 elementor-top-column"
                                                      data-id="18d4d11" data-element_type="column">
                                                     <div class="elementor-column-wrap  elementor-element-populated">
                                                         <div class="elementor-widget-wrap">
@@ -897,7 +852,7 @@ get_header();
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div>-->
                                             </div>
                                         </div>
                                     </div>
@@ -948,22 +903,9 @@ get_header();
                                                                     <div role="form" class="wpcf7" id="wpcf7-f6-p10-o1"
                                                                          lang="ru-RU" dir="ltr">
                                                                         <div class="screen-reader-response"></div>
-                                                                        <?php
-                                                                        if (isset($_GET['msg'])) {
-                                                                            if ($_GET['msg'] == 'success')
-                                                                                echo '<span>Сообщение успешно отправлено</span>';
 
-                                                                            if ($_GET['msg'] == 'error')
-                                                                                echo '<span><strong>Ошибка:<strong> Проверьте правильность введённых вами данных.</span>';
-                                                                            // EEEEEEEEEERRRRRRRRRRRRRRRRRROOOOOOOOOOOORRRRRRRRRRRRR
-
-                                                                        };
-
-                                                                        echo '<style>textarea[name="comment"],textarea[name="message1"]{display:none}</style>';
-                                                                        ?>
-
-                                                                        <form action="<?php echo site_url() ?>/wp-content/themes/infoffice/send.php"
-                                                                              method="POST">
+                                                                        <form action="<?php echo site_url() ?>/wp-content/themes/infoffice/functions.php"
+                                                                              method="POST" class="js-form-send">
                                                                             <label>Ваше имя (Обязательно)<br>
                                                                                 <span class="wpcf7-form-control-wrap your-name"><input
                                                                                             type="text" name="name"
@@ -977,8 +919,7 @@ get_header();
                                                                                             name="message" cols="40"
                                                                                             rows="3"
                                                                                             class="form-input"></textarea> </span></label>
-                                                                            <textarea name="message1"></textarea>
-                                                                            <textarea name="comment"></textarea>
+                                                                            <input type="hidden" name="message1">
                                                                             <input id="form-submit" type="submit">
                                                                         </form>
 

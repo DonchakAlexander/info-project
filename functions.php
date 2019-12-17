@@ -175,6 +175,7 @@ function infoffice_scripts() {
 
 	wp_enqueue_script('jquery', get_template_directory_uri() . '/assets/js/jquery.js', array(), '1.0', true);
 	wp_enqueue_script( 'infoffice-all', get_template_directory_uri() . '/assets/js/all.js', array(), '1.0', true );
+	wp_enqueue_script( 'equal-heights', get_template_directory_uri() . '/assets/js/jquery.equalheights.min.js', array(), '1.0', true );
 
 	wp_enqueue_script( 'infoffice-anime.min', get_template_directory_uri() . '/assets/js/anime.min.js', array(), '1.0', true );
 	wp_enqueue_script( 'infoffice-carousel', get_template_directory_uri() . '/assets/js/carousel.js', array(), '1.0', true );
@@ -243,6 +244,15 @@ require get_template_directory() . '/inc/customizer.php';
 * Custom css file
 */
 require get_template_directory() . '/inc/info-custom.php';
+
+
+/**
+ * Form send file
+ */
+
+require get_template_directory() . '/inc/send.php';
+
+
 
 /**
  * Load Jetpack compatibility file.
