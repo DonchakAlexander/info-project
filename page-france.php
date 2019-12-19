@@ -88,6 +88,13 @@ get_header();
                 </div><!--/owl-slide-->
 
 
+
+            <?php
+
+            $about = get_field('about');
+            $meetings = get_field('how_meetings');
+
+            ?>
             </div>
             <div id="page-title-bar" class="page-title-bar">
             </div>
@@ -114,14 +121,14 @@ get_header();
                                                                  data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
                                                                     <h3 class="elementor-heading-title elementor-size-default">
-                                                                        О нас</h3></div>
+                                                                        <?= $about['about-title'] ?></h3></div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-7b88abf elementor-widget elementor-widget-heading"
                                                                  data-id="7b88abf" data-element_type="widget"
                                                                  data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-heading-title elementor-size-default">
-                                                                        «Французское свидание»
+                                                                        <?= $about['france_date']  ?>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -130,13 +137,7 @@ get_header();
                                                                  data-widget_type="text-editor.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-text-editor elementor-clearfix">
-                                                                        <p>Во французском разговорном клубе «Renvez-vous
-                                                                            français» Вы будете изучать язык в атмосфере
-                                                                            удовольствия, тепла и приятного общения с
-                                                                            теми, кто думает на иностранном языке. В
-                                                                            ритме современного мира за чашкой кофе можно
-                                                                            почерпнуть больше полезного, чем за месяц
-                                                                            чтения книг.</p>
+                                                                        <p><?= $about['text'] ?></p>
                                                                         <p>&nbsp;</p></div>
                                                                 </div>
                                                             </div>
@@ -145,7 +146,7 @@ get_header();
                                                                  data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-heading-title elementor-size-default">
-                                                                        Для кого создан разговорный клуб?
+                                                                        <?= $about['for']  ?>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -154,14 +155,7 @@ get_header();
                                                                  data-widget_type="text-editor.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-text-editor elementor-clearfix">
-                                                                        <p>Французский разговорный клуб будет интересен
-                                                                            тем, кто ищет свободного и легкого общения.
-                                                                            Здесь нет предварительной подготовки и
-                                                                            домашнего задания. Курс подходит тем, у кого
-                                                                            уже есть определенная база грамматики и
-                                                                            лексики, так как общение будет проходить с
-                                                                            носителями языка и только на
-                                                                            французском.</p></div>
+                                                                        <p><?= $about['second_text']   ?></p></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -185,9 +179,9 @@ get_header();
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-image">
                                                                         <img width="1280" height="853"
-                                                                             src="./Французский разговорный клуб — infoffice_files/square-27.jpg"
+                                                                             src="<?php echo  esc_url($about['image_about']['url'])  ?>"
                                                                              class="attachment-full size-full" alt=""
-                                                                             srcset="http://infoffice13.pf.by/wp-content/uploads/2019/10/square-27.jpg 1280w, http://infoffice13.pf.by/wp-content/uploads/2019/10/square-27-300x200.jpg 300w, http://infoffice13.pf.by/wp-content/uploads/2019/10/square-27-768x512.jpg 768w, http://infoffice13.pf.by/wp-content/uploads/2019/10/square-27-1024x682.jpg 1024w"
+                                                                             srcset="<?php echo  esc_url($about['image_about']['url'])  ?> 1280w, <?php echo  esc_url($about['image_about']['url'])  ?> 300w, <?php echo  esc_url($about['image_about']['url'])  ?> 768w, <?php echo  esc_url($about['image_about']['url'])  ?> 1024w"
                                                                              sizes="(max-width: 1280px) 100vw, 1280px">
                                                                     </div>
                                                                 </div>
@@ -592,7 +586,7 @@ get_header();
                                                                  data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-heading-title elementor-size-default">
-                                                                        Как проходят встречи?
+                                                                        <?= $meetings['title'] ?>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -616,18 +610,7 @@ get_header();
                                                                  data-widget_type="text-editor.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-text-editor elementor-clearfix">
-                                                                        <p>В основе обучения лежит коммуникативная
-                                                                            методика, которая предполагает полное
-                                                                            погружение в языковую среду. Благодаря
-                                                                            грамотно скоординированной работе наших
-                                                                            преподавателей, встречи проходят
-                                                                            увлекательно и максимально эффективно.</p>
-                                                                        <p>Вы можете сами предлагать темы, на которые
-                                                                            вам бы хотелось пообщаться, чтобы
-                                                                            попрактиковаться в языке, пополнить свой
-                                                                            словарный запас, научиться воспринимать
-                                                                            чужую речь на слух и отработать специальную
-                                                                            лексику.</p></div>
+                                                                        <p><?= $meetings['text'] ?></p></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -651,9 +634,9 @@ get_header();
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-image">
                                                                         <img width="1280" height="853"
-                                                                             src='/wp-content/themes/infoffice/assets/img/office-11.jpg'
+                                                                             src='<?= esc_url($meetings['image']['url']) ?>'
                                                                              class="attachment-full size-full" alt=""
-                                                                             srcset="http://infoffice13.pf.by/wp-content/uploads/2019/10/office-11.jpg 1280w, http://infoffice13.pf.by/wp-content/uploads/2019/10/office-11-300x200.jpg 300w, http://infoffice13.pf.by/wp-content/uploads/2019/10/office-11-768x512.jpg 768w, http://infoffice13.pf.by/wp-content/uploads/2019/10/office-11-1024x682.jpg 1024w"
+                                                                             srcset="<?= esc_url($meetings['image']['url']) ?> 1280w, <?= esc_url($meetings['image']['url']) ?> 768w, <?= esc_url($meetings['image']['url']) ?> 1024w"
                                                                              sizes="(max-width: 1280px) 100vw, 1280px">
                                                                     </div>
                                                                 </div>
