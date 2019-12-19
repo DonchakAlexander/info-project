@@ -131,7 +131,7 @@
 
 
 
-                                    <a href="<?= $phone_header_link ?>" class="elementor-button-text" id="header-phone"><?php echo get_field('phone_number_header', 'options'); ?></a>
+                                    <a href="<?= esc_url($phone_header_link) ?>" class="elementor-button-text" id="header-phone"><?php echo esc_html(get_field('phone_number_header', 'options')); ?></a>
                                 </a>
                                     <ul class="sub-menu-contact">
                                         <?php
@@ -140,7 +140,7 @@
 
                                         ?>
 
-                                        <li class="contact-menu-item"><a href="<?= esc_url($row['contact_link']['url']); ?>" class="elementor-sub-item"><?= esc_html($row['contact_text']); ?></a></li>
+                                        <li class="contact-menu-item"><a href="<?= esc_url($row['contact_link']); ?>" class="elementor-sub-item"><?= esc_html($row['contact_text']); ?></a></li>
 
                                         <?php endforeach;
                                             endif;
