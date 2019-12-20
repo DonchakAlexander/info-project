@@ -669,72 +669,7 @@ get_header();
                                                                                     </div>
 
                                                                                 <? endforeach; ?>
-                                                                                <!--<div class="column-item grid__item">
-                                                                                    <a class="grid__link"
-                                                                                       data-elementor-lightbox-slideshow="d94db97"
-                                                                                       href="/wp-content/themes/infoffice/assets/img/night-8.jpg">
-                                                                                        <img class=""
-                                                                                             src="/wp-content/themes/infoffice/assets/img/night-8.jpg"
-                                                                                             alt="night (8)">
-                                                                                        <div class="gallery-item-overlay">
-                                                                                            <i class="fa fa-image"></i>
-                                                                                            <span>View Gallery</span>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </div>
-                                                                                <div class="column-item grid__item">
-                                                                                    <a class="grid__link"
-                                                                                       data-elementor-lightbox-slideshow="d94db97"
-                                                                                       href="/wp-content/themes/infoffice/assets/img/night-7.jpg">
-                                                                                        <img class=""
-                                                                                             src="/wp-content/themes/infoffice/assets/img/night-7.jpg"
-                                                                                             alt="night (7)">
-                                                                                        <div class="gallery-item-overlay">
-                                                                                            <i class="fa fa-image"></i>
-                                                                                            <span>View Gallery</span>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </div>
-                                                                                <div class="column-item grid__item">
-                                                                                    <a class="grid__link"
-                                                                                       data-elementor-lightbox-slideshow="d94db97"
-                                                                                       href="/wp-content/themes/infoffice/assets/img/night-6.jpg">
-                                                                                        <img class=""
-                                                                                             src="/wp-content/themes/infoffice/assets/img/night-6.jpg"
-                                                                                             alt="night (6)">
-                                                                                        <div class="gallery-item-overlay">
-                                                                                            <i class="fa fa-image"></i>
-                                                                                            <span>View Gallery</span>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </div>
-                                                                                <div class="column-item grid__item">
-                                                                                    <a class="grid__link"
-                                                                                       data-elementor-lightbox-slideshow="d94db97"
-                                                                                       href="/wp-content/themes/infoffice/assets/img/night-5.jpg">
-                                                                                        <img class=""
-                                                                                             src="/wp-content/themes/infoffice/assets/img/night-5.jpg"
-                                                                                             alt="night (5)">
-                                                                                        <div class="gallery-item-overlay">
-                                                                                            <i class="fa fa-image"></i>
-                                                                                            <span>View Gallery</span>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </div>
-                                                                                <div class="column-item grid__item">
-                                                                                    <a class="grid__link"
-                                                                                       data-elementor-lightbox-slideshow="d94db97"
-                                                                                       href="/wp-content/themes/infoffice/assets/img/night-3.jpg">
-                                                                                        <img class=""
-                                                                                             src="/wp-content/themes/infoffice/assets/img/night-3.jpg"
-                                                                                             alt="night (3)">
-                                                                                        <div class="gallery-item-overlay">
-                                                                                            <i class="fa fa-image"></i>
-                                                                                            <span>View Gallery</span>
-                                                                                        </div>
-                                                                                    </a>
-                                                                                </div>-->
-                                                                            </div>
+                                                                                                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>

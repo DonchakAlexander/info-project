@@ -93,6 +93,10 @@ get_header();
 
             $about = get_field('about');
             $meetings = get_field('how_meetings');
+            $icons2 = get_field('icons_2');
+            $time_place = get_field('time_place');
+            $adds = get_field('additional_fields');
+            $images = get_field('gallery');
 
             ?>
             </div>
@@ -661,7 +665,7 @@ get_header();
                                                                  data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-heading-title elementor-size-default">
-                                                                        Наши преимущества:
+                                                                        <?= esc_html($icons2['title']) ?>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -685,9 +689,7 @@ get_header();
                                                                  data-widget_type="text-editor.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-text-editor elementor-clearfix">
-                                                                        <p>Общение в разговорном клубе поможет быстро
-                                                                            освоиться и комфортно чувствовать себя в
-                                                                            языковой среде.</p></div>
+                                                                        <p><?= esc_html($icons2['text']) ?></p></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -700,7 +702,10 @@ get_header();
                                             class="elementor-element elementor-element-66c258b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
                                             data-id="66c258b" data-element_type="section">
                                         <div class="elementor-container elementor-column-gap-default">
+
                                             <div class="elementor-row">
+
+
                                                 <div class="elementor-element elementor-element-38bfe6e elementor-column elementor-col-100 elementor-top-column"
                                                      data-id="38bfe6e" data-element_type="column">
                                                     <div class="elementor-column-wrap  elementor-element-populated">
@@ -708,7 +713,19 @@ get_header();
                                                             <div class="elementor-element elementor-element-b6d501d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section"
                                                                  data-id="b6d501d" data-element_type="section">
                                                                 <div class="elementor-container elementor-column-gap-no">
+                                                                    <?php
+
+                                                                    $icons = $icons2['icons'];
+                                                                    if ($icons) :
+
+
+                                                                    ?>
                                                                     <div class="elementor-row">
+                                                                        <?
+
+                                                                        foreach ($icons as $icon) :
+
+                                                                        ?>
                                                                         <div class="elementor-element elementor-element-679909d elementor-column elementor-col-25 elementor-inner-column"
                                                                              data-id="679909d"
                                                                              data-element_type="column">
@@ -722,184 +739,35 @@ get_header();
                                                                                         <div class="elementor-widget-container">
                                                                                             <div class="elementor-image-box-wrapper">
                                                                                                 <div class="elementor-image-framed">
-                                                                                                    <figure class="elementor-image-box-img"><svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 297 297" style="enable-background:new 0 0 297 297;" xml:space="preserve">
-<style type="text/css">
-    .st0{fill:#55BBAE;}
-</style>
-                                                                                                            <g>
-                                                                                                                <path class="st0" d="M46.2,61.9c3.3,2.5,8,1.9,10.5-1.4C78.7,31.5,112.2,15,148.5,15s69.8,16.6,91.8,45.5c1.5,1.9,3.7,2.9,6,2.9
-		c1.6,0,3.2-0.5,4.5-1.5c3.3-2.5,3.9-7.2,1.4-10.5C227.3,18.7,189.5,0,148.5,0S69.7,18.7,44.8,51.4C42.3,54.7,42.9,59.4,46.2,61.9z"></path>
-                                                                                                                <path class="st0" d="M228,101.8c0,12.9,10.5,23.4,23.4,23.4s23.4-10.5,23.4-23.4s-10.5-23.4-23.4-23.4S228,88.9,228,101.8
-		L228,101.8z"></path>
-                                                                                                                <path class="st0" d="M275.3,132.9c-0.1,0-5.9-1.8-5.9-1.8c-2.1-0.7-4.4-0.3-6.2,1.1l-11.7,8.8l-11.7-8.8c-1.8-1.3-4.1-1.7-6.2-1.1
-		c0,0-5.9,1.8-5.9,1.8c-9.5,3.2-15.8,12-15.8,22v35.3c0,1.4,0.4,2.7,1.1,3.8l11.8,18v47.4c0,3.9,3.1,7,7,7h39.6c3.9,0,7-3.1,7-7
-		v-47.4l11.8-18c0.7-1.1,1.1-2.5,1.1-3.8v-35.3C291.2,144.9,284.8,136.1,275.3,132.9L275.3,132.9z"></path>
-                                                                                                                <path class="st0" d="M45.6,125.2c12.9,0,23.4-10.5,23.4-23.4S58.5,78.4,45.6,78.4s-23.4,10.5-23.4,23.4S32.7,125.2,45.6,125.2z"></path>
-                                                                                                                <path class="st0" d="M69.5,132.9c-0.1,0-5.9-1.8-5.9-1.8c-2.1-0.7-4.4-0.3-6.2,1.1L45.6,141l-11.7-8.8c-1.8-1.3-4.1-1.7-6.2-1.1
-		c0,0-5.9,1.8-5.9,1.8c-9.5,3.2-15.8,12-15.8,22v35.3c0,1.4,0.4,2.7,1.1,3.8l11.8,18v47.4c0,3.9,3.1,7,7,7h39.6c3.9,0,7-3.1,7-7
-		v-47.4l11.8-18c0.7-1.1,1.1-2.5,1.1-3.8v-35.3C85.3,144.9,79,136.1,69.5,132.9z"></path>
-                                                                                                                <path class="st0" d="M178.6,68.9c0-16.6-13.5-30.1-30.1-30.1s-30.1,13.5-30.1,30.1c0,16.6,13.5,30.1,30.1,30.1
-		S178.6,85.5,178.6,68.9z"></path>
-                                                                                                                <path class="st0" d="M181.6,113.6L181.6,113.6l-8.7-2.7c-1.4-0.4-2.8,0.3-3.3,1.6l-18.1,49.6c-1,2.9-5.1,2.9-6.1,0l-18.1-49.6
-		c-0.4-1.1-1.4-1.8-2.5-1.8c-0.3,0-9.4,2.8-9.4,2.8c-11,3.7-18.3,13.8-18.3,25.4v52.5c0,0.5,0.2,1,0.4,1.5l18.9,28.7v72.7
-		c0,1.5,1.2,2.7,2.7,2.7h58.8c1.5,0,2.7-1.2,2.7-2.7v-72.7l18.9-28.7c0.3-0.4,0.4-0.9,0.4-1.5v-52.6
-		C199.9,127.3,192.5,117.2,181.6,113.6L181.6,113.6z"></path>
-                                                                                                                <path class="st0" d="M155.6,112.6c-0.7-0.8-1.8-1.2-2.9-1.2h-8.2c-1.1,0-2.2,0.4-2.9,1.2c-1.2,1.3-1.3,3.1-0.5,4.5l4.4,6.6
-		l-2.1,17.4l4.1,10.8c0.4,1.1,1.9,1.1,2.3,0l4.1-10.8l-2.1-17.4l4.4-6.6C156.9,115.6,156.7,113.8,155.6,112.6z"></path>
-                                                                                                            </g>
-</svg></figure>
+                                                                                                    <figure class="elementor-image-box-img"><?= $icon['icon'] ?></figure>
                                                                                                 </div>
                                                                                                 <div class="elementor-image-box-content">
                                                                                                     <h3 class="elementor-image-box-title">
-                                                                                                        Общение с
-                                                                                                        носителями <br>
-                                                                                                        языка из <br>
-                                                                                                        Франции, <br>Бельгии,
-                                                                                                        Швейцарии,
-                                                                                                        Канады, <br>и
-                                                                                                        других
-                                                                                                        франкофонных
-                                                                                                        стран.</h3>
+                                                                                                        <?= $icon['text_icon'] ?></h3>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
-                                                                        <div class="elementor-element elementor-element-058a34f elementor-column elementor-col-25 elementor-inner-column"
-                                                                             data-id="058a34f"
-                                                                             data-element_type="column">
-                                                                            <div class="elementor-column-wrap  elementor-element-populated">
-                                                                                <div class="elementor-widget-wrap">
-                                                                                    <div class="elementor-element elementor-element-02c4aa3 animated-fast elementor-widget elementor-widget-featured-box animated fadeInLeft"
-                                                                                         data-id="02c4aa3"
-                                                                                         data-element_type="widget"
-                                                                                         data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}"
-                                                                                         data-widget_type="featured-box.default">
-                                                                                        <div class="elementor-widget-container">
-                                                                                            <div class="elementor-image-box-wrapper">
-                                                                                                <div class="elementor-image-framed">
-                                                                                                    <figure class="elementor-image-box-img"><svg version="1.1" id="Слой_1" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 448 512" style="enable-background:new 0 0 448 512;" xml:space="preserve">
-<style type="text/css">
-    .st0{fill:#55BBAE;}
-</style>
-                                                                                                            <path class="st0" d="M436,480h-20V24c0-13.3-10.7-24-24-24H56C42.7,0,32,10.7,32,24v456H12c-6.6,0-12,5.4-12,12v20h448v-20
-	C448,485.4,442.6,480,436,480z M128,76c0-6.6,5.4-12,12-12h40c6.6,0,12,5.4,12,12v40c0,6.6-5.4,12-12,12h-40c-6.6,0-12-5.4-12-12V76
-	z M128,172c0-6.6,5.4-12,12-12h40c6.6,0,12,5.4,12,12v40c0,6.6-5.4,12-12,12h-40c-6.6,0-12-5.4-12-12V172z M180,320h-40
-	c-6.6,0-12-5.4-12-12v-40c0-6.6,5.4-12,12-12h40c6.6,0,12,5.4,12,12v40C192,314.6,186.6,320,180,320z M256,480h-64v-84
-	c0-6.6,5.4-12,12-12h40c6.6,0,12,5.4,12,12V480z M320,308c0,6.6-5.4,12-12,12h-40c-6.6,0-12-5.4-12-12v-40c0-6.6,5.4-12,12-12h40
-	c6.6,0,12,5.4,12,12V308z M320,212c0,6.6-5.4,12-12,12h-40c-6.6,0-12-5.4-12-12v-40c0-6.6,5.4-12,12-12h40c6.6,0,12,5.4,12,12V212z
-	 M320,116c0,6.6-5.4,12-12,12h-40c-6.6,0-12-5.4-12-12V76c0-6.6,5.4-12,12-12h40c6.6,0,12,5.4,12,12V116z"></path>
-</svg></figure>
-                                                                                                </div>
-                                                                                                <div class="elementor-image-box-content">
-                                                                                                    <h3 class="elementor-image-box-title">
-                                                                                                        Расположение в
-                                                                                                        самом центре
-                                                                                                        Минска –
-                                                                                                        историко-туристической
-                                                                                                        части Верхнего
-                                                                                                        города <br>
-                                                                                                        (напротив
-                                                                                                        посольства
-                                                                                                        Франции).</h3>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="elementor-element elementor-element-3c11652 elementor-column elementor-col-25 elementor-inner-column"
-                                                                             data-id="3c11652"
-                                                                             data-element_type="column">
-                                                                            <div class="elementor-column-wrap  elementor-element-populated">
-                                                                                <div class="elementor-widget-wrap">
-                                                                                    <div class="elementor-element elementor-element-4f265da animated-fast elementor-widget elementor-widget-featured-box animated fadeInLeft"
-                                                                                         data-id="4f265da"
-                                                                                         data-element_type="widget"
-                                                                                         data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}"
-                                                                                         data-widget_type="featured-box.default">
-                                                                                        <div class="elementor-widget-container">
-                                                                                            <div class="elementor-image-box-wrapper">
-                                                                                                <div class="elementor-image-framed">
-                                                                                                    <figure class="elementor-image-box-img"><svg version="1.1" id="Слой_1" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 576 512" style="enable-background:new 0 0 576 512;" xml:space="preserve">
-<style type="text/css">
-    .st0{fill:#55BBAE;}
-</style>
-                                                                                                            <path class="st0" d="M532,386.2c27.5-27.1,44-61.1,44-98.2c0-80-76.5-146.1-176.2-157.9C368.3,72.5,294.3,32,208,32
-	C93.1,32,0,103.6,0,192c0,37,16.5,71,44,98.2c-15.3,30.7-37.3,54.5-37.7,54.9c-6.3,6.7-8.1,16.5-4.4,25c3.6,8.5,12,14,21.2,14
-	c53.5,0,96.7-20.2,125.2-38.8c9.2,2.1,18.7,3.7,28.4,4.9C208.1,407.6,281.8,448,368,448c20.8,0,40.8-2.4,59.8-6.8
-	C456.3,459.7,499.4,480,553,480c9.2,0,17.5-5.5,21.2-14c3.6-8.5,1.9-18.3-4.4-25C569.4,440.7,547.3,416.9,532,386.2z M139.2,293.9
-	L122.1,305c-14.1,9.1-28.5,16.3-43.1,21.4c2.7-4.7,5.4-9.7,8-14.8l15.5-31.1L77.7,256C64.2,242.6,48,220.7,48,192
-	c0-60.7,73.3-112,160-112s160,51.3,160,112s-73.3,112-160,112c-16.5,0-33-1.9-49-5.6L139.2,293.9L139.2,293.9z M498.3,352
-	l-24.7,24.4l15.5,31.1c2.6,5.1,5.3,10.1,8,14.8c-14.6-5.1-29-12.3-43.1-21.4l-17.1-11.1l-19.9,4.6c-16,3.7-32.5,5.6-49,5.6
-	c-54,0-102.2-20.1-131.3-49.7C338,339.5,416,272.9,416,192c0-3.4-0.4-6.7-0.7-10C479.7,196.5,528,238.8,528,288
-	C528,316.7,511.8,338.6,498.3,352z"></path>
-</svg></figure>
-                                                                                                </div>
-                                                                                                <div class="elementor-image-box-content">
-                                                                                                    <h3 class="elementor-image-box-title">
-                                                                                                        Грамотно
-                                                                                                        организованные
-                                                                                                        беседы <br>под
-                                                                                                        <br>руководством
-                                                                                                        <br>опытных <br>педагогов.
-                                                                                                    </h3></div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="elementor-element elementor-element-cf02419 elementor-column elementor-col-25 elementor-inner-column"
-                                                                             data-id="cf02419"
-                                                                             data-element_type="column">
-                                                                            <div class="elementor-column-wrap  elementor-element-populated">
-                                                                                <div class="elementor-widget-wrap">
-                                                                                    <div class="elementor-element elementor-element-0b18818 animated-fast elementor-widget elementor-widget-featured-box animated fadeInRight"
-                                                                                         data-id="0b18818"
-                                                                                         data-element_type="widget"
-                                                                                         data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}"
-                                                                                         data-widget_type="featured-box.default">
-                                                                                        <div class="elementor-widget-container">
-                                                                                            <div class="elementor-image-box-wrapper">
-                                                                                                <div class="elementor-image-framed">
-                                                                                                    <figure class="elementor-image-box-img"><svg version="1.1" id="Слой_1" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 640 512" style="enable-background:new 0 0 640 512;" xml:space="preserve">
-<style type="text/css">
-    .st0{fill:#55BBAE;}
-</style>
-                                                                                                            <path class="st0" d="M622.3,153.2L343.4,67.5c-15.2-4.7-31.6-4.7-46.8,0L17.7,153.2c-23.5,7.2-23.5,38.4,0,45.6l48.6,14.9
-	c-10.7,13.2-17.2,29.3-17.9,46.9C38.8,266.1,32,276.1,32,288c0,10.8,5.7,19.9,13.9,25.6L20.3,428.5c-2.2,10,5.4,19.5,15.6,19.5h56.1
-	c10.2,0,17.8-9.5,15.6-19.5L82.1,313.6C90.3,307.9,96,298.8,96,288c0-11.6-6.5-21.3-15.7-26.9c0.8-15,8.4-28.3,20.7-36.7l195.6,60.1
-	c9.1,2.8,26.4,6.3,46.8,0l279-85.7C645.9,191.6,645.9,160.4,622.3,153.2L622.3,153.2z M352.8,315.1c-28.5,8.8-52.8,3.9-65.6,0
-	l-145-44.5L128,384c0,35.4,86,64,192,64s192-28.6,192-64l-14.2-113.5L352.8,315.1z"></path>
-</svg></figure>
-                                                                                                </div>
-                                                                                                <div class="elementor-image-box-content">
-                                                                                                    <h3 class="elementor-image-box-title">
-                                                                                                        Это реальная
-                                                                                                        возможность
-                                                                                                        проверить <br>свои
-                                                                                                        силы и знания,
-                                                                                                        подтянуть
-                                                                                                        произношение и
-                                                                                                        <br>легко <br>обучаться.
-                                                                                                    </h3></div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
+                                                                        </div><?
+
+                                                                        endforeach;
+
+                                                                        ?>
+
                                                                     </div>
+                                                                    <?
+                                                                    endif;
+                                                                    ?>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
                                             </div>
+
                                         </div>
                                     </section>
                                     <section
@@ -916,7 +784,7 @@ get_header();
                                                                  data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-heading-title elementor-size-default">
-                                                                        Время и место:
+                                                                        <?= $time_place['title']  ?>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -940,8 +808,7 @@ get_header();
                                                                  data-widget_type="text-editor.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-text-editor elementor-clearfix">
-                                                                        <p>Каждую пятницу в 19.00 пл. Свободы 2.
-                                                                            (Напротив посольства Франции).</p></div>
+                                                                        <p><?= $time_place['text']  ?></p></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -964,7 +831,7 @@ get_header();
                                                                  data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-heading-title elementor-size-default">
-                                                                        Стоимость - 10 BYN
+                                                                        <?= $adds['price']  ?>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -988,10 +855,7 @@ get_header();
                                                                  data-widget_type="text-editor.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-text-editor elementor-clearfix">
-                                                                        <p>Приглашаем вас провести пару часов в компании
-                                                                            носителей языка в историческом центре Минска
-                                                                            прямо напротив посольства Франции! Общение
-                                                                            только на французском языке!</p></div>
+                                                                        <p><?= $adds['additional_text']  ?></p></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1000,6 +864,16 @@ get_header();
                                             </div>
                                         </div>
                                     </section>
+                                    <?php
+
+                                        if ($images) :
+
+
+
+                                    ?>
+
+
+
                                     <div class="elementor-element elementor-element-863c9ec elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
                                          data-id="863c9ec" data-element_type="section"
                                          data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
@@ -1019,15 +893,22 @@ get_header();
                                                                              data-elementor-columns-tablet="2"
                                                                              data-elementor-columns-mobile="1"
                                                                              style="perspective: none;">
+
+                                                                               <?
+
+                                                                                                                                                foreach ($images as $image) :
+
+                                                                                                                                                    ?>
+
                                                                             <div class="column-item grid__item"
                                                                                  style="overflow: hidden;">
                                                                                 <a class="grid__link"
                                                                                    data-elementor-lightbox-slideshow="5e59349"
-                                                                                   href='/wp-content/themes/infoffice/assets/img/office-1.jpg'
+                                                                                   href='<?= esc_url($image['url']); ?>'
                                                                                    style="opacity: 1; transform-origin: 50% 50%; transform: scale(1);">
                                                                                     <img class=""
-                                                                                         src='/wp-content/themes/infoffice/assets/img/office-1.jpg'
-                                                                                         alt="office (1)">
+                                                                                         src='<?= esc_url($image['url']); ?>'
+                                                                                         alt="<?= esc_url($image['alt']); ?>">
                                                                                     <div class="gallery-item-overlay">
                                                                                         <i class="fa fa-image"></i>
                                                                                         <span>View Gallery</span>
@@ -1036,91 +917,10 @@ get_header();
                                                                                 <span class="grid__reveal"
                                                                                       style="background-color: rgb(29, 29, 29); transform: translateX(-101%); opacity: 1;"></span>
                                                                             </div>
-                                                                            <div class="column-item grid__item"
-                                                                                 style="overflow: hidden;">
-                                                                                <a class="grid__link"
-                                                                                   data-elementor-lightbox-slideshow="5e59349"
-                                                                                   href='/wp-content/themes/infoffice/assets/img/office-3.jpg'
-                                                                                   style="opacity: 1; transform-origin: 50% 50%; transform: scale(1);">
-                                                                                    <img class=""
-                                                                                         src='/wp-content/themes/infoffice/assets/img/office-3.jpg'
-                                                                                         alt="office (3)">
-                                                                                    <div class="gallery-item-overlay">
-                                                                                        <i class="fa fa-image"></i>
-                                                                                        <span>View Gallery</span>
-                                                                                    </div>
-                                                                                </a>
-                                                                                <span class="grid__reveal"
-                                                                                      style="background-color: rgb(29, 29, 29); transform: translateX(-101%); opacity: 1;"></span>
-                                                                            </div>
-                                                                            <div class="column-item grid__item"
-                                                                                 style="overflow: hidden;">
-                                                                                <a class="grid__link"
-                                                                                   data-elementor-lightbox-slideshow="5e59349"
-                                                                                   href='/wp-content/themes/infoffice/assets/img/office-4.jpg'
-                                                                                   style="opacity: 1; transform-origin: 50% 50%; transform: scale(1);">
-                                                                                    <img class=""
-                                                                                         src='/wp-content/themes/infoffice/assets/img/office-3.jpg'
-                                                                                         alt="office (4)">
-                                                                                    <div class="gallery-item-overlay">
-                                                                                        <i class="fa fa-image"></i>
-                                                                                        <span>View Gallery</span>
-                                                                                    </div>
-                                                                                </a>
-                                                                                <span class="grid__reveal"
-                                                                                      style="background-color: rgb(29, 29, 29); transform: translateX(-101%); opacity: 1;"></span>
-                                                                            </div>
-                                                                            <div class="column-item grid__item"
-                                                                                 style="overflow: hidden;">
-                                                                                <a class="grid__link"
-                                                                                   data-elementor-lightbox-slideshow="5e59349"
-                                                                                   href='/wp-content/themes/infoffice/assets/img/office-8.jpg'
-                                                                                   style="opacity: 1; transform-origin: 50% 50%; transform: scale(1);">
-                                                                                    <img class=""
-                                                                                         src='/wp-content/themes/infoffice/assets/img/office-8.jpg'
-                                                                                         alt="office (8)">
-                                                                                    <div class="gallery-item-overlay">
-                                                                                        <i class="fa fa-image"></i>
-                                                                                        <span>View Gallery</span>
-                                                                                    </div>
-                                                                                </a>
-                                                                                <span class="grid__reveal"
-                                                                                      style="background-color: rgb(29, 29, 29); transform: translateX(-101%); opacity: 1;"></span>
-                                                                            </div>
-                                                                            <div class="column-item grid__item"
-                                                                                 style="overflow: hidden;">
-                                                                                <a class="grid__link"
-                                                                                   data-elementor-lightbox-slideshow="5e59349"
-                                                                                   href='/wp-content/themes/infoffice/assets/img/office-9.jpg'
-                                                                                   style="opacity: 1; transform-origin: 50% 50%; transform: scale(1);">
-                                                                                    <img class=""
-                                                                                         src='/wp-content/themes/infoffice/assets/img/office-9.jpg'
-                                                                                         alt="office (9)">
-                                                                                    <div class="gallery-item-overlay">
-                                                                                        <i class="fa fa-image"></i>
-                                                                                        <span>View Gallery</span>
-                                                                                    </div>
-                                                                                </a>
-                                                                                <span class="grid__reveal"
-                                                                                      style="background-color: rgb(29, 29, 29); transform: translateX(-101%); opacity: 1;"></span>
-                                                                            </div>
-                                                                            <div class="column-item grid__item"
-                                                                                 style="overflow: hidden;">
-                                                                                <a class="grid__link"
-                                                                                   data-elementor-lightbox-slideshow="5e59349"
-                                                                                   href='/wp-content/themes/infoffice/assets/img/office-11.jpg'
-                                                                                   style="opacity: 1; transform-origin: 50% 50%; transform: scale(1);">
-                                                                                    <img class=""
-                                                                                         src='/wp-content/themes/infoffice/assets/img/office-11.jpg'
-                                                                                         alt="office (11)">
-                                                                                    <div class="gallery-item-overlay">
-                                                                                        <i class="fa fa-image"></i>
-                                                                                        <span>View Gallery</span>
-                                                                                    </div>
-                                                                                </a>
-                                                                                <span class="grid__reveal"
-                                                                                      style="background-color: rgb(29, 29, 29); transform: translateX(-101%); opacity: 1;"></span>
-                                                                            </div>
+                                                                                                                                                <? endforeach; ?>
+
+
+
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1131,6 +931,11 @@ get_header();
                                             </div>
                                         </div>
                                     </div>
+
+                                    <?
+                                    endif;
+
+                                    ?>
                                     <div class="elementor-element elementor-element-ba9454b elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
                                          data-id="ba9454b" data-element_type="section"
                                          data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
