@@ -28,7 +28,7 @@ get_header();
         </div>
     </div>
     <div class="site-content-contain">
-        <div id="content" class="site-content">
+        <div id="content" class="site-content" style="padding: 0">
             <div data-elementor-type="wp-page" data-elementor-id="3100" class="elementor elementor-3100" data-elementor-settings="[]">
                 <div class="elementor-inner">
                     <div class="elementor-section-wrap">

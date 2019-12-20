@@ -261,10 +261,3 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
-/**
- * Add new options page "contact form" for ACF
- */
-
-if (function_exists('acf_add_options_page')) {
-    acf_add_options_page();
-}
