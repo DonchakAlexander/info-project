@@ -908,7 +908,7 @@ get_header();
                                                                                    style="opacity: 1; transform-origin: 50% 50%; transform: scale(1);">
                                                                                     <img class=""
                                                                                          src='<?= esc_url($image['url']); ?>'
-                                                                                         alt="<?= esc_url($image['alt']); ?>">
+                                                                                         alt="<?= esc_attr($image['alt']); ?>">
                                                                                     <div class="gallery-item-overlay">
                                                                                         <i class="fa fa-image"></i>
                                                                                         <span>View Gallery</span>

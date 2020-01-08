@@ -14,6 +14,22 @@
 
 get_header();
 ?>
+<?php
+
+$section_1 = get_field('section_1');
+$section_2 = get_field('section_2');
+$section_3 = get_field('section_3');
+$section_4 = get_field('section_4');
+$section_5 = get_field('section_5');
+$section_6 = get_field('section_6');
+$section_7 = get_field('section_7');
+$section_8 = get_field('section_8');
+$section_9 = get_field('section_9');
+$section_10 = get_field('section_10');
+$section_11 = get_field('section_11');
+
+
+?>
     <div id="page-title-bar" class="page-title-bar">
         <div class="container">
             <div class="wrap w-100 d-flex align-items-center">
@@ -40,16 +56,16 @@ get_header();
                                             <div class="elementor-widget-wrap">
                                                 <div class="elementor-element elementor-element-76cd0181 elementor-widget elementor-widget-text-editor" data-id="76cd0181" data-element_type="widget" data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <div class="elementor-text-editor elementor-clearfix"><p>Администрация любой компании периодически проводит деловые переговоры, мастер-классы по профессии, бизнес встречи или семинары. Разумно воспользоваться арендой нашего конференцзала в Минске.</p></div>
+                                                        <div class="elementor-text-editor elementor-clearfix"><p><?= esc_html($section_1['text_1']); ?></p></div>
                                                     </div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-6a6bbdc7 elementor-widget elementor-widget-heading" data-id="6a6bbdc7" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <h2 class="elementor-heading-title elementor-size-default">Выбирайте нас</h2>		</div>
+                                                        <h2 class="elementor-heading-title elementor-size-default"><?= esc_html($section_1['text_2']); ?></h2>		</div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-5b5e531d elementor-widget elementor-widget-text-editor" data-id="5b5e531d" data-element_type="widget" data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <div class="elementor-text-editor elementor-clearfix"><p>Наша компания занимается организацией презентаций, деловых встреч, предоставляя оборудованные современными системами аудитории. Дополнительно предлагаем сопутствующие услуги бухгалтера, юриста, секретаря.</p><p><br>Для плодотворной работы потребуются (все это уже оплачено): <br><u>высокоскоростной интернет; <br>качественная бумага, факс, принтер, сканер; <br>кофе, чай, сладости. </u></p></div>
+                                                        <div class="elementor-text-editor elementor-clearfix"><p><?= $section_1['text_3']; ?></p></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -67,7 +83,7 @@ get_header();
                                                 <div class="elementor-element elementor-element-14f97a63 elementor-widget elementor-widget-image" data-id="14f97a63" data-element_type="widget" data-widget_type="image.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-image">
-                                                            <img width="1280" height="853" src="/wp-content/themes/infoffice/assets/img/square-15.jpg" class="attachment-full size-full" alt="" srcset="http://infoffice13.pf.by/wp-content/uploads/2019/11/square-15.jpg 1280w, http://infoffice13.pf.by/wp-content/uploads/2019/11/square-15-300x200.jpg 300w, http://infoffice13.pf.by/wp-content/uploads/2019/11/square-15-768x512.jpg 768w, http://infoffice13.pf.by/wp-content/uploads/2019/11/square-15-1024x682.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px">											</div>
+                                                            <img width="1280" height="853" src="<?= esc_url($section_2['img']['url']); ?>" class="attachment-full size-full" alt="" srcset="<?= esc_url($section_2['img']['url']); ?> 1280w, <?= esc_url($section_2['img']['url']); ?> 300w, <?= esc_url($section_2['img']['url']); ?> 768w, <?= esc_url($section_2['img']['url']); ?> 1024w" sizes="(max-width: 1280px) 100vw, 1280px">											</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -84,7 +100,7 @@ get_header();
                                             <div class="elementor-widget-wrap">
                                                 <div class="elementor-element elementor-element-56c097c0 elementor-widget elementor-widget-heading" data-id="56c097c0" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <h2 class="elementor-heading-title elementor-size-default">Как доехать:</h2>		</div>
+                                                        <h2 class="elementor-heading-title elementor-size-default"><?= esc_html($section_3['text']); ?></h2>		</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -100,7 +116,7 @@ get_header();
                                             <div class="elementor-widget-wrap">
                                                 <div class="elementor-element elementor-element-7c03098 elementor-widget elementor-widget-text-editor" data-id="7c03098" data-element_type="widget" data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <div class="elementor-text-editor elementor-clearfix"><p>Залы находятся по адресу: ул. Революционная, 13; площадь Свободы, 2.&nbsp;<br>До расположенного на улице Революционной конференц-зала предоставляем бесплатно трансфер из аэропорта. Рядом с залами находится парковка.</p></div>
+                                                        <div class="elementor-text-editor elementor-clearfix"><p><?= esc_html($section_4['text']); ?></p></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -117,7 +133,7 @@ get_header();
                                             <div class="elementor-widget-wrap">
                                                 <div class="elementor-element elementor-element-5a2f7d00 elementor-widget elementor-widget-heading" data-id="5a2f7d00" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <h2 class="elementor-heading-title elementor-size-default">Аренда конференц-зала в Минске – доверьтесь нам</h2>		</div>
+                                                        <h2 class="elementor-heading-title elementor-size-default"><?= esc_html($section_5['text']); ?></h2>		</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -133,7 +149,7 @@ get_header();
                                             <div class="elementor-widget-wrap">
                                                 <div class="elementor-element elementor-element-4af3ab5f elementor-widget elementor-widget-text-editor" data-id="4af3ab5f" data-element_type="widget" data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <div class="elementor-text-editor elementor-clearfix"><p>Сотрудники нашей компании освободят Вас от организационных хлопот, высвободив время для качественной подготовки содержательной части мероприятия. Обязательно учтем требования по технической оснащенности, освещению, другие пожелания, высказанные при обсуждении проекта. Для нас важно создать комфортные условия для эффективной работы и достижения поставленных задач. Быть причастным к успехам наших клиентов почетно.</p></div>
+                                                        <div class="elementor-text-editor elementor-clearfix"><p><?= esc_html($section_5['text']); ?></p></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -151,7 +167,7 @@ get_header();
                                                 <div class="elementor-element elementor-element-8f85a18 elementor-widget elementor-widget-image" data-id="8f85a18" data-element_type="widget" data-widget_type="image.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-image">
-                                                            <img width="1280" height="853" src="/wp-content/themes/infoffice/assets/img/0059-IMG_8966-min.jpg" class="attachment-full size-full" alt="" srcset="http://infoffice13.pf.by/wp-content/uploads/2019/11/0059-IMG_8966-min.jpg 1280w, http://infoffice13.pf.by/wp-content/uploads/2019/11/0059-IMG_8966-min-300x200.jpg 300w, http://infoffice13.pf.by/wp-content/uploads/2019/11/0059-IMG_8966-min-768x512.jpg 768w, http://infoffice13.pf.by/wp-content/uploads/2019/11/0059-IMG_8966-min-1024x682.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px">											</div>
+                                                            <img width="1280" height="853" src="<?= esc_url($section_6['img']['url']); ?>" class="attachment-full size-full" alt="" srcset="<?= esc_url($section_2['img']['url']); ?> 1280w, <?= esc_url($section_2['img']['url']); ?> 300w, <?= esc_url($section_2['img']['url']); ?> 768w, <?= esc_url($section_2['img']['url']); ?> 1024w" sizes="(max-width: 1280px) 100vw, 1280px">											</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -168,7 +184,7 @@ get_header();
                                             <div class="elementor-widget-wrap">
                                                 <div class="elementor-element elementor-element-2c4c1cd6 elementor-widget elementor-widget-heading" data-id="2c4c1cd6" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <h2 class="elementor-heading-title elementor-size-default">Аренда зала для конференций</h2>		</div>
+                                                        <h2 class="elementor-heading-title elementor-size-default"><?= esc_html($section_8['text']); ?></h2>		</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -184,7 +200,7 @@ get_header();
                                             <div class="elementor-widget-wrap">
                                                 <div class="elementor-element elementor-element-3c351b75 elementor-widget elementor-widget-text-editor" data-id="3c351b75" data-element_type="widget" data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <div class="elementor-text-editor elementor-clearfix"><p>В стоимость включены коммунальные платежи, эксплуатационные расходы, уборка.</p><p>&nbsp;Сроки: <br><u>от одного часа до суток;<br>долгосрочная аренда. </u></p></div>
+                                                        <div class="elementor-text-editor elementor-clearfix"><p><?= $section_9['text']; ?></p></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -201,7 +217,7 @@ get_header();
                                             <div class="elementor-widget-wrap">
                                                 <div class="elementor-element elementor-element-36e78f1d elementor-widget elementor-widget-text-editor" data-id="36e78f1d" data-element_type="widget" data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <div class="elementor-text-editor elementor-clearfix"><p>При заключении договора на длительный срок наши клиенты получают приятные бонусы.</p></div>
+                                                        <div class="elementor-text-editor elementor-clearfix"><p><?= esc_html($section_10['text']); ?></p></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -218,7 +234,7 @@ get_header();
                                             <div class="elementor-widget-wrap">
                                                 <div class="elementor-element elementor-element-2a19c65f elementor-widget elementor-widget-text-editor" data-id="2a19c65f" data-element_type="widget" data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
-                                                        <div class="elementor-text-editor elementor-clearfix"><p>Аренда конференцзала оплачивается любым удобным способом: банковской картой или наличными средствами. <br>Надеемся, что наше приятное сотрудничество перейдет в постоянное партнерство. Мы ждем Вашего звонка! </p></div>
+                                                        <div class="elementor-text-editor elementor-clearfix"><p><?= $section_11['text']; ?></p></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -235,14 +251,12 @@ get_header();
                                             <div class="elementor-widget-wrap">
                                                 <div class="elementor-element elementor-element-77a6e7c3 elementor-widget elementor-widget-heading" data-id="77a6e7c3" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default">Форма обратной связи</p>		</div>
+                                                        <? $contact_form = get_field('contact_form', 'options'); ?>
+                                                        <p class="elementor-heading-title elementor-size-default"><?= esc_html($contact_form['left_label']); ?></p>		</div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-7fbbfbcb add_social_icons elementor-widget elementor-widget-heading" data-id="7fbbfbcb" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <p class="elementor-heading-title elementor-size-default">Оставьте
-                                                            свою заявку
-                                                            и мы с вами
-                                                            свяжемся</p>		</div>
+                                                        <p class="elementor-heading-title elementor-size-default"><?= esc_html($contact_form['title']); ?></p>		</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -252,24 +266,31 @@ get_header();
                                             <div class="elementor-widget-wrap">
                                                 <div class="elementor-element elementor-element-35879f9b elementor-widget elementor-widget-heading" data-id="35879f9b" data-element_type="widget" data-widget_type="heading.default">
                                                     <div class="elementor-widget-container">
-                                                        <div class="elementor-heading-title elementor-size-default">Сообщение:</div>		</div>
+                                                        <div class="elementor-heading-title elementor-size-default"><?= esc_html($contact_form['label']); ?></div>		</div>
                                                 </div>
                                                 <div class="elementor-element elementor-element-7946e398 elementor-mobile-align-center elementor-widget elementor-widget-opal-contactform7" data-id="7946e398" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="opal-contactform7.default">
                                                     <div class="elementor-widget-container">
                                                         <div role="form" class="wpcf7" id="wpcf7-f6-p3127-o1" lang="ru-RU" dir="ltr">
                                                             <div class="screen-reader-response"></div>
                                                             <form action="<?php echo site_url() ?>/wp-content/themes/infoffice/send.php" method="POST">
-                                                                <label>Ваше имя (Обязательно)<br>
-                                                                    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="name"
-                                                                                                                           class="form-input"> </span></label>
-                                                                <label>Ваш телефон (Обязательно) <br>
-                                                                    <span class="wpcf7-form-control-wrap your-phone"><input type="tel" name="phone"
-                                                                                                                            class="form-input"> </span></label>
-                                                                <label>Ваше сообщение<br>
-                                                                    <span class="wpcf7-form-control-wrap your-message"><textarea name="message" cols="40" rows="3"
+                                                                <?
+
+                                                                $inputs = $contact_form['inputs'];
+
+                                                                foreach ($inputs as $input) :
+
+
+                                                                    ?>
+                                                                    <label><?= esc_html($input['label']);    ?><br>
+                                                                        <span class="wpcf7-form-control-wrap your-name"><input
+                                                                                    type="text" name="<?=  esc_attr($input['input_name']);   ?>"
+                                                                                    class="form-input"> </span></label>
+                                                                <?  endforeach;  ?>
+                                                                <label><?=  esc_html($contact_form['textarea']['label']);  ?><br>
+                                                                    <span class="wpcf7-form-control-wrap your-message"><textarea name="<?=  esc_attr($contact_form['textarea']['name']);  ?>" cols="40" rows="3"
                                                                                                                                  class="form-input"></textarea> </span></label>
                                                                 <input type="hidden" name="message1"></input>
-                                                                <input id="form-submit" type="submit">
+                                                                <input id="form-submit" type="submit" value="<?= esc_attr($contact_form['submit']['text']);  ?>">
                                                             </form></div>		</div>
                                                 </div>
                                             </div>

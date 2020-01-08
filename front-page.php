@@ -47,6 +47,7 @@ get_header();
             $adres = get_field('position');
 
 
+
             ?>
 
 
@@ -729,10 +730,10 @@ get_header();
                                                                                 </div>
                                                                                 <div class="elementor-icon-box-content">
                                                                                     <h3 class="elementor-icon-box-title">
-                                                                                        <span><?= $row['title_pos'] ?></span>
+                                                                                        <span><?= esc_html($row['title_pos']); ?></span>
                                                                                     </h3>
                                                                                     <p class="elementor-icon-box-description">
-                                                                                        <?= $row['adres'] ?></p>
+                                                                                        <?= esc_html($row['adres']); ?></p>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -804,15 +805,16 @@ get_header();
                                                                  data-id="2d62817" data-element_type="widget"
                                                                  data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
+                                                                    <? $contact_form = get_field('contact_form', 'options'); ?>
                                                                     <h2 class="elementor-heading-title elementor-size-default">
-                                                                        Форма обратной связи</h2></div>
+                                                                        <?= esc_html($contact_form['left_label']); ?></h2></div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-1269f32 add_social_icons elementor-widget elementor-widget-heading"
                                                                  data-id="1269f32" data-element_type="widget"
                                                                  data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
                                                                     <h2 class="elementor-heading-title elementor-size-default">
-                                                                        Оставьте свою заявку и мы с вами свяжемся</h2>
+                                                                        <?= esc_html($contact_form['title']); ?></h2>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -827,7 +829,7 @@ get_header();
                                                                  data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
                                                                     <div class="elementor-heading-title elementor-size-default">
-                                                                        Сообщение:
+                                                                        <?= esc_html($contact_form['label']); ?>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -841,21 +843,26 @@ get_header();
 
                                                                         <form action="<?php echo site_url() ?>/wp-content/themes/infoffice/functions.php"
                                                                               method="POST" class="js-form-send">
-                                                                            <label>Ваше имя (Обязательно)<br>
+                                                                            <?
+
+                                                                            $inputs = $contact_form['inputs'];
+
+                                                                            foreach ($inputs as $input) :
+
+
+                                                                            ?>
+                                                                            <label><?= esc_html($input['label']);    ?><br>
                                                                                 <span class="wpcf7-form-control-wrap your-name"><input
-                                                                                            type="text" name="name"
+                                                                                            type="text" name="<?=  esc_attr($input['input_name']);   ?>"
                                                                                             class="form-input"> </span></label>
-                                                                            <label>Ваш телефон (Обязательно) <br>
-                                                                                <span class="wpcf7-form-control-wrap your-phone"><input
-                                                                                            type="tel" name="phone"
-                                                                                            class="form-input"> </span></label>
-                                                                            <label>Ваше сообщение<br>
+                                                                            <?  endforeach;  ?>
+                                                                            <label><?=  esc_html($contact_form['textarea']['label']);  ?><br>
                                                                                 <span class="wpcf7-form-control-wrap your-message"><textarea
-                                                                                            name="message" cols="40"
+                                                                                            name="<?=  esc_attr($contact_form['textarea']['name']);  ?>" cols="40"
                                                                                             rows="3"
                                                                                             class="form-input"></textarea> </span></label>
                                                                             <input type="hidden" name="message1">
-                                                                            <input id="form-submit" type="submit">
+                                                                            <input id="form-submit" type="submit" value="<?= esc_attr($contact_form['submit']['text']);  ?>">
                                                                         </form>
 
 
@@ -881,10 +888,11 @@ get_header();
                                                                  data-id="feb1100" data-element_type="widget"
                                                                  data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
+                                                                    <? $text_block_cf = get_field('text_block', 'options');  ?>
                                                                     <div class="elementor-heading-title elementor-size-default">
-                                                                        Или просто позвоните нам:
-                                                                        <a href="tel:+375447776699">+375 44
-                                                                            777-66-99</a></div>
+                                                                        <?= esc_html($text_block_cf['text']);
+                                                                        ?>
+                                                                        <a href="tel:<?= esc_url($text_block_cf['phone']); ?>"><?= esc_html($text_block_cf['phone']); ?></a></div>
                                                                 </div>
                                                             </div>
                                                         </div>

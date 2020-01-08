@@ -72,26 +72,11 @@
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-97cbb06 elementor-widget elementor-widget-html" data-id="97cbb06" data-element_type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
-                    <iframe src="https://yandex.by/map-widget/v1/-/CGS1YGnN" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>		</div>
+                    <!--<iframe src="https://yandex.by/map-widget/v1/-/CGS1YGnN" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>-->
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A900be24a4d984a6918087ba1258f8b1bfd64a2cf36a7c98c23a877a9b995864f&amp;source=constructor" width="610" height="300" frameborder="0"></iframe>
+                </div>
 				</div>
-				<div class="elementor-element elementor-element-c0f207c elementor-shape-rounded elementor-widget elementor-widget-social-icons" data-id="c0f207c" data-element_type="widget" data-widget_type="social-icons.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-social-icons-wrapper">
-							<a href="http://infoffice13.pf.by/" class="elementor-icon elementor-social-icon elementor-social-icon-google-plus-g elementor-animation-shrink elementor-repeater-item-890e4cd" target="_blank">
-					<span class="elementor-screen-only">Google-plus-g</span>
-					<i class="fab fa-google-plus-g"></i>				</a>
-							<a href="http://infoffice13.pf.by/" class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-animation-shrink elementor-repeater-item-dcaa4c6" target="_blank">
-					<span class="elementor-screen-only">Facebook-f</span>
-					<i class="fab fa-facebook-f"></i>				</a>
-							<a href="http://infoffice13.pf.by/" class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-shrink elementor-repeater-item-d54c6fb" target="_blank">
-					<span class="elementor-screen-only">Twitter</span>
-					<i class="fab fa-twitter"></i>				</a>
-							<a href="http://infoffice13.pf.by/" class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-shrink elementor-repeater-item-87f3a00" target="_blank">
-					<span class="elementor-screen-only">Youtube</span>
-					<i class="fab fa-youtube"></i>				</a>
-					</div>
-				</div>
-				</div>
+
 				<div class="elementor-element elementor-element-3ada016 elementor-widget elementor-widget-heading" data-id="3ada016" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 			<span class="elementor-heading-title elementor-size-default">Разработка - Webernetic</span>		</div>
